@@ -41,6 +41,9 @@ html, body {
 
 #app {
 	height: 100%;
+	--mdc-theme-primary: hsla(59, 25%, 48%, 1);
+	--mdc-theme-background: #f9e68c;
+	/* --mdc-theme-surface: #d2d185; */
 }
 
 .mdc-theme--dark {

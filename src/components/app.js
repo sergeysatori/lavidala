@@ -2,11 +2,12 @@ import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 
 import Header from './header';
-import Home from '../routes/home';
-import Profile from '../routes/profile';
+// import Home from '../routes/home';
+// import Profile from '../routes/profile';
 import NotFound from '../routes/404';
-// import Home from 'async!../routes/home';
-// import Profile from 'async!../routes/profile';
+import createHashHistory from 'history/createHashHistory';
+import Home from 'async!../routes/home';
+import Profile from 'async!../routes/profile';
 
 export default class App extends Component {
 	/** Gets fired when the route changes.
@@ -23,7 +24,7 @@ export default class App extends Component {
 		return (
 			<div id="app">
 				<Header selectedRoute={this.state.currentUrl}/>
-				<Router onChange={this.handleRoute}>
+				<Router history={createHashHistory()} onChange={this.handleRoute}>
 					<Home path="/" />
 					<Profile path="/profile/" user="me" />
 					<Profile path="/profile/:user" />

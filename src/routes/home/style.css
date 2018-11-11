@@ -2,8 +2,21 @@
 	padding: 20px;
 	min-height: 100%;
 	width: 100%;
+	background-image: url(/assets/images/la-vida-la-bg-intro.jpg);
+	background-color: #f9e68c;
 }
-
+.laVidaLaIntro {
+	width: 80vw;
+	height: 80vw;
+	color: #fff;
+	text-align: center;
+	background-image: url(/assets/images/la-vida-la-front-intro.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	margin: auto;
+}
 .cardHeader {
   padding: 16px;
 }
