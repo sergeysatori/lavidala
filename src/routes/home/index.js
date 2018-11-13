@@ -8,10 +8,9 @@ export default class Home extends Component {
 	render() {
 		return (
 			<div class={`${style.home} page`}>
-			 <br/>
-			 <br/>
+			 
 				<div class={style.laVidaLaIntro}>
-					
+
 				</div>
 			</div>
 		);

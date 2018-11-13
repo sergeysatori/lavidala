@@ -10,12 +10,12 @@
 	height: 80vw;
 	color: #fff;
 	text-align: center;
-	background-image: url(/assets/images/la-vida-la-front-intro.jpg);
+	background-image: url(/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: transparent;
-	margin: auto;
+	margin: 0 auto auto auto;
 }
 .cardHeader {
   padding: 16px;
