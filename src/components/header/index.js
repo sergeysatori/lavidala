@@ -16,16 +16,13 @@ export default class Header extends Component {
 	closeDrawer() {
 		this.drawer.MDComponent.open = false;
 		this.state = {
-			darkThemeEnabled: false
 		};
 	}
 
 	openDrawer = () => (this.drawer.MDComponent.open = true);
 
-	openSettings = () => this.dialog.MDComponent.show();
-
 	drawerRef = drawer => (this.drawer = drawer);
-	dialogRef = dialog => (this.dialog = dialog);
+
 
 	linkTo = path => () => {
 		route(path);
@@ -34,22 +31,6 @@ export default class Header extends Component {
 
 	goHome = this.linkTo('/');
 	goToMyProfile = this.linkTo('/profile');
-
-	toggleDarkTheme = () => {
-		this.setState(
-			{
-				darkThemeEnabled: !this.state.darkThemeEnabled
-			},
-			() => {
-				if (this.state.darkThemeEnabled) {
-					document.body.classList.add('mdc-theme--dark');
-				}
-				else {
-					document.body.classList.remove('mdc-theme--dark');
-				}
-			}
-		);
-	}
 
 	render(props) {
 		console.log(props.selectedRoute);
@@ -63,9 +44,7 @@ export default class Header extends Component {
 							</TopAppBar.Icon>
 							<TopAppBar.Title>La Vida - la</TopAppBar.Title>
 						</TopAppBar.Section>
-						<TopAppBar.Section align-end shrink-to-fit onClick={this.openSettings}>
-							<TopAppBar.Icon>settings</TopAppBar.Icon>
-						</TopAppBar.Section>
+
 					</TopAppBar.Row>
 				</TopAppBar>
 				<Drawer modal ref={this.drawerRef}>
@@ -80,17 +59,6 @@ export default class Header extends Component {
 						</Drawer.DrawerItem>
 					</Drawer.DrawerContent>
 				</Drawer>
-				<Dialog ref={this.dialogRef}>
-					<Dialog.Header>Settings</Dialog.Header>
-					<Dialog.Body>
-						<div>
-							Enable dark theme <Switch onClick={this.toggleDarkTheme} />
-						</div>
-					</Dialog.Body>
-					<Dialog.Footer>
-						<Dialog.FooterButton accept>OK</Dialog.FooterButton>
-					</Dialog.Footer>
-				</Dialog>
 			</div>
 		);
 	}
