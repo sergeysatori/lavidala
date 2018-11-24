@@ -8,6 +8,7 @@ import NotFound from '../routes/404';
 import createHashHistory from 'history/createHashHistory';
 import Home from 'async!../routes/home';
 import Profile from 'async!../routes/profile';
+import Song from 'async!../routes/song';
 
 export default class App extends Component {
 	/** Gets fired when the route changes.
@@ -27,6 +28,7 @@ export default class App extends Component {
 				<Router history={createHashHistory()} onChange={this.handleRoute}>
 					<Home path="/" />
 					<Profile path="/profile/" user="me" />
+					<Song path="/song/:id" user="me" />
 					<Profile path="/profile/:user" />
           <NotFound default />
 				</Router>
