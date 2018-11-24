@@ -28,7 +28,7 @@ export default class App extends Component {
 				<Router history={createHashHistory()} onChange={this.handleRoute}>
 					<Home path="/" />
 					<Profile path="/profile/" user="me" />
-					<Song path="/song/:id" user="me" />
+					<Song path="/tema/:id" user="me" />
 					<Profile path="/profile/:user" />
           <NotFound default />
 				</Router>
