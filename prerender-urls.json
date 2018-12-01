@@ -1,0 +1,14 @@
+[{
+  "url": "/",
+  "title": "La Vida-la"
+},
+{
+  "url": "/tema/:id"
+},
+{
+  "url": "/autor/:user"
+},
+{
+  "url": "/autor/"
+}
+]

@@ -30,7 +30,10 @@ export default class Header extends Component {
 	};
 
 	goHome = this.linkTo('/');
-	goToMyProfile = this.linkTo('/profile');
+	goToMyProfile = this.linkTo('/autor');
+	goTo(route) {
+		this.linkTo(route)
+	}
 
 	render(props) {
 		console.log(props.selectedRoute);
@@ -53,9 +56,14 @@ export default class Header extends Component {
 							<List.ItemGraphic>home</List.ItemGraphic>
 							Home
 						</Drawer.DrawerItem>
-						<Drawer.DrawerItem selected={props.selectedRoute === '/profile'} onClick={this.goToMyProfile}>
+						<Drawer.DrawerItem selected={props.selectedRoute === '/autor'} onClick={this.goToMyProfile}>
 							<List.ItemGraphic>account_circle</List.ItemGraphic>
 							Profile
+						</Drawer.DrawerItem>
+						<h1 style={{marginLeft: '1rem'}}>Temas</h1>
+						<Drawer.DrawerItem selected={props.selectedRoute === '/tema/la-del-perdon'} onClick={()=> this.goTo('/tema/la-del-perdon')}>
+							<List.ItemGraphic>account_circle</List.ItemGraphic>
+							La del perdon
 						</Drawer.DrawerItem>
 					</Drawer.DrawerContent>
 				</Drawer>

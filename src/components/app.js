@@ -5,10 +5,10 @@ import Header from './header';
 // import Home from '../routes/home';
 // import Profile from '../routes/profile';
 import NotFound from '../routes/404';
-import createHashHistory from 'history/createHashHistory';
+// import createHashHistory from 'history/createHashHistory';
 import Home from 'async!../routes/home';
 import Profile from 'async!../routes/profile';
-import Song from 'async!../routes/song';
+import Tema from 'async!../routes/tema';
 
 export default class App extends Component {
 	/** Gets fired when the route changes.
@@ -25,11 +25,11 @@ export default class App extends Component {
 		return (
 			<div id="app">
 				<Header selectedRoute={this.state.currentUrl}/>
-				<Router history={createHashHistory()} onChange={this.handleRoute}>
+				<Router onChange={this.handleRoute}>
 					<Home path="/" />
-					<Profile path="/profile/" user="me" />
-					<Song path="/tema/:id" user="me" />
-					<Profile path="/profile/:user" />
+					<Tema path="/tema/:id" user="me" />
+					<Profile path="/autor/" user="me" />
+					<Profile path="/autor/:user" />
           <NotFound default />
 				</Router>
 			</div>
