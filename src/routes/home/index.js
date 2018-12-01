@@ -37,7 +37,7 @@ export default class Home extends Component {
   }
   handleResize() {
     this.setState({
-      imageSize: this.getImageSize(window.innerWidth, 1280, window.innerHeight, 960)
+      imageSize: this.getImageSize(document.body.clientWidth, 1280, window.innerHeight, 960)
     })
   }
 
@@ -45,7 +45,8 @@ export default class Home extends Component {
     return (<div style={{
         backgroundImage: 'url(/assets/images/la-vida-la-bg-intro.JPG)',
         width: '100%',
-        height: '150%'
+        height: '150%',
+        overflow: 'hidden'
       }}>
       <div class={`${style.home} page`}>
 

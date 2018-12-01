@@ -52,11 +52,11 @@ export default class Header extends Component {
             <TopAppBar.Icon menu="menu" style={{cursor: 'pointer'}} onClick={this.openDrawer}>
               flare
             </TopAppBar.Icon>
-            {props.selectedRoute !== '/' ?
+
 							<TopAppBar.Title style={{
 	                fontFamily: 'Sign Painter',
-	                fontSize: '2rem'
-	              }}>La Vida-la {`${props.selectedRoute ? /[^/]*$/g.exec(props.selectedRoute)[0].replace(/-/g, ' '):''}`}</TopAppBar.Title>: null}
+	                fontSize: '1.5rem'
+	              }}>{props.selectedRoute !== '/' ? `La Vida-la ${props.selectedRoute ? /[^/]*$/g.exec(props.selectedRoute)[0].replace(/-/g, ' '):''}` : ' Clarisa Prince y '}</TopAppBar.Title>
           </TopAppBar.Section>
         </TopAppBar.Row>
       </TopAppBar>
