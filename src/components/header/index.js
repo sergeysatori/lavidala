@@ -17,6 +17,7 @@ export default class Header extends Component {
 		this.drawer.MDComponent.open = false;
 		this.state = {
 		};
+		// this.goTo = this.goTo.bind(this);
 	}
 
 	openDrawer = () => (this.drawer.MDComponent.open = true);
@@ -31,9 +32,8 @@ export default class Header extends Component {
 
 	goHome = this.linkTo('/');
 	goToMyProfile = this.linkTo('/autor');
-	goTo(route) {
-		this.linkTo(route)
-	}
+	goToLadelPerdon = this.linkTo('/tema/la-del-perdon');
+
 
 	render(props) {
 		console.log(props.selectedRoute);
@@ -61,7 +61,7 @@ export default class Header extends Component {
 							Profile
 						</Drawer.DrawerItem>
 						<h1 style={{marginLeft: '1rem'}}>Temas</h1>
-						<Drawer.DrawerItem selected={props.selectedRoute === '/tema/la-del-perdon'} onClick={()=> this.goTo('/tema/la-del-perdon')}>
+						<Drawer.DrawerItem selected={props.selectedRoute === '/tema/la-del-perdon'} onClick={this.goToLadelPerdon}>
 							<List.ItemGraphic>account_circle</List.ItemGraphic>
 							La del perdon
 						</Drawer.DrawerItem>
