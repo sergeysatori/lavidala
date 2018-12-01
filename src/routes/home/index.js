@@ -67,11 +67,11 @@ export default class Home extends Component {
           textOrientation: 'upright',
           fontSize: '1.5rem'
         }}>
-        <a href="crisalida1" title="crisalida1" style="position: absolute; left: 3.5%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Canciones</a>
-        <a href="crisalida2" title="crisalida2" style="position: absolute; left: 19%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Obras plásticas</a>
-        <a href="crisalida3" title="crisalida3" style="position: absolute; left: 38%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Fotos y vídeos</a>
-        <a href="crisalida4" title="crisalida4" style="position: absolute; left: 55%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Material TEA</a>
-        <a href="crisalida5" title="crisalida5" style="position: absolute; left: 75%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Ficha técnica</a>
+        <a href="crisalida1" title="Canciones" style="position: absolute; left: 3.5%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Canciones</a>
+        <a href="crisalida2" title="Obras plásticas" style="position: absolute; left: 19%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Obras plásticas</a>
+        <a href="crisalida3" title="Fotos y vídeos" style="position: absolute; left: 38%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Fotos y vídeos</a>
+        <a href="crisalida4" title="Material TEA" style="position: absolute; left: 55%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Material TEA</a>
+        <a href="crisalida5" title="Ficha técnica" style="position: absolute; left: 75%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Ficha técnica</a>
       </div>
 
     </div>);
