@@ -11,6 +11,10 @@ import Profile from 'async!../routes/profile';
 import Tema from 'async!../routes/tema';
 
 export default class App extends Component {
+	// constructor(props) {
+  //   super(props);
+	//
+	// }
 	/** Gets fired when the route changes.
 	 *	@param {Object} event		"change" event from [preact-router](http://git.io/preact-router)
 	 *	@param {string} event.url	The newly routed URL

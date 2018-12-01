@@ -1,8 +1,11 @@
 .home {
 	padding: 20px;
-	min-height: 100%;
-	width: 100%;
-	background-image: url(/assets/images/la-vida-la-bg-intro.JPG);
+	margin: 0 auto auto auto;
+	text-align: center;
+
+	/* min-height: 100%;
+	width: 100%; */
+	/* background-image: url(); */
 	/* background-color: #f9e68c; */
 }
 .laVidaLaIntro {
@@ -10,7 +13,6 @@
 	height: 80vw;
 	color: #fff;
 	text-align: center;
-	background-image: url(/assets/images/crisalidas.jpeg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
