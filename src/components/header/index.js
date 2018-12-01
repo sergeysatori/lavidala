@@ -45,7 +45,7 @@ export default class Header extends Component {
 							<TopAppBar.Icon menu onClick={this.openDrawer}>
 								menu
 							</TopAppBar.Icon>
-							<TopAppBar.Title>La Vida - la</TopAppBar.Title>
+							<TopAppBar.Title>La Vida ~la</TopAppBar.Title>
 						</TopAppBar.Section>
 
 					</TopAppBar.Row>
