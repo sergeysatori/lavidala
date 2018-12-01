@@ -32,7 +32,12 @@ export default class Profile extends Component {
 	// Note: `user` comes from the URL, courtesy of our router
 	render({ user }, { time, count }) {
 		return (
-			<div class={`${style.profile} page`}>
+			<div class={`${style.profile} page`} style={{
+	        backgroundImage: 'url(/assets/images/la-vida-la-bg-intro.JPG)',
+	        width: '100%',
+	        height: '150%',
+	        overflow: 'hidden'
+	      }}>
 				<h1>Profile: {user}</h1>
 				<p>This is the user profile for a user named { user }.</p>
 
