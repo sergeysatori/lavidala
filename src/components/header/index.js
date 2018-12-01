@@ -43,8 +43,8 @@ export default class Header extends Component {
         }} className="toolbar">
         <TopAppBar.Row>
           <TopAppBar.Section align-start="align-start">
-            <TopAppBar.Icon menu="menu" onClick={this.openDrawer}>
-              menu
+            <TopAppBar.Icon menu="menu" style={{cursor: 'pointer'}} onClick={this.openDrawer}>
+              flare
             </TopAppBar.Icon>
             <TopAppBar.Title style={{
                 fontFamily: 'Sign Painter',
