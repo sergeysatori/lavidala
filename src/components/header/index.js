@@ -13,10 +13,15 @@ import 'preact-material-components/TopAppBar/style.css';
 // import style from './style';
 
 export default class Header extends Component {
+	constructor(props){
+		super(props);
+
+	}
   closeDrawer() {
     this.drawer.MDComponent.open = false;
     this.state = {};
     // this.goTo = this.goTo.bind(this);
+
   }
 
   openDrawer = () => (this.drawer.MDComponent.open = true);
@@ -30,7 +35,7 @@ export default class Header extends Component {
 
   goHome = this.linkTo('/');
   goToMyProfile = this.linkTo('/autor');
-  goToLadelPerdon = this.linkTo('/tema/la-del-perdon');
+  goToLadelPerdon = this.linkTo('/tema/del-perdon');
 
   render(props) {
     console.log(props.selectedRoute);
@@ -39,17 +44,19 @@ export default class Header extends Component {
           borderBottomRightRadius: '34px',
           width: 'auto',
           padding: '0rem 3rem 0rem 1rem',
-					backgroundImage: 'radial-gradient(at 0px 0px, rgb(21, 88, 253) 40%, rgb(38, 107, 242) 90%)'
+					backgroundImage: 'radial-gradient(at 0px 0px, rgb(21, 88, 253) 40%, rgb(38, 107, 242) 90%)',
+		     	transition: 'width 2s'
         }} className="toolbar">
         <TopAppBar.Row>
           <TopAppBar.Section align-start="align-start">
             <TopAppBar.Icon menu="menu" style={{cursor: 'pointer'}} onClick={this.openDrawer}>
               flare
             </TopAppBar.Icon>
-            <TopAppBar.Title style={{
-                fontFamily: 'Sign Painter',
-                fontSize: '2rem'
-              }}>La Vida-la</TopAppBar.Title>
+            {props.selectedRoute !== '/' ?
+							<TopAppBar.Title style={{
+	                fontFamily: 'Sign Painter',
+	                fontSize: '2rem'
+	              }}>La Vida-la {`${props.selectedRoute ? /[^/]*$/g.exec(props.selectedRoute)[0].replace(/-/g, ' '):''}`}</TopAppBar.Title>: null}
           </TopAppBar.Section>
         </TopAppBar.Row>
       </TopAppBar>
@@ -66,9 +73,9 @@ export default class Header extends Component {
           <h1 style={{
               marginLeft: '1rem'
             }}>Temas</h1>
-          <Drawer.DrawerItem selected={props.selectedRoute === '/tema/la-del-perdon'} onClick={this.goToLadelPerdon}>
+          <Drawer.DrawerItem selected={props.selectedRoute === '/tema/del-perdon'} onClick={this.goToLadelPerdon}>
             <List.ItemGraphic>account_circle</List.ItemGraphic>
-            La del perdon
+            Del perdon
           </Drawer.DrawerItem>
         </Drawer.DrawerContent>
       </Drawer>

@@ -53,7 +53,7 @@ export default class Tema extends Component {
 }
 
 const dataBase = {
-  ladelperdon: {
+  delperdon: {
     mainImage: '/assets/images/la-vida-la-del-perdon.jpg',
     title: 'La del perdon',
     description: 'Descricion de La del perdon'
