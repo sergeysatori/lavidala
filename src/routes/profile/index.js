@@ -1,5 +1,6 @@
 import { h, Component } from 'preact';
 import Button from 'preact-material-components/Button';
+import Card from 'preact-material-components/Card';
 import 'preact-material-components/Button/style.css';
 import style from './style';
 
@@ -38,6 +39,7 @@ export default class Profile extends Component {
 	        height: '150%',
 	        overflow: 'hidden'
 	      }}>
+				<Card style={{color:'#fff', width: '90vw', margin: 'auto', maxWidth: '600px'}}>
 				<h1>Profile: {user}</h1>
 				<p>This is the user profile for a user named { user }.</p>
 
@@ -48,6 +50,7 @@ export default class Profile extends Component {
 					{' '}
 					Clicked {count} times.
 				</p>
+			</Card>
 			</div>
 		);
 	}

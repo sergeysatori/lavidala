@@ -1,5 +1,6 @@
 .home {
-	padding: 20px 1rem;
+
+	padding: 20px 0;
 	margin: 0 auto auto auto;
 	text-align: center;
 
@@ -8,6 +9,12 @@
 	/* background-image: url(); */
 	/* background-color: #f9e68c; */
 }
+/* @media (min-width:679px){
+	.home {
+  	padding: 20px 0;
+	}
+} */
+
 .laVidaLaIntro {
 	width: auto;
 	height: 80vw;

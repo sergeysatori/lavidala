@@ -35,7 +35,9 @@ export default class Header extends Component {
 
   goHome = this.linkTo('/');
   goToMyProfile = this.linkTo('/autor');
-  goToLadelPerdon = this.linkTo('/tema/del-perdon');
+  goToLadelPerdon = this.linkTo('/cancion/del-perdon');
+  goToCanciones = this.linkTo('/canciones');
+  goToGraciasALaVida = this.linkTo('/cancion/gracias-a-la-vida');
 
   render(props) {
     console.log(props.selectedRoute);
@@ -62,20 +64,26 @@ export default class Header extends Component {
       </TopAppBar>
       <Drawer modal="modal" ref={this.drawerRef}>
         <Drawer.DrawerContent>
-          <Drawer.DrawerItem selected={(props.selectedRoute === '/' || props.selectedRoute === '/no-encontrado')} onClick={this.goHome}>
+          <Drawer.DrawerItem style={{cursor: 'pointer'}} selected={(props.selectedRoute === '/' || props.selectedRoute === '/no-encontrado')} onClick={this.goHome}>
             <List.ItemGraphic>home</List.ItemGraphic>
             Home
           </Drawer.DrawerItem>
-          <Drawer.DrawerItem selected={props.selectedRoute === '/autor'} onClick={this.goToMyProfile}>
+          <Drawer.DrawerItem style={{cursor: 'pointer'}} selected={props.selectedRoute === '/autor'} onClick={this.goToMyProfile}>
             <List.ItemGraphic>account_circle</List.ItemGraphic>
             Profile
           </Drawer.DrawerItem>
-          <h1 style={{
-              marginLeft: '1rem'
-            }}>Temas</h1>
-          <Drawer.DrawerItem selected={props.selectedRoute === '/tema/del-perdon'} onClick={this.goToLadelPerdon}>
-            <List.ItemGraphic>account_circle</List.ItemGraphic>
+
+					<Drawer.DrawerItem style={{cursor: 'pointer'}} selected={props.selectedRoute === '/canciones'} onClick={this.goToCanciones}>
+						<h1 style={{
+	              marginLeft: '1rem'
+	            }}>Canciones</h1>
+							<List.ItemGraphic>music_note</List.ItemGraphic>
+          </Drawer.DrawerItem>
+					<Drawer.DrawerItem style={{cursor: 'pointer'}} selected={props.selectedRoute === '/cancion/del-perdon'} onClick={this.goToLadelPerdon}>
             Del perdon
+          </Drawer.DrawerItem>
+					<Drawer.DrawerItem style={{cursor: 'pointer'}} selected={props.selectedRoute === '/cancion/gracias-a-la-vida'} onClick={this.goToGraciasALaVida}>
+            Gracias a la vida
           </Drawer.DrawerItem>
         </Drawer.DrawerContent>
       </Drawer>

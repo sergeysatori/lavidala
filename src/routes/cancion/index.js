@@ -17,7 +17,9 @@ export default class Cancion extends Component {
     };
     this.isMobile = this.isMobile.bind(this);
   }
-
+  componentWillReceiveProps(nextProps) {
+    this.setState({data: dataBase[nextProps.id.replace(/-/g, '')]})
+  }
   componentDidMount() {
     this.isMobile();
     window.addEventListener("resize", this.isMobile.bind(this));

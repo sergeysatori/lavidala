@@ -51,7 +51,7 @@ export default class Home extends Component {
         overflow: 'hidden'
       }}>
       <div class={`${style.home} page`}>
-        <Card style={{color:'hsl(230, 90%, 58%)', width: `${this.state.imageSize.width * .9}px`, margin: 'auto'}}>
+        <Card style={{color:'hsl(230, 90%, 58%)', width: `${window.innerWidth > 679 ? this.state.imageSize.width+'px' : '90vw'}`, margin: 'auto', maxWidth: '90vh'}}>
           <h1>Sitio en construcción</h1>
           <Icon>event_busy</Icon>
           <br/>
