@@ -3,6 +3,8 @@ import Card from 'preact-material-components/Card';
 import 'preact-material-components/Card/style.css';
 import 'preact-material-components/Button/style.css';
 import style from './style';
+import {route} from 'preact-router';
+import Icon from 'preact-material-components/Icon';
 
 export default class Home extends Component {
   constructor(props) {
@@ -49,16 +51,20 @@ export default class Home extends Component {
         overflow: 'hidden'
       }}>
       <div class={`${style.home} page`}>
-
+        <Card style={{color:'hsl(230, 90%, 58%)', width: `${this.state.imageSize.width * .9}px`, margin: 'auto'}}>
+          <h1>Sitio en construcción</h1>
+          <Icon>event_busy</Icon>
+          <br/>
+        </Card>
       </div>
       <div style={{
           width: `${this.state.imageSize.width}px`,
-          height: `${this.state.imageSize.height}px`,
+          height: `80%`,
           maxWidth: '90vh',
           backgroundImage: 'url(/assets/images/crisalidas.png)',
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center',
+          backgroundPosition: 'top center',
           backgroundColor: '#b09f73',
           margin: '0 auto auto auto',
           position: 'relative',
@@ -68,7 +74,7 @@ export default class Home extends Component {
           fontSize: '1.5rem',
           textTransform: 'uppercase'
         }}>
-        <a href="crisalida1" title="Canciones" style="position: absolute; left: 3.5%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Canciones</a>
+        <a href="/canciones" onClick={()=> route('/canciones')} title="Canciones" style="position: absolute; left: 3.5%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Canciones</a>
         <a href="crisalida2" title="Obras plásticas" style="position: absolute; left: 19%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Obras plásticas</a>
         <a href="crisalida3" title="Fotos y vídeos" style="position: absolute; left: 38%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Fotos y vídeos</a>
         <a href="crisalida4" title="Material TEA" style="position: absolute; left: 55%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Material TEA</a>

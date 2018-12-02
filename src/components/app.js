@@ -8,7 +8,8 @@ import NotFound from '../routes/404';
 // import createHashHistory from 'history/createHashHistory';
 import Home from 'async!../routes/home';
 import Profile from 'async!../routes/profile';
-import Tema from 'async!../routes/tema';
+import Cancion from 'async!../routes/cancion';
+import Canciones from 'async!../routes/canciones';
 
 export default class App extends Component {
 	// constructor(props) {
@@ -31,9 +32,10 @@ export default class App extends Component {
 				<Header selectedRoute={this.state.currentUrl}/>
 				<Router onChange={this.handleRoute}>
 					<Home path="/" />
-					<Tema path="/tema/:id" user="me" />
 					<Profile path="/autor/" user="me" />
 					<Profile path="/autor/:user" />
+					<Cancion path="/cancion/:id" />
+					<Canciones path="/canciones" />
           <NotFound default />
 				</Router>
 			</div>

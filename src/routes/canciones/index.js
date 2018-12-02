@@ -4,17 +4,15 @@ import 'preact-material-components/Card/style.css';
 import 'preact-material-components/Button/style.css';
 import LayoutGrid from 'preact-material-components/LayoutGrid';
 import 'preact-material-components/LayoutGrid/style.css';
+import {route} from 'preact-router';
 
 import style from './style';
 
-export default class Tema extends Component {
+export default class Canciones extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      counter: 0,
-			data: dataBase[this.props.id.replace(/-/g, '')]
-    };
+    this.state = {};
     this.isMobile = this.isMobile.bind(this);
   }
 
@@ -40,11 +38,15 @@ export default class Tema extends Component {
 
       <LayoutGrid>
         <LayoutGrid.Inner>
-          <LayoutGrid.Cell class={style.temaPresentVisual} style={{
-              backgroundImage: `url(${this.state.data.mainImage})`
-            }} cols="2">{this.props.id}</LayoutGrid.Cell>
-          <LayoutGrid.Cell cols="2">Second cell</LayoutGrid.Cell>
-          <LayoutGrid.Cell cols="2">Third cell</LayoutGrid.Cell>
+          <LayoutGrid.Cell onClick={()=> route('/cancion/del-perdon')}  class={style.temaPresentVisual} style={{
+              backgroundImage: `url(${dataBase.delperdon.mainImage})`,
+              cursor: 'pointer'
+            }} cols="8">La del perdón</LayoutGrid.Cell>
+          <LayoutGrid.Cell onClick={()=> route('/cancion/gracias-a-la-vida')} class={style.temaPresentVisual} style={{
+              backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+              cursor: 'pointer'
+            }} cols="8">Gracias a la vida</LayoutGrid.Cell>
+
         </LayoutGrid.Inner>
       </LayoutGrid>
 
@@ -55,6 +57,11 @@ export default class Tema extends Component {
 const dataBase = {
   delperdon: {
     mainImage: '/assets/images/la-vida-la-del-perdon.jpg',
+    title: 'La del perdon',
+    description: 'Descricion de La del perdon'
+  },
+  graciasALaVida: {
+    mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
     title: 'La del perdon',
     description: 'Descricion de La del perdon'
   }
