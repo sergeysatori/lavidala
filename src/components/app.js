@@ -24,6 +24,11 @@ export default class App extends Component {
 			currentUrl: e.url
 		});
 	};
+	// handleNotFound = e => {
+	// 	this.setState({
+	// 		notFound: false
+	// 	});
+	// };
 
 	render() {
 		return (

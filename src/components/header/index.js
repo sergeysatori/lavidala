@@ -62,7 +62,7 @@ export default class Header extends Component {
       </TopAppBar>
       <Drawer modal="modal" ref={this.drawerRef}>
         <Drawer.DrawerContent>
-          <Drawer.DrawerItem selected={props.selectedRoute === '/'} onClick={this.goHome}>
+          <Drawer.DrawerItem selected={(props.selectedRoute === '/' || props.selectedRoute === '/no-encontrado')} onClick={this.goHome}>
             <List.ItemGraphic>home</List.ItemGraphic>
             Home
           </Drawer.DrawerItem>
