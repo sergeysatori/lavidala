@@ -65,7 +65,8 @@ export default class Home extends Component {
           fontFamily: 'Sign Painter',
           writingMode: 'vertical-rl',
           textOrientation: 'upright',
-          fontSize: '1.5rem'
+          fontSize: '1.5rem',
+          textTransform: 'uppercase'
         }}>
         <a href="crisalida1" title="Canciones" style="position: absolute; left: 3.5%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Canciones</a>
         <a href="crisalida2" title="Obras plásticas" style="position: absolute; left: 19%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Obras plásticas</a>
