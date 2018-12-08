@@ -33,3 +33,11 @@
 .cardBody {
   padding: 16px;
 }
+.portadaLink {
+	position: absolute;
+	/* background: #00ffff5e; */
+	z-index: 2;
+	text-decoration: none;
+	color: #fff;
+	cursor:pointer;
+}

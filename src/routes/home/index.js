@@ -16,7 +16,7 @@ export default class Home extends Component {
     }
   }
   getImageSize(winWidth, imgWidth, winHeight, imgHeight) {
-    let deviceFactor = .7;
+    let deviceFactor = .9;
     if (winHeight > winWidth) {
       deviceFactor = 1
     }
@@ -42,31 +42,35 @@ export default class Home extends Component {
       imageSize: this.getImageSize(document.body.clientWidth, 1280, window.innerHeight, 960)
     })
   }
+  isMobile(){
+    return window.innerWidth < 630
+  }
 
   render() {
     return (<div style={{
-        backgroundImage: 'url(/assets/images/la-vida-la-bg-intro.JPG)',
+        backgroundImage: 'url(/assets/images/crisalidas.png)',
+        backgroundSize: 'contain',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center top',
+        // backgroundColor: 'rgb(176, 159, 115)',
+        // backgroundImage: 'url(/assets/images/la-vida-la-bg-intro.JPG)',
         width: '100%',
         height: '150%',
         overflow: 'hidden'
       }}>
       <div class={`${style.home} page`}>
-        <Card style={{color:'hsl(230, 90%, 58%)', width: `${window.innerWidth > 679 ? this.state.imageSize.width+'px' : '90vw'}`, margin: 'auto', maxWidth: '90vh'}}>
-          <h1>Sitio en construcción</h1>
-          <Icon>event_busy</Icon>
-          <br/>
-        </Card>
       </div>
       <div style={{
           width: `${this.state.imageSize.width}px`,
+          // width: '100vw',
           height: `80%`,
-          maxWidth: '90vh',
-          backgroundImage: 'url(/assets/images/crisalidas.png)',
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'top center',
-          backgroundColor: '#b09f73',
-          margin: '0 auto auto auto',
+          // maxWidth: '90vh',
+          // backgroundImage: 'url(/assets/images/crisalidas.png)',
+          // backgroundSize: 'contain',
+          // backgroundRepeat: 'no-repeat',
+          // backgroundPosition: 'top center',
+          // backgroundColor: '#b09f73',
+          margin: `0 auto auto auto`,
           position: 'relative',
           fontFamily: 'Sign Painter',
           writingMode: 'vertical-rl',
@@ -74,13 +78,49 @@ export default class Home extends Component {
           fontSize: '1.5rem',
           textTransform: 'uppercase'
         }}>
-        <a href="/canciones" onClick={()=> route('/canciones')} title="Canciones" style="position: absolute; left: 3.5%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Canciones</a>
-        <a href="crisalida2" title="Obras plásticas" style="position: absolute; left: 19%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Obras plásticas</a>
-        <a href="crisalida3" title="Fotos y vídeos" style="position: absolute; left: 38%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Fotos y vídeos</a>
-        <a href="crisalida4" title="Material TEA" style="position: absolute; left: 55%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Material TEA</a>
-        <a href="crisalida5" title="Ficha técnica" style="position: absolute; left: 75%; top: 30%; width: 14.06%; height: max-content; z-index: 2; text-decoration: none; color: #fff;">Ficha técnica</a>
+        <div href="/canciones" onClick={()=> route('/canciones')} title="Canciones" class={`${style.portadaLink}`}
+          style={{
+            left: '5%',
+            top: `${this.isMobile() ? '0%' : '16%'}`,
+            width: '14.06%',
+            height: `${this.isMobile() ? '100%' : '122vh'}`
+          }}
+          ></div>
+        <div href="crisalida2" title="Obras plásticas" class={`${style.portadaLink}`}
+          style={{
+            left: '24%',
+            top: `${this.isMobile() ? '0%' : '16%'}`,
+            width: '14.06%',
+            height: `${this.isMobile() ? '100%' : '122vh'}`
+          }} ></div>
+        <div href="crisalida3" title="Fotos y vídeos" class={`${style.portadaLink}`}
+          style={{
+            left: '42%',
+            top: `${this.isMobile() ? '0%' : '16%'}`,
+            width: '14.06%',
+            height: `${this.isMobile() ? '100%' : '122vh'}`
+          }} ></div>
+        <div href="crisalida4" title="Material TEA" class={`${style.portadaLink}`}
+          style={{
+            left: '60%',
+            top: `${this.isMobile() ? '0%' : '16%'}`,
+            width: '14.06%',
+            height: `${this.isMobile() ? '100%' : '122vh'}`
+          }}  ></div>
+        <div href="crisalida5" title="Ficha técnica" class={`${style.portadaLink}`}
+          style={{
+            left: '80%',
+            top: `${this.isMobile() ? '0%' : '16%'}`,
+            width: '14.06%',
+            height: `${this.isMobile() ? '100%' : '122vh'}`
+          }} ></div>
       </div>
 
     </div>);
   }
 }
+// <Card style={{color:'hsl(230, 90%, 58%)', width: `${window.innerWidth > 679 ? this.state.imageSize.width+'px' : '90vw'}`, margin: 'auto', maxWidth: '90vh'}}>
+//   <h1>Sitio en construcción</h1>
+//   <Icon>event_busy</Icon>
+//   <br/>
+// </Card>
