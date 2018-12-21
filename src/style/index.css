@@ -47,7 +47,8 @@ html, body {
 
 #app {
 	height: 100%;
-	--mdc-theme-primary: hsl(230, 90%, 58%);
+	--mdc-theme-primary: hsl(25, 45%, 23%);
+	/* --mdc-theme-primary: hsl(230, 90%, 58%); */
 	--mdc-theme-background: hsl(230, 70%, 28%);
 	/* color: #fff; */
 	/* --mdc-theme-surface: #d2d185; */
@@ -66,7 +67,18 @@ html, body {
   padding-top: 73px;
 }
 body {
-	background-image: url(/assets/images/asfalt-dark.png);
-	background-repeat: repeat;
-	background-color: rgb(176, 159, 115);
+	background-image: url(/assets/images/clarisa-bg.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: hsl(0, 0%, 2%);
+	background-size: 122%;
+  background-position: center bottom;
+}
+
+
+@media screen and (max-width: 600px) {
+	body {
+		background-size: 200%;
+		background-position: bottom;
+	}
 }

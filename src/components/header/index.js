@@ -46,7 +46,7 @@ export default class Header extends Component {
           borderBottomRightRadius: '34px',
           width: 'auto',
           padding: '0rem 3rem 0rem 1rem',
-					backgroundImage: 'radial-gradient(at 0px 0px, rgb(21, 88, 253) 40%, rgb(38, 107, 242) 90%)',
+					// backgroundImage: 'radial-gradient(at 0px 0px, rgb(21, 88, 253) 40%, rgb(38, 107, 242) 90%)',
 		     	transition: 'width 2s'
         }} className="toolbar">
         <TopAppBar.Row>
