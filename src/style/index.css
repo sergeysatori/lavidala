@@ -73,6 +73,7 @@ body {
 	background-color: hsl(0, 0%, 2%);
 	background-size: 122%;
   background-position: center bottom;
+	background-attachment: fixed;
 }
 
 
