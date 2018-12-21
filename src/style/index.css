@@ -68,7 +68,7 @@ html, body {
 }
 body {
 	background-image: url(/assets/images/clarisa-bg.jpeg);
-	background-size: cover;
+	/* background-size: cover; */
 	background-repeat: no-repeat;
 	background-color: hsl(0, 0%, 2%);
 	background-size: 122%;
