@@ -71,13 +71,13 @@ body {
 	/* background-size: cover; */
 	background-repeat: no-repeat;
 	background-color: hsl(0, 0%, 2%);
-	background-size: 122%;
+	background-size: 100%;
   background-position: center bottom;
 	background-attachment: fixed;
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
 	body {
 		background-size: 200%;
 		background-position: bottom;

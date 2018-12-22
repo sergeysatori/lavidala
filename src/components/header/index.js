@@ -43,10 +43,15 @@ export default class Header extends Component {
     console.log(props.selectedRoute);
     return (<div>
       <TopAppBar style={{
-          borderBottomRightRadius: '34px',
-          width: 'auto',
+          // borderBottomRightRadius: '34px',
+          // width: 'auto',
+          width: '100vw',
           padding: '0rem 3rem 0rem 1rem',
 					// backgroundImage: 'radial-gradient(at 0px 0px, rgb(21, 88, 253) 40%, rgb(38, 107, 242) 90%)',
+					// backgroundImage: 'radial-gradient(#6c2e53 69%, #b6373703 60%)',
+					// backgroundImage: 'linear-gradient(#6c2e53 9%, #b6373703 60%)',
+					// backgroundColor: 'unset',
+					backgroundColor: 'hsla(25, 45%, 23%, 0.53)',
 		     	transition: 'width 2s'
         }} className="toolbar">
         <TopAppBar.Row>
@@ -57,7 +62,8 @@ export default class Header extends Component {
 
 							<TopAppBar.Title style={{
 	                fontFamily: 'Sign Painter',
-	                fontSize: '1.5rem'
+	                fontSize: '1.5rem',
+									margin: 'auto'
 	              }}>{props.selectedRoute !== '/' ? `La Vida-la ${props.selectedRoute ? /[^/]*$/g.exec(props.selectedRoute)[0].replace(/-/g, ' '):''}` : ' Clarisa Prince y '}</TopAppBar.Title>
           </TopAppBar.Section>
         </TopAppBar.Row>
