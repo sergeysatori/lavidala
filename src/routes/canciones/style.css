@@ -2,12 +2,14 @@
 	padding: 20px;
 	min-height: 100%;
 	width: 100%;
+	font-family: "Sign Painter";
+
 	/* background-image: url(/assets/images/la-vida-la-bg-intro.JPG); */
 	/* background-color: #f9e68c; */
 }
 .temaPresentVisual {
-	min-height: 10vh;
-  width: 5vw;
+	/* min-height: 10vh; */
+  width: 55vw;
   background-size: cover;
 	color: #fff;
 	text-align: center;

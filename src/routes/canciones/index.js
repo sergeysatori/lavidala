@@ -39,13 +39,15 @@ export default class Canciones extends Component {
       <LayoutGrid>
         <LayoutGrid.Inner>
           <LayoutGrid.Cell onClick={()=> route('/cancion/del-perdon')}  class={style.temaPresentVisual} style={{
-              backgroundImage: `url(${dataBase.delperdon.mainImage})`,
+              // backgroundImage: `url(${dataBase.delperdon.mainImage})`,
+              fontSize: '3rem',
               cursor: 'pointer'
-            }} cols="8">La del perdón</LayoutGrid.Cell>
+            }} cols="12">La del perdón</LayoutGrid.Cell>
           <LayoutGrid.Cell onClick={()=> route('/cancion/gracias-a-la-vida')} class={style.temaPresentVisual} style={{
-              backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+              // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+              fontSize: '3rem',
               cursor: 'pointer'
-            }} cols="8">Gracias a la vida</LayoutGrid.Cell>
+            }} cols="12">Gracias a la vida</LayoutGrid.Cell>
 
         </LayoutGrid.Inner>
       </LayoutGrid>
