@@ -3,7 +3,10 @@
   "title": "La Vida-la"
 },
 {
-  "url": "/tema/:id"
+  "url": "/cancion/:id"
+},
+{
+  "url": "/canciones/"
 },
 {
   "url": "/autor/:user"

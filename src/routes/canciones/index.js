@@ -5,6 +5,7 @@ import 'preact-material-components/Button/style.css';
 import LayoutGrid from 'preact-material-components/LayoutGrid';
 import 'preact-material-components/LayoutGrid/style.css';
 import {route} from 'preact-router';
+// import {isMobile} from '../../utils/responsive';
 
 import style from './style';
 
@@ -13,40 +14,38 @@ export default class Canciones extends Component {
     super(props);
 
     this.state = {};
-    this.isMobile = this.isMobile.bind(this);
+    // this.isMobile = this.isMobile.bind(this);
   }
 
   componentDidMount() {
-    this.isMobile();
-    window.addEventListener("resize", this.isMobile.bind(this));
+    // this.isMobile();
+    // window.addEventListener("resize", this.isMobile.bind(this));
   }
 
   componentWillUnmount() {
-    window.removeEventListener("resize", this.isMobile.bind(this));
+    // window.removeEventListener("resize", this.isMobile.bind(this));
   }
 
-  isMobile() {
-    this.setState({
-      isMobile: window.innerWidth < 600
-        ? true
-        : false
-    })
-  }
+  // isMobile() {
+  //   this.setState({
+  //     isMobile: window.innerWidth < 600
+  //       ? true
+  //       : false
+  //   })
+  // }
 
   render() {
     return (<div class={`${style.home} page`}>
 
       <LayoutGrid>
         <LayoutGrid.Inner>
-          <LayoutGrid.Cell onClick={()=> route('/cancion/del-perdon')}  class={style.temaPresentVisual} style={{
+          <LayoutGrid.Cell onClick={()=> route('/cancion/del-perdon')}  class={style.listaCancionesCell} style={{
               // backgroundImage: `url(${dataBase.delperdon.mainImage})`,
-              fontSize: '3rem',
-              cursor: 'pointer'
+
             }} cols="12">La del perdón</LayoutGrid.Cell>
-          <LayoutGrid.Cell onClick={()=> route('/cancion/gracias-a-la-vida')} class={style.temaPresentVisual} style={{
+          <LayoutGrid.Cell onClick={()=> route('/cancion/gracias-a-la-vida')} class={style.listaCancionesCell} style={{
               // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
-              fontSize: '3rem',
-              cursor: 'pointer'
+
             }} cols="12">Gracias a la vida</LayoutGrid.Cell>
 
         </LayoutGrid.Inner>
