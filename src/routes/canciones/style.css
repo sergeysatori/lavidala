@@ -10,7 +10,7 @@
 .listaCancionesCell {
 	/* min-height: 10vh; */
 	cursor: pointer;
-  width: 55vw;
+  /* width: 55vw; */
   background-size: cover;
 	color: #fff;
 	text-align: center;
