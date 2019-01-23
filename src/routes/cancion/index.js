@@ -48,9 +48,9 @@ export default class Cancion extends Component {
 }
 
 const dataBase = {
-  delperdon: {
+  vidaladelperdon: {
     mainImage: '/assets/images/la-vida-la-del-perdon.jpg',
-    title: 'La del perdon',
+    title: 'Vida-la del perdon',
     description: 'Descricion de La del perdon'
   },
   graciasalavida: {

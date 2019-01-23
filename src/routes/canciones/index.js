@@ -39,14 +39,63 @@ export default class Canciones extends Component {
 
       <LayoutGrid>
         <LayoutGrid.Inner>
-          <LayoutGrid.Cell onClick={()=> route('/cancion/del-perdon')}  class={style.listaCancionesCell} style={{
+          {/*
+
+          Gracias a la Vida
+          */}
+          <LayoutGrid.Cell onClick={()=> route('/cancion/estrellita')}  class={style.listaCancionesCell} style={{
               // backgroundImage: `url(${dataBase.delperdon.mainImage})`,
 
-            }} cols="12">La del perdón</LayoutGrid.Cell>
+            }} cols="12">Estrellita</LayoutGrid.Cell>
+          <LayoutGrid.Cell onClick={()=> route('/cancion/valsecito-con-mates-y-sol')}  class={style.listaCancionesCell} style={{
+              // backgroundImage: `url(${dataBase.delperdon.mainImage})`,
+
+            }} cols="12">Valsecito con mates y sol</LayoutGrid.Cell>
+          <LayoutGrid.Cell onClick={()=> route('/cancion/vida-la-del-perdon')}  class={style.listaCancionesCell} style={{
+              // backgroundImage: `url(${dataBase.delperdon.mainImage})`,
+
+            }} cols="12">Vida-la del perdón</LayoutGrid.Cell>
+          <LayoutGrid.Cell onClick={()=> route('/cancion/zambita-de-madre')} class={style.listaCancionesCell} style={{
+              // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+            }} cols="12">Zambita de Madre</LayoutGrid.Cell>
+          <LayoutGrid.Cell onClick={()=> route('/cancion/negrita-martina')} class={style.listaCancionesCell} style={{
+              // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+            }} cols="12">Negrita Martina</LayoutGrid.Cell>
+          <LayoutGrid.Cell onClick={()=> route('/cancion/vals-de-abril')} class={style.listaCancionesCell} style={{
+              // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+            }} cols="12">Vals de Abril</LayoutGrid.Cell>
+          <LayoutGrid.Cell onClick={()=> route('/cancion/vidalita')} class={style.listaCancionesCell} style={{
+              // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+            }} cols="12">Vidalita</LayoutGrid.Cell>
+          <LayoutGrid.Cell onClick={()=> route('/cancion/baguala-del-desierto')} class={style.listaCancionesCell} style={{
+              // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+            }} cols="12">Baguala del desierto</LayoutGrid.Cell>
+          <LayoutGrid.Cell onClick={()=> route('/cancion/malambo-pal-diferente')} class={style.listaCancionesCell} style={{
+              // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+            }} cols="12">Malambo pal diferente</LayoutGrid.Cell>
+          <LayoutGrid.Cell onClick={()=> route('/cancion/rio-de-los-pajaros')} class={style.listaCancionesCell} style={{
+              // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+            }} cols="12">Río de los Pájaros</LayoutGrid.Cell>
+          <LayoutGrid.Cell onClick={()=> route('/cancion/guri-pescador')} class={style.listaCancionesCell} style={{
+              // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+            }} cols="12">Guri Pescador</LayoutGrid.Cell>
+          <LayoutGrid.Cell onClick={()=> route('/cancion/milonga-del-mate')} class={style.listaCancionesCell} style={{
+              // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+            }} cols="12">Milonga del mate</LayoutGrid.Cell>
           <LayoutGrid.Cell onClick={()=> route('/cancion/gracias-a-la-vida')} class={style.listaCancionesCell} style={{
               // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
 
             }} cols="12">Gracias a la vida</LayoutGrid.Cell>
+
 
         </LayoutGrid.Inner>
       </LayoutGrid>
@@ -58,12 +107,12 @@ export default class Canciones extends Component {
 const dataBase = {
   delperdon: {
     mainImage: '/assets/images/la-vida-la-del-perdon.jpg',
-    title: 'La del perdon',
-    description: 'Descricion de La del perdon'
+    title: 'Vida-la del perdon',
+    description: 'Descripcion de La del perdon'
   },
   graciasALaVida: {
     mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
-    title: 'La del perdon',
-    description: 'Descricion de La del perdon'
+    title: 'Gracias a la vida',
+    description: 'Gracias a la vida de Violeta Parra.'
   }
 }

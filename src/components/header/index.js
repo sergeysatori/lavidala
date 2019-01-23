@@ -32,10 +32,17 @@ export default class Header extends Component {
     route(path);
     this.closeDrawer();
   };
-
+	getTitle = (routeText) => {
+		let titleResult = /[^/]*$/g.exec(routeText)[0].replace(/-/g, ' ');
+		// if (titleResult.match(/vida la/)) {
+		// 	titleResult = titleResult.replace(/vida la/, /vida la/.exec(titleResult)[0].replace(/ /g, '-'));
+		// }
+		titleResult = titleResult.charAt(0).toUpperCase() + titleResult.slice(1);
+		return titleResult;
+	}
   goHome = this.linkTo('/');
   goToMyProfile = this.linkTo('/autor');
-  goToLadelPerdon = this.linkTo('/cancion/del-perdon');
+  goToLadelPerdon = this.linkTo('/cancion/vida-la-del-perdon');
   goToCanciones = this.linkTo('/canciones');
   goToGraciasALaVida = this.linkTo('/cancion/gracias-a-la-vida');
 
@@ -64,7 +71,7 @@ export default class Header extends Component {
 	                fontFamily: 'Sign Painter',
 	                fontSize: '1.5rem',
 									margin: 'auto'
-	              }}>{props.selectedRoute !== '/' ? `La Vida-la ${props.selectedRoute ? /[^/]*$/g.exec(props.selectedRoute)[0].replace(/-/g, ' '):''}` : ' Clarisa Prince y '}</TopAppBar.Title>
+	              }}>{props.selectedRoute !== '/' ? `${props.selectedRoute ? this.getTitle(props.selectedRoute):''}` : ' Clarisa Prince y '}</TopAppBar.Title>
           </TopAppBar.Section>
         </TopAppBar.Row>
       </TopAppBar>
@@ -85,7 +92,7 @@ export default class Header extends Component {
 	            }}>Canciones</h1>
 							<List.ItemGraphic>music_note</List.ItemGraphic>
           </Drawer.DrawerItem>
-					<Drawer.DrawerItem style={{cursor: 'pointer'}} selected={props.selectedRoute === '/cancion/del-perdon'} onClick={this.goToLadelPerdon}>
+					<Drawer.DrawerItem style={{cursor: 'pointer'}} selected={props.selectedRoute === '/cancion/vida-la-del-perdon'} onClick={this.goToLadelPerdon}>
             Del perdon
           </Drawer.DrawerItem>
 					<Drawer.DrawerItem style={{cursor: 'pointer'}} selected={props.selectedRoute === '/cancion/gracias-a-la-vida'} onClick={this.goToGraciasALaVida}>
