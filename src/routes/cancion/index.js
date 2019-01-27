@@ -40,7 +40,10 @@ export default class Cancion extends Component {
         <LayoutGrid.Inner>
           <LayoutGrid.Cell class={style.temaPresentVisual} style={{
               backgroundImage: `url(${this.state.data.mainImage})`
-            }} desktopCols="2" phoneCols="12" tabletCols="12">{this.props.id}</LayoutGrid.Cell>
+            }} desktopCols="6" phoneCols="12" tabletCols="12">{this.props.id}</LayoutGrid.Cell>
+          <LayoutGrid.Cell class={style.temaPresentVisual} style={{height: '100%'}} desktopCols="6" phoneCols="12" tabletCols="12">
+            <iframe width="100%" height="50%" src={`${this.state.data.videoURL}`} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </LayoutGrid.Cell>
         </LayoutGrid.Inner>
       </LayoutGrid>
 
