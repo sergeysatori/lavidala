@@ -6,6 +6,7 @@ import LayoutGrid from 'preact-material-components/LayoutGrid';
 import 'preact-material-components/LayoutGrid/style.css';
 import {isMobile} from '../../utils/responsive';
 import {canciones} from '../../database';
+import emojis from 'emojis';
 
 import style from './style';
 
@@ -43,6 +44,11 @@ export default class ObraPlastica extends Component {
           <LayoutGrid.Cell class={style.temaPresentVisual} style={{
               backgroundImage: `url(${this.state.data.mainImage})`
             }} desktopCols="6" phoneCols="12" tabletCols="12"></LayoutGrid.Cell>
+          <LayoutGrid.Cell class={style.temaPresentVisual} style={{
+
+            }} desktopCols="6" phoneCols="12" tabletCols="12">
+            {emojis.unicode('Autor: :heart:')} {this.state.data.autorObraPlastica}
+          </LayoutGrid.Cell>
         </LayoutGrid.Inner>
       </LayoutGrid>
 
