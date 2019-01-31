@@ -37,15 +37,23 @@ export default class Cancion extends Component {
   //   }} desktopCols="6" phoneCols="12" tabletCols="12">{this.props.id}</LayoutGrid.Cell>
   render() {
     return (<div class={`${style.home} page`}>
-
-      <LayoutGrid>
-        <LayoutGrid.Inner>
-          <LayoutGrid.Cell class={style.temaPresentVisual} style={{height: '100%'}} desktopCols="6" phoneCols="12" tabletCols="12">
-            <iframe width="100%" height="50%" src={`${this.state.data.videoURL}`} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </LayoutGrid.Cell>
-        </LayoutGrid.Inner>
-      </LayoutGrid>
-
+      <div style={{
+          backgroundImage: `url(${this.state.data.mainImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+        }}>
+        <LayoutGrid style={{
+            backgroundColor: 'hsla(356, 26%, 13%, 0.8)'
+          }}>
+          <LayoutGrid.Inner>
+            <LayoutGrid.Cell class={style.temaPresentVisual} style={{
+                height: '100%'
+              }} desktopCols="6" phoneCols="12" tabletCols="12">
+              <iframe width="100%" height="50%" src={`${this.state.data.videoURL}`} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+            </LayoutGrid.Cell>
+          </LayoutGrid.Inner>
+        </LayoutGrid>
+      </div>
     </div>);
   }
 }
