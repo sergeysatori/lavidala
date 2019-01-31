@@ -1,0 +1,34 @@
+.home {
+	padding: 20px;
+	min-height: 100%;
+	width: 100%;
+	font-family: "Sign Painter";
+
+	/* background-image: url(/assets/images/la-vida-la-bg-intro.JPG); */
+	/* background-color: #f9e68c; */
+}
+.listaCancionesCell {
+	/* min-height: 10vh; */
+	cursor: pointer;
+  /* width: 55vw; */
+  background-size: cover;
+	color: #fff;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	margin: 0 auto auto auto;
+	font-size: 3rem;
+}
+@media (max-width:600px)	{
+	.listaCancionesCell {
+		font-size: 2rem;
+	}
+}
+.cardHeader {
+  padding: 16px;
+}
+
+.cardBody {
+  padding: 16px;
+}

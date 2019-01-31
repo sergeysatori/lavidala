@@ -11,6 +11,8 @@ import Profile from 'async!../routes/profile';
 import Cancion from 'async!../routes/cancion';
 import Canciones from 'async!../routes/canciones';
 import MaterialTEA from 'async!../routes/material-tea';
+import ObraPlastica from 'async!../routes/obra-plastica';
+import ObrasPlasticas from 'async!../routes/obras-plasticas';
 
 export default class App extends Component {
 	// constructor(props) {
@@ -22,7 +24,7 @@ export default class App extends Component {
 	 *	@param {string} event.url	The newly routed URL
 	 */
 	handleRoute = e => {
-		
+
 		this.setState({
 			currentUrl: e.url
 		});
@@ -38,6 +40,8 @@ export default class App extends Component {
 					<Profile path="/autor/:user" />
 					<Cancion path="/cancion/:id" />
 					<Canciones path="/canciones" />
+					<ObraPlastica path="/obra-plastica/:id" />
+					<ObrasPlasticas path="/obras-plasticas" />
 					<MaterialTEA path="/material-tea" />
           <NotFound default />
 				</Router>

@@ -9,7 +9,7 @@ import {canciones} from '../../database';
 
 import style from './style';
 
-export default class Cancion extends Component {
+export default class ObraPlastica extends Component {
   constructor(props) {
     super(props);
 
@@ -32,17 +32,17 @@ export default class Cancion extends Component {
   componentWillUnmount() {
     // window.removeEventListener("resize", this.isMobile.bind(this));
   }
-  // <LayoutGrid.Cell class={style.temaPresentVisual} style={{
-  //     backgroundImage: `url(${this.state.data.mainImage})`
-  //   }} desktopCols="6" phoneCols="12" tabletCols="12">{this.props.id}</LayoutGrid.Cell>
   render() {
     return (<div class={`${style.home} page`}>
 
       <LayoutGrid>
         <LayoutGrid.Inner>
           <LayoutGrid.Cell class={style.temaPresentVisual} style={{height: '100%'}} desktopCols="6" phoneCols="12" tabletCols="12">
-            <iframe width="100%" height="50%" src={`${this.state.data.videoURL}`} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            {this.state.data}
           </LayoutGrid.Cell>
+          <LayoutGrid.Cell class={style.temaPresentVisual} style={{
+              backgroundImage: `url(${this.state.data.mainImage})`
+            }} desktopCols="6" phoneCols="12" tabletCols="12">{this.props.id}</LayoutGrid.Cell>
         </LayoutGrid.Inner>
       </LayoutGrid>
 
