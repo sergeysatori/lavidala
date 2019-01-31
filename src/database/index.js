@@ -14,7 +14,7 @@
 
 export const canciones = {
   estrellita: {
-    mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    mainImage: '/assets/images/estrellita.jpeg',
     autorObraPlastica: 'María de los A Martinez',
     title: 'Estrellita',
     description: 'Descripcion de Estrellita',
@@ -22,7 +22,7 @@ export const canciones = {
     slug: 'estrellita',
   },
   valsecitoconmatesysol: {
-    mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    mainImage: '/assets/images/valsecito-con-mates-y-sol.jpeg',
     autorObraPlastica: 'María de los A Martinez',
     title: 'Valsecito Mate y Sol',
     description: 'Descripcion de Valsecito Mate y Sol',
@@ -30,7 +30,7 @@ export const canciones = {
     slug: 'valsecito-con-mates-y-sol',
   },
   vidaladelperdon: {
-    mainImage: '/assets/images/la-vida-la-del-perdon.jpg',
+    mainImage: '/assets/images/vida-la-del-perdon.jpeg',
     autorObraPlastica: 'María de los A Martinez',
     title: 'Vida-la del Perdón',
     description: 'Descripcion de La del perdon',
@@ -38,7 +38,7 @@ export const canciones = {
     slug: 'vida-la-del-perdon',
   },
   zambitademadre: {
-    mainImage: '/assets/images/la-vida-la-del-perdon.jpg',
+    mainImage: '/assets/images/zambita-de-madre.jpeg',
     autorObraPlastica: 'María de los A Martinez',
     title: 'Zambita de Madre',
     description: 'Descripcion de Zambita de Madre',
@@ -46,7 +46,7 @@ export const canciones = {
     slug: 'zambita-de-madre',
   },
   negritamartina: {
-    mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    mainImage: '/assets/images/negrita-martina.jpeg',
     autorObraPlastica: 'María de los A Martinez',
     title: 'Negrita Martina',
     description: 'Descripcion de Negrita Martina',
@@ -54,7 +54,7 @@ export const canciones = {
     slug: 'negrita-martina',
   },
   valsdeabril: {
-    mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    mainImage: '/assets/images/vals-de-abril.jpeg',
     autorObraPlastica: 'María de los A Martinez',
     title: 'Vals de Abril',
     description: 'Descripcion de Vals de Abril',
@@ -62,7 +62,7 @@ export const canciones = {
     slug: 'vals-de-abril',
   },
   vidalita: {
-    mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    mainImage: '/assets/images/vidalita.jpeg',
     autorObraPlastica: 'María de los A Martinez',
     title: 'Vidalita',
     description: 'Descripcion de Vidalita',
@@ -70,7 +70,7 @@ export const canciones = {
     slug: 'vidalita',
   },
   bagualadeldesierto: {
-    mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    mainImage: '/assets/images/baguala-del-desierto.jpeg',
     autorObraPlastica: 'María de los A Martinez',
     title: 'Baguala del desierto',
     description: 'Descripcion Baguala del desierto',
@@ -78,7 +78,7 @@ export const canciones = {
     slug: 'baguala-del-desierto',
   },
   malambopaldiferente: {
-    mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    mainImage: '/assets/images/malambo-pal-diferente.jpeg',
     autorObraPlastica: 'María de los A Martinez',
     title: 'Malambo pal diferente',
     description: 'Descripcion Malambo pal diferente',
@@ -86,7 +86,7 @@ export const canciones = {
     slug: 'malambo-pal-diferente',
   },
   riodelospajaros: {
-    mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    mainImage: '/assets/images/rio-de-los-pajaros.jpeg',
     autorObraPlastica: 'María de los A Martinez',
     title: 'Río de los Pájaros',
     description: 'Descripcion de Río de los Pájaros',
@@ -94,7 +94,7 @@ export const canciones = {
     slug: 'rio-de-los-pajaros',
   },
   guripescador: {
-    mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    mainImage: '/assets/images/guri-pescador.jpeg',
     autorObraPlastica: 'JC Barreto  ',
     title: 'Guri Pescador',
     description: 'Descripcion Guri Pescador',
@@ -102,7 +102,7 @@ export const canciones = {
     slug: 'guri-pescador',
   },
   milongadelmate: {
-    mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    mainImage: '/assets/images/milonga-del-mate.jpeg',
     autorObraPlastica: 'Irma Alvarez',
     title: 'Milonga del mate',
     description: 'Descripcion Milonga del mate',
@@ -110,7 +110,7 @@ export const canciones = {
     slug: 'milonga-del-mate',
   },
   graciasalavida: {
-    mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    mainImage: '/assets/images/gracias-a-la-vida.jpeg',
     autorObraPlastica: 'María de los A Martinez',
     title: 'Gracias a la vida',
     description: 'Descripcion de Gracias a la vida',

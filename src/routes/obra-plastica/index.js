@@ -47,7 +47,7 @@ export default class ObraPlastica extends Component {
           <LayoutGrid.Cell class={style.temaPresentVisual} style={{
 
             }} desktopCols="6" phoneCols="12" tabletCols="12">
-            {emojis.unicode('Autor: :heart:')} {this.state.data.autorObraPlastica}
+            {emojis.unicode('Autor :heart: :')} {this.state.data.autorObraPlastica}
           </LayoutGrid.Cell>
         </LayoutGrid.Inner>
       </LayoutGrid>

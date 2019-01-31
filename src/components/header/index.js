@@ -22,6 +22,7 @@ export default class Header extends Component {
       selectedRoute: this.props.selectedRoute
     };
     this.getSongsListMarkup = this.getSongsListMarkup.bind(this);
+    this.getObrasPlasticasListMarkup = this.getObrasPlasticasListMarkup.bind(this);
     this.getIsSelectedSong = this.getIsSelectedSong.bind(this);
     this.closeDrawer = this.closeDrawer.bind(this);
     this.linkTo = this.linkTo.bind(this);
@@ -75,6 +76,23 @@ export default class Header extends Component {
   goTomilongadelmate = this.linkTo('/cancion/milonga-del-mate');
   goTograciasalavida = this.linkTo('/cancion/gracias-a-la-vida');
 
+  //obras plasticas
+  goToObras = this.linkTo('/obras-plasticas');
+
+  goToObraestrellita = this.linkTo('/obra-plastica/estrellita');
+  goToObravalsecitoconmatesysol = this.linkTo('/obra-plastica/valsecito-con-mates-y-sol');
+  goToObravidaladelperdon = this.linkTo('/obra-plastica/vida-la-del-perdon');
+  goToObrazambitademadre = this.linkTo('/obra-plastica/zambita-de-madre');
+  goToObranegritamartina = this.linkTo('/obra-plastica/negrita-martina');
+  goToObravalsdeabril = this.linkTo('/obra-plastica/vals-de-abril');
+  goToObravidalita = this.linkTo('/obra-plastica/vidalita');
+  goToObrabagualadeldesierto = this.linkTo('/obra-plastica/baguala-del-desierto');
+  goToObramalambopaldiferente = this.linkTo('/obra-plastica/malambo-pal-diferente');
+  goToObrariodelospajaros = this.linkTo('/obra-plastica/rio-de-los-pajaros');
+  goToObraguripescador = this.linkTo('/obra-plastica/guri-pescador');
+  goToObramilongadelmate = this.linkTo('/obra-plastica/milonga-del-mate');
+  goToObragraciasalavida = this.linkTo('/obra-plastica/gracias-a-la-vida');
+
   getTitle = () => { //the semantic key names of the database entries of the songs must be a reduced version of the route without whitespaces nor dashes, just all the letters alltogether
     let routeText = this.state.selectedRoute
     let cancionId = /[^/]*$/g.exec(routeText)[0].replace(/-/g, '');
@@ -92,6 +110,10 @@ export default class Header extends Component {
     else if (routeText === "/canciones") {
     // else {
       titleResult = ' Canciones'
+    }
+    else if (routeText === "/obras-plasticas") {
+    // else {
+      titleResult = 'Obras Plasticas'
     }
     return titleResult
   }
@@ -151,6 +173,18 @@ export default class Header extends Component {
           {/* Lista de Canciones */
             this.getSongsListMarkup()
           }
+          <Drawer.DrawerItem style={{
+              cursor: 'pointer'
+            }} selected={props.selectedRoute === '/obras-plasticas'} onClick={this.goToObras}>
+            <h1 style={{
+                marginLeft: '1rem'
+              }}>Obras plasticas</h1>
+            <List.ItemGraphic>music_note</List.ItemGraphic>
+          </Drawer.DrawerItem>
+
+          {/* Lista de Canciones */
+            this.getObrasPlasticasListMarkup()
+          }
 
           <Drawer.DrawerItem style={{
               cursor: 'pointer'
@@ -177,6 +211,21 @@ export default class Header extends Component {
         cancionesList.push(<Drawer.DrawerItem style={{
             cursor: 'pointer'
           }} selected={this.props.selectedRoute === `/cancion/${this.state.cancionesData[cancion].slug}`} onClick={this[`goTo${cancion}`]}>
+          {this.state.cancionesData[cancion].title}
+        </Drawer.DrawerItem>)
+      }
+    }
+    // this.setState({cancionesMarkup: cancionesList});
+    return cancionesList;
+  }
+  getObrasPlasticasListMarkup() {
+    // debugger
+    let cancionesList = []
+    for (var cancion in this.state.cancionesData) {
+      if (this.state.cancionesData.hasOwnProperty(cancion)) {
+        cancionesList.push(<Drawer.DrawerItem style={{
+            cursor: 'pointer'
+          }} selected={this.props.selectedRoute === `/obra-plastica/${this.state.cancionesData[cancion].slug}`} onClick={this[`goToObra${cancion}`]}>
           {this.state.cancionesData[cancion].title}
         </Drawer.DrawerItem>)
       }
