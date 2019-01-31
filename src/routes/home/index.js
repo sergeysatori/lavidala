@@ -5,30 +5,19 @@ import 'preact-material-components/Button/style.css';
 import style from './style';
 import {route} from 'preact-router';
 import Icon from 'preact-material-components/Icon';
+import {getImageSize} from '../../utils/responsive'
 
 export default class Home extends Component {
   constructor(props) {
     super(props);
     this.handleResize = this.handleResize.bind(this)
-    this.getImageSize = this.getImageSize.bind(this)
+    // this.getImageSize = this.getImageSize.bind(this)
     this.state = {
-      imageSize: this.getImageSize(window.innerWidth, 1280, window.innerHeight, 960),
+      imageSize: getImageSize(window.innerWidth, 1280, window.innerHeight, 960),
       isMobile: isMobile()
     }
   }
-  getImageSize(winWidth, imgWidth, winHeight, imgHeight) {
-    let deviceFactor = 1;
-    if (winHeight > winWidth) {
-      deviceFactor = 1
-    }
-    winWidth = winWidth * deviceFactor
-    winHeight = winHeight * deviceFactor
-    let ratio = Math.min(winWidth / imgWidth, winHeight / imgHeight);
-    return {
-      height: imgHeight * ratio,
-      width: imgWidth * ratio
-    }
-  }
+
   componentWillMount() {
     this.handleResize();
   }
@@ -41,7 +30,7 @@ export default class Home extends Component {
   handleResize() {
 
     this.setState({
-      imageSize: this.getImageSize(document.body.clientWidth, 1280, window.innerHeight, 2000),
+      imageSize: getImageSize(document.body.clientWidth, 1280, window.innerHeight, 2000),
       isMobile: isMobile()
     })
   }
@@ -63,7 +52,7 @@ export default class Home extends Component {
         width: `${this.state.imageSize.width}px`,
         height: `${this.state.imageSize.height}px`,
         marginTop: `${this.state.isMobile ? '16vh' : '0vh'}`,
-        backgroundImage: 'url(/assets/images/crisalidas.png)',
+        backgroundImage: 'url(/assets/images/crisalidas.gif)',
         // backgroundSize: 'cover',
         backgroundSize: `${this.state.imageSize.width}px ${this.state.imageSize.height}px`,
         backgroundRepeat: 'no-repeat',
