@@ -11,9 +11,11 @@
 // 11 - Guri Pescador
 // 12 - Milonga del mate
 // 13 - Gracias a la Vida
+
 export const canciones = {
   estrellita: {
     mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    autorObraPlastica: 'María de los A Martinez',
     title: 'Estrellita',
     description: 'Descripcion de Estrellita',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
@@ -21,6 +23,7 @@ export const canciones = {
   },
   valsecitoconmatesysol: {
     mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    autorObraPlastica: 'María de los A Martinez',
     title: 'Valsecito Mate y Sol',
     description: 'Descripcion de Valsecito Mate y Sol',
     videoURL: 'https://www.youtube.com/embed/Vwu-xH3lfmI',
@@ -28,6 +31,7 @@ export const canciones = {
   },
   vidaladelperdon: {
     mainImage: '/assets/images/la-vida-la-del-perdon.jpg',
+    autorObraPlastica: 'María de los A Martinez',
     title: 'Vida-la del Perdón',
     description: 'Descripcion de La del perdon',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
@@ -35,6 +39,7 @@ export const canciones = {
   },
   zambitademadre: {
     mainImage: '/assets/images/la-vida-la-del-perdon.jpg',
+    autorObraPlastica: 'María de los A Martinez',
     title: 'Zambita de Madre',
     description: 'Descripcion de Zambita de Madre',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
@@ -42,6 +47,7 @@ export const canciones = {
   },
   negritamartina: {
     mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    autorObraPlastica: 'María de los A Martinez',
     title: 'Negrita Martina',
     description: 'Descripcion de Negrita Martina',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
@@ -49,6 +55,7 @@ export const canciones = {
   },
   valsdeabril: {
     mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    autorObraPlastica: 'María de los A Martinez',
     title: 'Vals de Abril',
     description: 'Descripcion de Vals de Abril',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
@@ -56,6 +63,7 @@ export const canciones = {
   },
   vidalita: {
     mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    autorObraPlastica: 'María de los A Martinez',
     title: 'Vidalita',
     description: 'Descripcion de Vidalita',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
@@ -63,6 +71,7 @@ export const canciones = {
   },
   bagualadeldesierto: {
     mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    autorObraPlastica: 'María de los A Martinez',
     title: 'Baguala del desierto',
     description: 'Descripcion Baguala del desierto',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
@@ -70,6 +79,7 @@ export const canciones = {
   },
   malambopaldiferente: {
     mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    autorObraPlastica: 'María de los A Martinez',
     title: 'Malambo pal diferente',
     description: 'Descripcion Malambo pal diferente',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
@@ -77,6 +87,7 @@ export const canciones = {
   },
   riodelospajaros: {
     mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    autorObraPlastica: 'María de los A Martinez',
     title: 'Río de los Pájaros',
     description: 'Descripcion de Río de los Pájaros',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
@@ -84,6 +95,7 @@ export const canciones = {
   },
   guripescador: {
     mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    autorObraPlastica: 'JC Barreto  ',
     title: 'Guri Pescador',
     description: 'Descripcion Guri Pescador',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
@@ -91,6 +103,7 @@ export const canciones = {
   },
   milongadelmate: {
     mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    autorObraPlastica: 'Irma Alvarez',
     title: 'Milonga del mate',
     description: 'Descripcion Milonga del mate',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
@@ -98,6 +111,7 @@ export const canciones = {
   },
   graciasalavida: {
     mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    autorObraPlastica: 'María de los A Martinez',
     title: 'Gracias a la vida',
     description: 'Descripcion de Gracias a la vida',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',

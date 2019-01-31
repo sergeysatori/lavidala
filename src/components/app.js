@@ -10,6 +10,7 @@ import Home from 'async!../routes/home';
 import Profile from 'async!../routes/profile';
 import Cancion from 'async!../routes/cancion';
 import Canciones from 'async!../routes/canciones';
+import MaterialTEA from 'async!../routes/material-tea';
 
 export default class App extends Component {
 	// constructor(props) {
@@ -21,6 +22,7 @@ export default class App extends Component {
 	 *	@param {string} event.url	The newly routed URL
 	 */
 	handleRoute = e => {
+		
 		this.setState({
 			currentUrl: e.url
 		});
@@ -36,6 +38,7 @@ export default class App extends Component {
 					<Profile path="/autor/:user" />
 					<Cancion path="/cancion/:id" />
 					<Canciones path="/canciones" />
+					<MaterialTEA path="/material-tea" />
           <NotFound default />
 				</Router>
 			</div>
