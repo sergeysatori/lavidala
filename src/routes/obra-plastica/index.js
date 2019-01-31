@@ -42,9 +42,11 @@ export default class ObraPlastica extends Component {
             {this.state.data}
           </LayoutGrid.Cell>
           <LayoutGrid.Cell class={style.temaPresentVisual} style={{
-              backgroundImage: `url(${this.state.data.mainImage})`,
-              minHeight: '90vh'
-            }} desktopCols="6" phoneCols="12" tabletCols="12"></LayoutGrid.Cell>
+              // backgroundImage: `url(${this.state.data.mainImage})`,
+              // minHeight: '90vh'
+            }} desktopCols="6" phoneCols="12" tabletCols="12">
+          <img src={this.state.data.mainImage} style={{height:'100%',width:'100%'}}/>
+          </LayoutGrid.Cell>
           <LayoutGrid.Cell class={style.temaPresentVisual} style={{
 
             }} desktopCols="6" phoneCols="12" tabletCols="12">
