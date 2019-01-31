@@ -96,28 +96,28 @@ export default class Home extends Component {
               height: `${this.state.isMobile ? '100%' : '122vh'}`
             }}
             ></div>
-          <div href="/obras-plasticas" title="Obras plásticas" class={`${style.portadaLink}`}
+          <div onClick={()=> route('/obras-plasticas')} href="/obras-plasticas" title="Obras plásticas" class={`${style.portadaLink}`}
             style={{
               left: '24%',
               top: `${this.state.isMobile ? '0%' : '16%'}`,
               width: '14.06%',
               height: `${this.state.isMobile ? '100%' : '122vh'}`
             }} ></div>
-          <div href="/fotos-y-videos" title="Fotos y vídeos" class={`${style.portadaLink}`}
+          <div onClick={()=> route('/fotos-y-videos')} href="/fotos-y-videos" title="Fotos y vídeos" class={`${style.portadaLink}`}
             style={{
               left: '42%',
               top: `${this.state.isMobile ? '0%' : '16%'}`,
               width: '14.06%',
               height: `${this.state.isMobile ? '100%' : '122vh'}`
             }} ></div>
-          <div href="/material-tea" title="Material TEA" class={`${style.portadaLink}`}
+          <div onClick={()=> route('/material-tea')} href="/material-tea" title="Material TEA" class={`${style.portadaLink}`}
             style={{
               left: '60%',
               top: `${this.state.isMobile ? '0%' : '16%'}`,
               width: '14.06%',
               height: `${this.state.isMobile ? '100%' : '122vh'}`
             }}  ></div>
-          <div href="/ficha-tecnica" title="Ficha técnica" class={`${style.portadaLink}`}
+          <div onClick={()=> route('/ficha-tecnica')} href="/ficha-tecnica" title="Ficha técnica" class={`${style.portadaLink}`}
             style={{
               left: '80%',
               top: `${this.state.isMobile ? '0%' : '16%'}`,

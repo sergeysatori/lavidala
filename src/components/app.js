@@ -41,8 +41,8 @@ export default class App extends Component {
 					<Cancion path="/cancion/:id" />
 					<Canciones path="/canciones" />
 					<ObraPlastica path="/obra-plastica/:id" />
-					<ObrasPlasticas path="/obras-plasticas" />
-					<MaterialTEA path="/material-tea" />
+					<ObrasPlasticas path="/obras-plasticas/" />
+					<MaterialTEA path="/material-tea/" />
           <NotFound default />
 				</Router>
 			</div>

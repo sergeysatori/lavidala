@@ -37,12 +37,12 @@ export default class ObraPlastica extends Component {
 
       <LayoutGrid>
         <LayoutGrid.Inner>
-          <LayoutGrid.Cell class={style.temaPresentVisual} style={{height: '100%'}} desktopCols="6" phoneCols="12" tabletCols="12">
+          <LayoutGrid.Cell cols={12} class={{color:'#fff'}} style={{height: '100%'}} desktopCols="6" phoneCols="12" tabletCols="12">
             {this.state.data}
           </LayoutGrid.Cell>
           <LayoutGrid.Cell class={style.temaPresentVisual} style={{
               backgroundImage: `url(${this.state.data.mainImage})`
-            }} desktopCols="6" phoneCols="12" tabletCols="12">{this.props.id}</LayoutGrid.Cell>
+            }} desktopCols="6" phoneCols="12" tabletCols="12"></LayoutGrid.Cell>
         </LayoutGrid.Inner>
       </LayoutGrid>
 
