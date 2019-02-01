@@ -7,6 +7,9 @@
 	/* background-image: url(/assets/images/la-vida-la-bg-intro.JPG); */
 	/* background-color: #f9e68c; */
 }
+.listaCancionesCell:hover {
+	background-color: hsla(360, 100%, 100%, 0.3);
+}
 .listaCancionesCell {
 	/* min-height: 10vh; */
 	cursor: pointer;

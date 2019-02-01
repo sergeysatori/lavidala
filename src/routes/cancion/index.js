@@ -36,20 +36,24 @@ export default class Cancion extends Component {
   //     backgroundImage: `url(${this.state.data.mainImage})`
   //   }} desktopCols="6" phoneCols="12" tabletCols="12">{this.props.id}</LayoutGrid.Cell>
   render() {
-    return (<div class={`${style.home} page`}>
+    return (<div class={`${style.home} page`}  style={{
+      backgroundImage: `url(${this.state.data.mainImage})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      // width: '100vw',
+      // height: '100vh',
+    }}>
       <div style={{
-          backgroundImage: `url(${this.state.data.mainImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundColor: 'hsla(356, 11%, 7%, 0.8)'
         }}>
-        <LayoutGrid style={{
-            backgroundColor: 'hsla(356, 26%, 13%, 0.8)'
-          }}>
+        <LayoutGrid >
           <LayoutGrid.Inner>
             <LayoutGrid.Cell class={style.temaPresentVisual} style={{
                 height: '100%'
               }} desktopCols="6" phoneCols="12" tabletCols="12">
-              <iframe width="100%" height="50%" src={`${this.state.data.videoURL}`} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+              <iframe width="100%" height="50%" src={`${this.state.data.videoURL}`} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen">
+Cargando...
+              </iframe>
             </LayoutGrid.Cell>
           </LayoutGrid.Inner>
         </LayoutGrid>

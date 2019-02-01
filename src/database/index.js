@@ -46,7 +46,7 @@ export const canciones = {
     title: 'Zambita de Madre',
     description: 'Descripcion de Zambita de Madre',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
-    slug: 'sambita-de-madre',
+    slug: 'zambita-de-madre',
     letra: ''
   },
   negritamartina: {
@@ -96,7 +96,7 @@ export const canciones = {
   },
   riodelospajaros: {
     mainImage: '/assets/images/rio-de-los-pajaros.jpeg',
-    autorObraPlastica: 'Marcelo alpuy',
+    autorObraPlastica: 'Marcelo Alpuy',
     title: 'Río de los Pájaros',
     description: 'Descripcion de Río de los Pájaros',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
