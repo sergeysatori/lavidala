@@ -66,6 +66,11 @@ html, body {
 #app .page {
   padding-top: 64px;
 }
+@media screen and (max-width: 900px) {
+	#app .page {
+	  padding-top: 56px;
+	}
+}
 body {
 	background-image: url(/assets/images/clarisa-bg.jpeg);
 	/* background-size: cover; */
