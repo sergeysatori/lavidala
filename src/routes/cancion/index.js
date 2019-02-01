@@ -46,14 +46,26 @@ export default class Cancion extends Component {
       <div style={{
           backgroundColor: 'hsla(356, 11%, 7%, 0.8)'
         }}>
-        <LayoutGrid >
+        <LayoutGrid style={{minHeight: '100vh'}}>
           <LayoutGrid.Inner>
             <LayoutGrid.Cell class={style.temaPresentVisual} style={{
-                height: '100%'
+                height: '100%',
+                minHeight: '50vh'
               }} desktopCols="6" phoneCols="12" tabletCols="12">
-              <iframe width="100%" height="50%" src={`${this.state.data.videoURL}`} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen">
-Cargando...
+              <iframe width="100%" height="100%" src={`${this.state.data.videoURL}`} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen">
+                Cargando...
               </iframe>
+            </LayoutGrid.Cell>
+            <LayoutGrid.Cell style={{
+                // height: '100%',
+                color: '#fff',
+              	textAlign: 'center',
+              	backgroundRepeat: 'no-repeat',
+              	backgroundPosition: 'center',
+              	backgroundColor: 'transparent',
+              	margin: '0 auto auto auto',
+              }} desktopCols="6" phoneCols="12" tabletCols="12">
+            <text>{this.state.data.letra}</text>
             </LayoutGrid.Cell>
           </LayoutGrid.Inner>
         </LayoutGrid>

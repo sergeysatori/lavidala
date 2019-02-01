@@ -92,7 +92,43 @@ export const canciones = {
     description: 'Descripcion Malambo pal diferente',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'malambo-pal-diferente',
-    letra: ''
+    letra: `MALAMBO PAL DIFERENTE  (letra y música Clarisa Prince)
+De tanto verle bajar la frente
+Le hice un malambo pal diferente
+
+Dónde está tu voz?
+Dónde la escondés?
+No ves que hace falta tu diferente forma de ver?
+Que si vos mostrás
+tu verdad al sol
+Seguro bailamo el mismo malambo en el corazón
+
+MALAMBO PAL CORAZÓN
+CON MIL GOLPES DIEFERENTES
+SE EXPANDAN CON IGUALDAD
+LOS AMORES PARA SIEMPRE
+
+MALAMBO PAL CORAZÓN
+CON MIL GOLPES DIFERENTES
+QUE SE EXPANDAN EN EL AIRE
+LOS AMORES PARA SIEMPRE.
+
+Agua tierra y sol
+pa empezar a andar
+Infinitas formas de hacer visible la eternidad
+Ser original
+es tan natural
+La simpleza antigua de ser igualmente inmensidad
+
+MALAMBO PAL CORAZÓN
+CON MIL GOLPES DIEFERENTES
+SE EXPANDAN CON IGUALDAD
+LOS AMORES PARA SIEMPRE
+
+MALAMBO PAL CORAZÓN
+CON MIL GOLPES DIFERENTES
+QUE SE EXPANDAN EN EL AIRE
+LOS AMORES PARA SIEMPRE.`
   },
   riodelospajaros: {
     mainImage: '/assets/images/rio-de-los-pajaros.jpeg',
