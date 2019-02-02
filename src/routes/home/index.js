@@ -12,20 +12,12 @@ export default class Home extends Component {
     super(props);
     this.handleResize = this.handleResize.bind(this)
     // this.getImageSize = this.getImageSize.bind(this)
-    if (typeof window !== "undefined") {
-      this.state = {
-        imageSize: getImageSize(window.innerWidth, 1280, window.innerHeight, 960),
-        isMobile: isMobile()
-      }
-    } else {
-      this.state = {
-        imageSize: {
-          width: '100%',
-          height: '100%'
-        },
-        isMobile: false
-      }
+
+    this.state = {
+      imageSize: getImageSize(window.innerWidth, 1280, window.innerHeight, 960),
+      isMobile: isMobile()
     }
+
   }
 
   componentWillMount() {
@@ -38,12 +30,12 @@ export default class Home extends Component {
     window.removeEventListener("resize", this.handleResize);
   }
   handleResize() {
-    if (typeof window !== "undefined") {
-      this.setState({
-        imageSize: getImageSize(document.body.clientWidth, 1280, window.innerHeight, 2000),
-        isMobile: isMobile()
-      })
-    }
+
+    this.setState({
+      imageSize: getImageSize(document.body.clientWidth, 1280, window.innerHeight, 2000),
+      isMobile: isMobile()
+    })
+
   }
 
   // <div class={`${style.home} page`}>
@@ -147,12 +139,12 @@ export default class Home extends Component {
 }
 function isMobile() {
   // debugger
-  if (typeof window !== "undefined") {
-    if (window.innerWidth < 630) {
-      return true
-    }
-    return false
+
+  if (window.innerWidth < 630) {
+    return true
   }
+  return false
+
 }
 // <Card style={{color:'hsl(230, 90%, 58%)', width: `${window.innerWidth > 679 ? this.state.imageSize.width+'px' : '90vw'}`, margin: 'auto', maxWidth: '90vh'}}>
 //   <h1>Sitio en construcción</h1>
