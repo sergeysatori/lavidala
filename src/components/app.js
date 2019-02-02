@@ -5,7 +5,7 @@ import Header from './header';
 // import Home from '../routes/home';
 // import Profile from '../routes/profile';
 import NotFound from '../routes/404';
-// import createHashHistory from 'history/createHashHistory';
+import createHashHistory from 'history/createHashHistory';
 import Home from 'async!../routes/home';
 import Profile from 'async!../routes/profile';
 import Cancion from 'async!../routes/cancion';
