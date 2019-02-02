@@ -3,51 +3,11 @@
   "title": "La Vida-la"
 },
 {
-  "url": "/cancion/estrellita"
+  "url": "/canciones/",
+  "title": "Canciones"
 },
 {
-  "url": "/cancion/valsecito-con-mates-y-sol"
-},
-{
-  "url": "/cancion/vida-la-del-perdon"
-},
-{
-  "url": "/cancion/zambita-de-madre"
-},
-{
-  "url": "/cancion/negrita-martina"
-},
-{
-  "url": "/cancion/vals-de-abril"
-},
-{
-  "url": "/cancion/vidalita"
-},
-{
-  "url": "/cancion/baguala-del-desierto"
-},
-{
-  "url": "/cancion/malambo-pal-diferente"
-},
-{
-  "url": "/cancion/rio-de-los-pajaros"
-},
-{
-  "url": "/cancion/guri-pescador"
-},
-{
-  "url": "/cancion/milonga-del-mate"
-},
-{
-  "url": "/cancion/gracias-a-la-vida"
-},
-{
-  "url": "/canciones/"
-},
-{
-  "url": "/autor/:user"
-},
-{
-  "url": "/autor/"
+  "url": "/obras-plasticas/",
+  "title": "Obras Plásticas"
 }
 ]

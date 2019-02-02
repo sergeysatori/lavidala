@@ -3323,12 +3323,12 @@ var TopAppBar_style_default = /*#__PURE__*/__webpack_require__.n(TopAppBar_style
 var canciones = {
   estrellita: {
     mainImage: '/assets/images/estrellita.jpeg',
-    autorObraPlastica: 'María de los A Martinez',
+    autorObraPlastica: 'Michel Prince',
     title: 'Estrellita',
     description: 'Descripcion de Estrellita',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'estrellita',
-    letra: 'ESTRELLITA (letra y m\xFAsica Clarisa Prince)\n\n(tango/milonga para un ni\xF1o de 7 a\xF1os, con TEA, que una noche a la orilla del mar pidi\xF3 valent\xEDa a un estrella)\n\n\r\nDeslumbrados peces rojos\n\nnadaron a lo profundo\n\nde mi llano pensamiento\n\ninvocando al bandone\xF3n.\n\n\r\ndemoledor y claro coraz\xF3n de siete eneros\n\nmirando el cielo, creyendo que tal vez,\n\ncon punter\xEDa alz\xF3 su voz sobre las olas\n\ncomo una oda pidi\xF3 un deseo\u2026\n\n\r\nestrellita,\n\nestrellita,\n\nsi me o\xEDs\n\n\r\nDAME EL BESO DE TU LUZ PARA ALIVIAR\n\nLOS ABISMOS QUE EN LA NOCHE DEBO ANDAR\n\n\xBFNO VES\n\nDESDE ALL\xC1 ARRIBA\n\nQUE SE EST\xC1 APAGANDO MI FE?\n\n\r\nCon arena en las palabras\n\nsus mareas aprendices\n\nintentaban mantenerme\n\na orillas de su dolor\n\n\r\nDesparramando sin piedad sus siete inviernos\n\nsobre el cuaderno de tempestad azul\n\ncon arcoiris de cristal construy\xF3 un puente\n\npara los duendes y me invit\xF3 a cantar:\n\n\r\nestrellita,\n\nestrellita,\n\nsi me o\xEDs\n\n\r\nDAME EL BESO DE TU LUZ PARA ALIVIAR\n\nLOS ABISMOS QUE EN LA NOCHE DEBO ANDAR\n\n\xBFNO VES\n\nDESDE ALL\xC1 ARRIBA\n\nQUE SE EST\xC1 APAGANDO MI FE?\n\n'
+    letra: '<h2>ESTRELLITA </h2>\n  <i><small>letra y m\xFAsica Clarisa Prince</small></i>\n  (tango/milonga para un ni\xF1o de 7 a\xF1os, con TEA, que una noche a la orilla del mar pidi\xF3 valent\xEDa a un estrella)<br/>\n\nDeslumbrados peces rojos<br/>\nnadaron a lo profundo<br/>\nde mi llano pensamiento<br/>\ninvocando al bandone\xF3n.<br/>\n\ndemoledor y claro coraz\xF3n de siete eneros<br/>\nmirando el cielo, creyendo que tal vez,<br/>\ncon punter\xEDa alz\xF3 su voz sobre las olas<br/>\ncomo una oda pidi\xF3 un deseo\u2026<br/>\n\nestrellita,<br/>\nestrellita,<br/>\nsi me o\xEDs<br/>\n\nDAME EL BESO DE TU LUZ PARA ALIVIAR<br/>\nLOS ABISMOS QUE EN LA NOCHE DEBO ANDAR<br/>\n\xBFNO VES<br/>\nDESDE ALL\xC1 ARRIBA<br/>\nQUE SE EST\xC1 APAGANDO MI FE?<br/>\n\nCon arena en las palabras<br/>\nsus mareas aprendices<br/>\nintentaban mantenerme<br/>\na orillas de su dolor<br/>\n\nDesparramando sin piedad sus siete inviernos<br/>\nsobre el cuaderno de tempestad azul<br/>\ncon arcoiris de cristal construy\xF3 un puente<br/>\npara los duendes y me invit\xF3 a cantar:<br/>\n\nestrellita,<br/>\nestrellita,<br/>\nsi me o\xEDs<br/>\n\nDAME EL BESO DE TU LUZ PARA ALIVIAR<br/>\nLOS ABISMOS QUE EN LA NOCHE DEBO ANDAR<br/>\n\xBFNO VES<br/>\nDESDE ALL\xC1 ARRIBA<br/>\nQUE SE EST\xC1 APAGANDO MI FE?<br/>\n'
   },
   valsecitoconmatesysol: {
     mainImage: '/assets/images/valcesito-con-mates-y-sol.jpeg',
@@ -3337,7 +3337,7 @@ var canciones = {
     description: 'Descripcion de Valsecito Mate y Sol',
     videoURL: 'https://www.youtube.com/embed/Vwu-xH3lfmI',
     slug: 'valsecito-con-mates-y-sol',
-    letra: 'VALSECITO CON MATES Y SOL  (letra y m\xFAsica Clarisa Prince)\n\n\nTe trajo un oto\xF1o sombr\xEDo de amor\ny sue\xF1os te\xF1idos de adioses,\nla luna en tu boca para embellecer\nla noche, naciente, la noche\n\ny el dolor de saber\nque tampoco ser\xE1 la verdad,\nla canci\xF3n del amor\nes m\xE1s simple, mi vida, al final\n\nMatecitos y besos, ma\xF1anas de sol,\nlas penas desnudas, tu voz y mi voz,\nsaber que andaremos distintos caminos\xA0\ny nunca seremos tu y yo.\n\nTan verde esmeralda, esperanza, me di\xF3\nmirarme en tus ojos, tus ojos,\ntus manos abiertas jardines en flor,\njazmines, azahares y rosas\n\ny el dolor de saber\nque tampoco ser\xE1 la verdad,\nla canci\xF3n del amor\nes m\xE1s simple, mi vida, al final\n\nMatecitos y besos, ma\xF1anas de sol,\nlas penas desnudas, tu voz y mi voz,\nsaber que andaremos distintos caminos\xA0\ny nunca seremos tu y yo.\n'
+    letra: '<h2>VALSECITO CON MATES Y SOL</h2>\n  <i><small>letra y m\xFAsica Clarisa Prince</small></i><br/>\n<br/>\nTe trajo un oto\xF1o sombr\xEDo de amor<br/>\ny sue\xF1os te\xF1idos de adioses,<br/>\nla luna en tu boca para embellecer<br/>\nla noche, naciente, la noche<br/>\n<br/>\ny el dolor de saber<br/>\nque tampoco ser\xE1 la verdad,<br/>\nla canci\xF3n del amor<br/>\nes m\xE1s simple, mi vida, al final<br/>\n<br/>\nMatecitos y besos, ma\xF1anas de sol,<br/>\nlas penas desnudas, tu voz y mi voz,<br/>\nsaber que andaremos distintos caminos\xA0<br/>\ny nunca seremos tu y yo.<br/>\n<br/>\nTan verde esmeralda, esperanza, me di\xF3<br/>\nmirarme en tus ojos, tus ojos,<br/>\ntus manos abiertas jardines en flor,<br/>\njazmines, azahares y rosas<br/>\n<br/>\ny el dolor de saber<br/>\nque tampoco ser\xE1 la verdad,<br/>\nla canci\xF3n del amor<br/>\nes m\xE1s simple, mi vida, al final<br/>\n<br/>\nMatecitos y besos, ma\xF1anas de sol,<br/>\nlas penas desnudas, tu voz y mi voz,<br/>\nsaber que andaremos distintos caminos\xA0<br/>\ny nunca seremos tu y yo.<br/>\n'
   },
   vidaladelperdon: {
     mainImage: '/assets/images/vida-la-del-perdon.jpeg',
@@ -3346,7 +3346,7 @@ var canciones = {
     description: 'Descripcion de La del perdon',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'vida-la-del-perdon',
-    letra: 'VIDA- LA DEL PERD\xD3N  (letra y m\xFAsica: Clarisa Prince)\n\nDonde nace la poes\xEDa y se encienden los colores\nVoy a buscar la manera mejor\nde perdonar mis errores\n\nAY!  VIDA-  LA DEL PERD\xD3N\nLA TIERRA DENTRO DEL PECHO\nAGRADECE TU AGUACERO\nCON AROMAS DE ALGO NUEVO\nAY!  VIDA- LA DEL PERD\xD3N\nYA NADA HABR\xC1 SIDO EN VANO\nSI SE TRANSFORMA EN CANCI\xD3N DE SANAR\nEL CAMINO CAMINADO\n\nEl dolor que me causabas\nY que anidaba en mi pecho\nsali\xF3  a volar sobre el sol\ny ha florecido en el suelo\n\nAY!  VIDA-  LA DEL PERD\xD3N\nLA TIERRA DENTRO DEL PECHO\nAGRADECE TU AGUACERO\nCON AROMAS DE ALGO NUEVO\nAY!  VIDA- LA DEL PERD\xD3N\nYA NADA HABR\xC1 SIDO EN VANO\nSI SE TRANSFORMA EN CANCI\xD3N DE SANAR\nEL CAMINO CAMINADO\n'
+    letra: '<h2>VIDA- LA DEL PERD\xD3N</h2>\n  <i><small>letra y m\xFAsica: Clarisa Prince</small></i><br/>\n<br/>\nDonde nace la poes\xEDa y se encienden los colores<br/>\nVoy a buscar la manera mejor<br/>\nde perdonar mis errores<br/>\n<br/>\nAY!  VIDA-  LA DEL PERD\xD3N<br/>\nLA TIERRA DENTRO DEL PECHO<br/>\nAGRADECE TU AGUACERO<br/>\nCON AROMAS DE ALGO NUEVO<br/>\nAY!  VIDA- LA DEL PERD\xD3N<br/>\nYA NADA HABR\xC1 SIDO EN VANO<br/>\nSI SE TRANSFORMA EN CANCI\xD3N DE SANAR<br/>\nEL CAMINO CAMINADO<br/>\n<br/>\nEl dolor que me causabas<br/>\nY que anidaba en mi pecho<br/>\nsali\xF3  a volar sobre el sol<br/>\ny ha florecido en el suelo<br/>\n<br/>\nAY!  VIDA-  LA DEL PERD\xD3N<br/>\nLA TIERRA DENTRO DEL PECHO<br/>\nAGRADECE TU AGUACERO<br/>\nCON AROMAS DE ALGO NUEVO<br/>\nAY!  VIDA- LA DEL PERD\xD3N<br/>\nYA NADA HABR\xC1 SIDO EN VANO<br/>\nSI SE TRANSFORMA EN CANCI\xD3N DE SANAR<br/>\nEL CAMINO CAMINADO<br/>\n'
   },
   zambitademadre: {
     mainImage: '/assets/images/zambita-de-madre.jpeg',
@@ -3355,7 +3355,7 @@ var canciones = {
     description: 'Descripcion de Zambita de Madre',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'zambita-de-madre',
-    letra: 'ZAMBITA DE MADRE (letra y m\xFAsica Clarisa Prince)\n\nUn latido tras otro cambi\xF3\nPor entero el universo\nCon la avidez del amor creador\nSe llevo todo el invierno\nCon la avidez del amor creador\nSe llevo todo el invierno\n\nY floreci\xF3 para siempre un jard\xEDn\nDe sus almohadas y d\xEDas\nNo hay aspereza que pueda opacar\nEsta esperanza hecha vida\nNo hay aspereza que pueda opacar\nEsta esperanza hecha vida\n\nZAMBITA DE MADRE,\nLOS SOLES LLENOS DE MIEL\nQUE NO HAY TRISTEZA QUE PUEDA\nCON TU RAZ\xD3N DE QUERER\nQUE ESTA VIDITA HA LOGRADO\nEL FUEGO ETERNO ENCENDER\nQUE ESTA VIDITA HA LOGRADO\nEL FUEGO ETERNO ENCENDER\n\nUn pasito tras otro cambi\xF3\nEl juego de la balanza\nCon un tesoro de besos al sol\nBail\xF3 encantada esta danza\n\nY floreci\xF3 para siempre un jard\xEDn\nDe sus almohadas y d\xEDas\nNo hay aspereza que pueda opacar\nEsta esperanza hecha vida\nNo hay aspereza que pueda opacar\nEsta esperanza hecha vida\n\nZAMBITA DE MADRE,\nLOS SOLES LLENOS DE MIEL\nQUE NO HAY TRISTEZA QUE PUEDA\nCON TU RAZ\xD3N DE QUERER\nQUE ESTA VIDITA HA LOGRADO\nEL FUEGO ETERNO ENCENDER\nQUE ESTA VIDITA HA LOGRADO\nEL FUEGO ETERNO ENCENDER\n'
+    letra: '<h2>ZAMBITA DE MADRE</h2>\n  <i><small>letra y m\xFAsica Clarisa Prince</small></i><br/>\n<br/>\nUn latido tras otro cambi\xF3<br/>\nPor entero el universo<br/>\nCon la avidez del amor creador<br/>\nSe llevo todo el invierno<br/>\nCon la avidez del amor creador<br/>\nSe llevo todo el invierno<br/>\n<br/>\nY floreci\xF3 para siempre un jard\xEDn<br/>\nDe sus almohadas y d\xEDas<br/>\nNo hay aspereza que pueda opacar<br/>\nEsta esperanza hecha vida<br/>\nNo hay aspereza que pueda opacar<br/>\nEsta esperanza hecha vida<br/>\n<br/>\nZAMBITA DE MADRE,<br/>\nLOS SOLES LLENOS DE MIEL<br/>\nQUE NO HAY TRISTEZA QUE PUEDA<br/>\nCON TU RAZ\xD3N DE QUERER<br/>\nQUE ESTA VIDITA HA LOGRADO<br/>\nEL FUEGO ETERNO ENCENDER<br/>\nQUE ESTA VIDITA HA LOGRADO<br/>\nEL FUEGO ETERNO ENCENDER<br/>\n<br/>\nUn pasito tras otro cambi\xF3<br/>\nEl juego de la balanza<br/>\nCon un tesoro de besos al sol<br/>\nBail\xF3 encantada esta danza<br/>\n<br/>\nY floreci\xF3 para siempre un jard\xEDn<br/>\nDe sus almohadas y d\xEDas<br/>\nNo hay aspereza que pueda opacar<br/>\nEsta esperanza hecha vida<br/>\nNo hay aspereza que pueda opacar<br/>\nEsta esperanza hecha vida<br/>\n<br/>\nZAMBITA DE MADRE,<br/>\nLOS SOLES LLENOS DE MIEL<br/>\nQUE NO HAY TRISTEZA QUE PUEDA<br/>\nCON TU RAZ\xD3N DE QUERER<br/>\nQUE ESTA VIDITA HA LOGRADO<br/>\nEL FUEGO ETERNO ENCENDER<br/>\nQUE ESTA VIDITA HA LOGRADO<br/>\nEL FUEGO ETERNO ENCENDER<br/>\n'
   },
   negritamartina: {
     mainImage: '/assets/images/negrita-martina.jpeg',
@@ -3364,7 +3364,7 @@ var canciones = {
     description: 'Descripcion de Negrita Martina',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'negrita-martina',
-    letra: 'NEGRITA MARTINA   (letra y m\xFAsica Daniel Viglietti)\n\n\nEscuche, negrita Martina,\xA0\nla copla chiquita que el rey va a dejar\xA0\ny ponga motita en la almohada,\xA0\nque ust\xE9 est\xE1 cansada de tanto esperar.\xA0\u2028\u2028Su madre est\xE1 en el arroyo\xA0\nlavando la ropa de amita Leonor.\xA0\nSu padre ha vuelto cansado:\xA0\u2028no vendi\xF3 un plumero, le trajo una flor.\xA0\u2028\nMartina, Melchor ya lo sabe:\n"T\xFA no comes rosas; t\xFA precisas pan".\xA0\u2028Rey mago de los ni\xF1os pobres\nno te trajo harina, tan s\xF3lo canci\xF3n.\xA0\u2028\nAbrace, negrita Martina\nla copla chiquita que el rey le dej\xF3\xA0\ny ponga motita en la almohada,\xA0\nque ust\xE9 est\xE1 cansada de tanto esperar\n'
+    letra: '<h2>NEGRITA MARTINA</h2>\n  <i><small>letra y m\xFAsica Daniel Viglietti</small></i><br/>\n<br/>\nEscuche, negrita Martina,\xA0<br/>\nla copla chiquita que el rey va a dejar\xA0<br/>\ny ponga motita en la almohada,\xA0<br/>\nque ust\xE9 est\xE1 cansada de tanto esperar.\xA0\u2028\u2028Su madre est\xE1 en el arroyo\xA0<br/>\nlavando la ropa de amita Leonor.\xA0<br/>\nSu padre ha vuelto cansado:\xA0\u2028no vendi\xF3 un plumero, le trajo una flor.\xA0\u2028<br/>\nMartina, Melchor ya lo sabe:<br/>\n"T\xFA no comes rosas; t\xFA precisas pan".\xA0\u2028Rey mago de los ni\xF1os pobres<br/>\nno te trajo harina, tan s\xF3lo canci\xF3n.\xA0\u2028<br/>\nAbrace, negrita Martina<br/>\nla copla chiquita que el rey le dej\xF3\xA0<br/>\ny ponga motita en la almohada,\xA0<br/>\nque ust\xE9 est\xE1 cansada de tanto esperar<br/>\n'
   },
   valsdeabril: {
     mainImage: '/assets/images/vals-de-abril.jpeg',
@@ -3373,25 +3373,25 @@ var canciones = {
     description: 'Descripcion de Vals de Abril',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'vals-de-abril',
-    letra: 'VALS DE ABRIL (letra y m\xFAsica Lucio Muniz)\n\nVuelvo a palpitar, viendo su perfil y es m\xEDo el momento\nEn que natural la luna de abril crece con el viento\nHoy me ha vuelto a herir s\xF3lo con brillar y acordes me arranca\nQu\xE9 querr\xE1 decir me quiere alcanzar con su sangre blanca.\nS\xE9 que antes me vi\xF3 pero me olvid\xF3 y fue en soledades\nQue me sumergi\xF3 luna que hoy volvi\xF3 forma que me invades\nVuelves a rodar sobre el caser\xF3n donde flota un fr\xEDo\nQue tibieza fue y que guardar\xE9 en un rinc\xF3n m\xEDo\n\nRara mariposa, volando despacio\nAnda silenciosa sola en el espacio\nLa luz de su vuelo  que pronto se aleja\nMe oscurece el cielo ya.\n\nLa mir\xE9 pasar y a veces pens\xE9 que algo me dec\xEDa\nDe su mudo andar silencioso pi\xE9 su zona fue m\xEDa\nTrepado al pretil aromando a miel las enredaderas\nQu\xE9 claro fue abril dejando su piel sobre las veredas\nJunto a su luz voy y al volverla a ver regreso a los a\xF1os\nDonde intacto estoy ni\xF1o sin saber estos desenga\xF1os\nQuiero aprisionar la luz del balc\xF3n saber una a una\nLas notas que est\xE1n en esa canci\xF3n muda de la luna.\n'
+    letra: '<h2>VALS DE ABRIL</h2>\n    <i><small>letra y m\xFAsica Lucio Muniz</small></i>\n<br/><br/>\nVuelvo a palpitar, viendo su perfil y es m\xEDo el momento<br/>\nEn que natural la luna de abril crece con el viento<br/>\nHoy me ha vuelto a herir s\xF3lo con brillar y acordes me arranca<br/>\nQu\xE9 querr\xE1 decir me quiere alcanzar con su sangre blanca.<br/>\nS\xE9 que antes me vi\xF3 pero me olvid\xF3 y fue en soledades<br/>\nQue me sumergi\xF3 luna que hoy volvi\xF3 forma que me invades<br/>\nVuelves a rodar sobre el caser\xF3n donde flota un fr\xEDo<br/>\nQue tibieza fue y que guardar\xE9 en un rinc\xF3n m\xEDo<br/>\n<br/>\nRara mariposa, volando despacio<br/>\nAnda silenciosa sola en el espacio<br/>\nLa luz de su vuelo  que pronto se aleja<br/>\nMe oscurece el cielo ya.<br/>\n<br/>\nLa mir\xE9 pasar y a veces pens\xE9 que algo me dec\xEDa<br/>\nDe su mudo andar silencioso pi\xE9 su zona fue m\xEDa<br/>\nTrepado al pretil aromando a miel las enredaderas<br/>\nQu\xE9 claro fue abril dejando su piel sobre las veredas<br/>\nJunto a su luz voy y al volverla a ver regreso a los a\xF1os<br/>\nDonde intacto estoy ni\xF1o sin saber estos desenga\xF1os<br/>\nQuiero aprisionar la luz del balc\xF3n saber una a una<br/>\nLas notas que est\xE1n en esa canci\xF3n muda de la luna.<br/>\n'
   },
   vidalita: {
     mainImage: '/assets/images/vidalita.jpeg',
-    autorObraPlastica: 'María de los A Martinez',
+    autorObraPlastica: 'Esteban Prince',
     title: 'Vidalita',
     description: 'Descripcion de Vidalita',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'vidalita',
-    letra: 'VIDALITA (Letra: Wenceslao Varela. M\xFAsica: Clarisa Prince)\n\nPalomita blanca\u2028vidalita,\nvos que ten\xE9s alas,\nsi vol\xE1s pal cielo,\u2028vidalita,\nll\xE9vame esta carta.\u2028\u2028Vi\xE1 pedir en ella\u2028vidalit\xE1,\u2028al Dios que nos manda,\u2028que se d\xE9 una vuelta,\u2028vidalit\xE1,\u2028por mi pobre patria.\u2028\u2028Vi\xE1 decirle en  ella,\u2028vidalit\xE1,\u2028que los de mi raza\u2028se est\xE1n separando.\u2028vidalit\xE1.\u2028y eso es una l\xE1stima...\u2028\u2028Si la lee y la entiende\u2028vidalit\xE1,\u2028nos dir\xE1 la causa:\u2028pocos tienen mucho\u2028vidalit\xE1,\u2028y los muchos nada...\u2028\u2028Adim\xE1s que  sepa\u2028vidalit\xE1.\u2028que pocos trabajan,\u2028porque trabajando\u2028vidalit\xE1,\u2028no se junta plata.\u2028\u2028Yo le doy mi rancho\u2028vidalit\xE1,\u2028y el recao pa cama\u2028y dispu\xE9s salimos\u2028vidalit\xE1,\u2028a aliviar disgracias.\u2028\nPalomita blanca\u2028vidalit\xE1\u2028si llev\xE1s la carta\u2028te vi\xE1 a hacer un nido\u2028vidalit\xE1,\u2028entre mi guitarra.\n'
+    letra: '<h2>VIDALITA</h2>\n    <i><small>Letra: Wenceslao Varela. M\xFAsica: Clarisa Prince</small></i>\n<br/><br/>\nPalomita blanca\u2028vidalita,<br/>\nvos que ten\xE9s alas,<br/>\nsi vol\xE1s pal cielo,\u2028vidalita,<br/>\nll\xE9vame esta carta.\u2028\u2028Vi\xE1 pedir en ella\u2028vidalit\xE1,\u2028al Dios que nos manda,\u2028que se d\xE9 una vuelta,\u2028vidalit\xE1,\u2028por mi pobre patria.\u2028\u2028Vi\xE1 decirle en  ella,\u2028vidalit\xE1,\u2028que los de mi raza\u2028se est\xE1n separando.\u2028vidalit\xE1.\u2028y eso es una l\xE1stima...\u2028\u2028Si la lee y la entiende\u2028vidalit\xE1,\u2028nos dir\xE1 la causa:\u2028pocos tienen mucho\u2028vidalit\xE1,\u2028y los muchos nada...\u2028\u2028Adim\xE1s que  sepa\u2028vidalit\xE1.\u2028que pocos trabajan,\u2028porque trabajando\u2028vidalit\xE1,\u2028no se junta plata.\u2028\u2028Yo le doy mi rancho\u2028vidalit\xE1,\u2028y el recao pa cama\u2028y dispu\xE9s<br/> salimos\u2028vidalit\xE1,\u2028a aliviar disgracias.\u2028<br/>\nPalomita blanca\u2028vidalit\xE1\u2028si llev\xE1s la carta\u2028te vi\xE1 a hacer un nido\u2028vidalit\xE1,\u2028entre mi guitarra.<br/>\n'
   },
   bagualadeldesierto: {
-    mainImage: '/assets/images/baguala-del-desierto.jpeg',
+    mainImage: '/assets/images/baguala-del-desierto.jpg',
     autorObraPlastica: 'María de los A Martinez',
     title: 'Baguala del desierto',
     description: 'Descripcion Baguala del desierto',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'baguala-del-desierto',
-    letra: 'BAGUALA DEL DESIERTO (Letra y m\xFAsica Clarisa Prince)\n\nLlegu\xE9 al fondo del desierto\ncantando a la eternidad\nAtravesando la muerte\nDesnudando otra verdad\n\nBendita desilusi\xF3n\nArden mis ojos\nGracias por esta certeza\nIluminando el dolor\n\nOh!\n\nSiete veces he perdido\nel rumbo del coraz\xF3n\nPero camino a la muerte\npor territorio de amor\n\nBendita desilusi\xF3n\nArden mis ojos\nGracias por esta certeza\nIluminando el dolor\n\nOh!\n\nLlegu\xE9 al fondo del silencio\ndesnudando el coraz\xF3n\nAtravesando la vida\npor territorio de amor\n\nBendita desilusi\xF3n\nArden mis ojos\nGracias por esta certeza\nIluminando el dolor\nIluminando el dolor\nIluminando  el dolor\nIluminando\nOh!\nOh!'
+    letra: '<h2>BAGUALA DEL DESIERTO</h2>\n    <i><small>Letra y m\xFAsica Clarisa Prince</small></i>\n<br/><br/>\nLlegu\xE9 al fondo del desierto<br/>\ncantando a la eternidad<br/>\nAtravesando la muerte<br/>\nDesnudando otra verdad<br/>\n<br/>\nBendita desilusi\xF3n<br/>\nArden mis ojos<br/>\nGracias por esta certeza<br/>\nIluminando el dolor<br/>\n<br/>\nOh!<br/>\n<br/>\nSiete veces he perdido<br/>\nel rumbo del coraz\xF3n<br/>\nPero camino a la muerte<br/>\npor territorio de amor<br/>\n<br/>\nBendita desilusi\xF3n<br/>\nArden mis ojos<br/>\nGracias por esta certeza<br/>\nIluminando el dolor<br/>\n<br/>\nOh!<br/>\n<br/>\nLlegu\xE9 al fondo del silencio<br/>\ndesnudando el coraz\xF3n<br/>\nAtravesando la vida<br/>\npor territorio de amor<br/>\n<br/>\nBendita desilusi\xF3n<br/>\nArden mis ojos<br/>\nGracias por esta certeza<br/>\nIluminando el dolor<br/>\nIluminando el dolor<br/>\nIluminando el dolor<br/>\nIluminando<br/>\nOh!<br/>\nOh!'
   },
   malambopaldiferente: {
     mainImage: '/assets/images/malambo-pal-diferente.jpeg',
@@ -3400,7 +3400,7 @@ var canciones = {
     description: 'Descripcion Malambo pal diferente',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'malambo-pal-diferente',
-    letra: 'MALAMBO PAL DIFERENTE  (letra y m\xFAsica Clarisa Prince)\nDe tanto verle bajar la frente\nLe hice un malambo pal diferente\n\nD\xF3nde est\xE1 tu voz?\nD\xF3nde la escond\xE9s?\nNo ves que hace falta tu diferente forma de ver?\nQue si vos mostr\xE1s\ntu verdad al sol\nSeguro bailamo el mismo malambo en el coraz\xF3n\n\nMALAMBO PAL CORAZ\xD3N\nCON MIL GOLPES DIEFERENTES\nSE EXPANDAN CON IGUALDAD\nLOS AMORES PARA SIEMPRE\n\nMALAMBO PAL CORAZ\xD3N\nCON MIL GOLPES DIFERENTES\nQUE SE EXPANDAN EN EL AIRE\nLOS AMORES PARA SIEMPRE.\n\nAgua tierra y sol\npa empezar a andar\nInfinitas formas de hacer visible la eternidad\nSer original\nes tan natural\nLa simpleza antigua de ser igualmente inmensidad\n\nMALAMBO PAL CORAZ\xD3N\nCON MIL GOLPES DIEFERENTES\nSE EXPANDAN CON IGUALDAD\nLOS AMORES PARA SIEMPRE\n\nMALAMBO PAL CORAZ\xD3N\nCON MIL GOLPES DIFERENTES\nQUE SE EXPANDAN EN EL AIRE\nLOS AMORES PARA SIEMPRE.'
+    letra: '<h2>MALAMBO PAL DIFERENTE</h2>\n    <i><small>letra y m\xFAsica Clarisa Prince</small></i><br/>\n    <br/>\nDe tanto verle bajar la frente<br/>\nLe hice un malambo pal diferente<br/>\n<br/>\nD\xF3nde est\xE1 tu voz?<br/>\nD\xF3nde la escond\xE9s?<br/>\nNo ves que hace falta tu diferente forma de ver?<br/>\nQue si vos mostr\xE1s<br/>\ntu verdad al sol<br/>\nSeguro bailamo el mismo malambo en el coraz\xF3n<br/>\n<br/>\nMALAMBO PAL CORAZ\xD3N<br/>\nCON MIL GOLPES DIEFERENTES<br/>\nSE EXPANDAN CON IGUALDAD<br/>\nLOS AMORES PARA SIEMPRE<br/>\n<br/>\nMALAMBO PAL CORAZ\xD3N<br/>\nCON MIL GOLPES DIFERENTES<br/>\nQUE SE EXPANDAN EN EL AIRE<br/>\nLOS AMORES PARA SIEMPRE.<br/>\n<br/>\nAgua tierra y sol<br/>\npa empezar a andar<br/>\nInfinitas formas de hacer visible la eternidad<br/>\nSer original<br/>\nes tan natural<br/>\nLa simpleza antigua de ser igualmente inmensidad<br/>\n<br/>\nMALAMBO PAL CORAZ\xD3N<br/>\nCON MIL GOLPES DIEFERENTES<br/>\nSE EXPANDAN CON IGUALDAD<br/>\nLOS AMORES PARA SIEMPRE<br/>\n<br/>\nMALAMBO PAL CORAZ\xD3N<br/>\nCON MIL GOLPES DIFERENTES<br/>\nQUE SE EXPANDAN EN EL AIRE<br/>\nLOS AMORES PARA SIEMPRE.'
   },
   riodelospajaros: {
     mainImage: '/assets/images/rio-de-los-pajaros.jpeg',
@@ -3409,25 +3409,25 @@ var canciones = {
     description: 'Descripcion de Río de los Pájaros',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'rio-de-los-pajaros',
-    letra: 'R\xCDO DE LOS P\xC1JAROS    (letra y m\xFAsica An\xEDbal Sampayo)\n\nEl Uruguay no es un r\xEDo, Es un cielo azul que viaja\nPintor de nubes, camino, Con sabor a mieles ruanas\nLos amores de la costa, Son amores sin destino\nCamalotes de esperanza, Que se va llevando el r\xEDo\n\nChu\xE1 chu\xE1 chu\xE1 ja jaja\nNo cantes m\xE1s torcacita\nQue llora sangre el ceibal\n\nMorenita lavandera biguacita de la costa\nenr\xF3llate la pollera ponete a lavar la ropa\n\nTu madre cocina charque, tu padre fue r\xEDo arriba\nY vos te quedaste sola lavando ropa en la orilla\n\nChu\xE1 chu\xE1 chu\xE1 ja jaja\nNo cantes m\xE1s torcacita\nQue llora sangre el ceibal\n\nCanoita pescadora agu\xE1ntame el temporal\nSi mis brazos no se cansan remando te he de sacar\nGuricito pelo chuzo, ojitos de yacar\xE9\nBarriguita chifladora lomito color caf\xE9\n\nChu\xE1 chu\xE1 chu\xE1 ja jaja\nNo cantes m\xE1s tocarcita\nQue llora sangre el ceibal\n'
+    letra: '<h2>R\xCDO DE LOS P\xC1JAROS</h2>\n    <i><small>letra y m\xFAsica An\xEDbal Sampayo</small></i><br/>\n<br/>\nEl Uruguay no es un r\xEDo, Es un cielo azul que viaja<br/>\nPintor de nubes, camino, Con sabor a mieles ruanas<br/>\nLos amores de la costa, Son amores sin destino<br/>\nCamalotes de esperanza, Que se va llevando el r\xEDo<br/>\n<br/>\nChu\xE1 chu\xE1 chu\xE1 ja jaja<br/>\nNo cantes m\xE1s torcacita<br/>\nQue llora sangre el ceibal<br/>\n<br/>\nMorenita lavandera biguacita de la costa<br/>\nenr\xF3llate la pollera ponete a lavar la ropa<br/>\n<br/>\nTu madre cocina charque, tu padre fue r\xEDo arriba<br/>\nY vos te quedaste sola lavando ropa en la orilla<br/>\n<br/>\nChu\xE1 chu\xE1 chu\xE1 ja jaja<br/>\nNo cantes m\xE1s torcacita<br/>\nQue llora sangre el ceibal<br/>\n<br/>\nCanoita pescadora agu\xE1ntame el temporal<br/>\nSi mis brazos no se cansan remando te he de sacar<br/>\nGuricito pelo chuzo, ojitos de yacar\xE9<br/>\nBarriguita chifladora lomito color caf\xE9<br/>\n<br/>\nChu\xE1 chu\xE1 chu\xE1 ja jaja<br/>\nNo cantes m\xE1s tocarcita<br/>\nQue llora sangre el ceibal<br/>\n'
   },
   guripescador: {
-    mainImage: '/assets/images/guri-pescador.jpeg',
-    autorObraPlastica: 'JC Barreto  ',
+    mainImage: '/assets/images/guri-pescador.jpg',
+    autorObraPlastica: 'JC Barreto',
     title: 'Guri Pescador',
     description: 'Descripcion Guri Pescador',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'guri-pescador',
-    letra: 'GUR\xCD PESCADOR (letra y m\xFAsica Osiris Rodriguez Castillo)\n\nCon una ca\xF1a de bamb\xFA- un perro lanudo-\nun tarrito con lombrices...y entre los verdes juncos: las mojarras.\nA\xFAn veo aquella tararira- lujosa- como la vaina de un cuchillo de plata-\n\xA1tan parecida al sue\xF1o de un gur\xED Pescador...\n\nHay un reino bajo el agua\nun sauce me lo cont\xF3\ndonde el pejerrey escucha\ny canta el bagre cantor.\n\nEn la taipa de un asube\nyo v\xED un gur\xED pescador\nque confundiendo a las piavas\nles cantaba esta canci\xF3n.\n\nTararira - Tararira\nque arisca y sabia que est\xE1s\nanzuelo que cae al agua\nmojarra que te llev\xE1s\npica pica Tararira\nplata viva del juncal\nmientras no se corte el hilo\njunto al agua me hallar\xE1s.\n\nY yo que crec\xED en silencio\nbajo los sauces del Y\xED\ncobrizo de soles largos\ncomprendo bien al gur\xED.\n\nSiempre la suerte fue esquiva\ncual los peces para m\xED\npero \xE9l me ense\xF1\xF3 estas coplas\nque alumbran como un candil.\n'
+    letra: '<h2>GUR\xCD PESCADOR</h2>\n    <i><small>letra y m\xFAsica Osiris Rodriguez Castillo</small></i><br/>\n<br/>\nCon una ca\xF1a de bamb\xFA- un perro lanudo-<br/>\nun tarrito con lombrices...y entre los verdes juncos: las mojarras.<br/>\nA\xFAn veo aquella tararira- lujosa- como la vaina de un cuchillo de plata-<br/>\n\xA1tan parecida al sue\xF1o de un gur\xED Pescador...<br/>\n<br/>\nHay un reino bajo el agua<br/>\nun sauce me lo cont\xF3<br/>\ndonde el pejerrey escucha<br/>\ny canta el bagre cantor.<br/>\n<br/>\nEn la taipa de un asube<br/>\nyo v\xED un gur\xED pescador<br/>\nque confundiendo a las piavas<br/>\nles cantaba esta canci\xF3n.<br/>\n<br/>\nTararira - Tararira<br/>\nque arisca y sabia que est\xE1s<br/>\nanzuelo que cae al agua<br/>\nmojarra que te llev\xE1s<br/>\npica pica Tararira<br/>\nplata viva del juncal<br/>\nmientras no se corte el hilo<br/>\njunto al agua me hallar\xE1s.<br/>\n<br/>\nY yo que crec\xED en silencio<br/>\nbajo los sauces del Y\xED<br/>\ncobrizo de soles largos<br/>\ncomprendo bien al gur\xED.<br/>\n<br/>\nSiempre la suerte fue esquiva<br/>\ncual los peces para m\xED<br/>\npero \xE9l me ense\xF1\xF3 estas coplas<br/>\nque alumbran como un candil.\n'
   },
   milongadelmate: {
-    mainImage: '/assets/images/milonga-del-mate.jpeg',
-    autorObraPlastica: 'Gonzalo Mesa',
+    mainImage: '/assets/images/milonga-del-mate.jpg',
+    autorObraPlastica: 'Irma Alvarez',
     title: 'Milonga del mate',
     description: 'Descripcion Milonga del mate',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'milonga-del-mate',
-    letra: 'MILONGA DEL MATE  (letra y m\xFAsica: Carisa Prince)\nDe la  m\xE1gica intuici\xF3n de una abuela naci\xF3 el mate\nHace tanto tiempo atr\xE1s! ... lloraba el sol sobre los sauces.\nCuenco, pozo, coraz\xF3n, de alma verde con bombilla,\nPuede llenar los silencios o encender la maravilla.\n\nY todo aquel que andaba solo\nSin saber d\xF3nde poner sus besos\nComo refugio de pesares,\nde agua y yerba, tomaba un mate.\n\nNI\xD1AS MURIENDO DE AMOR,\nHOMBRES HERIDOS,\nY TODO AQUEL QUE HUBIESE PREFERIDO\nNO HABERSE EQUIVOCADO TANTO.\n\nDe que lluvias, con qu\xE9 mar, nutrieron los yerbatales?\nque la espuma al cebador le da vuelta las verdades!\nComo el r\xEDo llevar\xE1 tus palabras mar adentro\nY armar\xE1, para girar, lunas llenas con su centro.\n'
+    letra: '<h2>MILONGA DEL MATE</h2>\n    <i><small>letra y m\xFAsica: Carisa Prince</small></i><br/>\n    <br/>\nDe la  m\xE1gica intuici\xF3n de una abuela naci\xF3 el mate<br/>\nHace tanto tiempo atr\xE1s! ... lloraba el sol sobre los sauces.<br/>\nCuenco, pozo, coraz\xF3n, de alma verde con bombilla,<br/>\nPuede llenar los silencios o encender la maravilla.<br/>\n<br/>\nY todo aquel que andaba solo<br/>\nSin saber d\xF3nde poner sus besos<br/>\nComo refugio de pesares,<br/>\nde agua y yerba, tomaba un mate.<br/>\n<br/>\nNI\xD1AS MURIENDO DE AMOR,<br/>\nHOMBRES HERIDOS,<br/>\nY TODO AQUEL QUE HUBIESE PREFERIDO<br/>\nNO HABERSE EQUIVOCADO TANTO.<br/>\n<br/>\nDe que lluvias, con qu\xE9 mar, nutrieron los yerbatales?<br/>\nque la espuma al cebador le da vuelta las verdades!<br/>\nComo el r\xEDo llevar\xE1 tus palabras mar adentro<br/>\nY armar\xE1, para girar, lunas llenas con su centro.<br/>\n'
   },
   graciasalavida: {
     mainImage: '/assets/images/gracias-a-la-vida.jpeg',
@@ -3436,7 +3436,7 @@ var canciones = {
     description: 'Descripcion de Gracias a la vida',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'gracias-a-la-vida',
-    letra: 'GRACIAS A LA VIDA  (letra y m\xFAscia Violeta Parra)\n\nGracias a la vida que me ha dado tanto\u2028Me dio dos luceros, que cuando los abro\nPerfecto distingo lo negro del blanco\nY en el alto cielo su fondo estrellado\nY en las multitudes el hombre que yo amo\nGracias a la vida que me ha dado tanto\u2028Me ha dado el o\xEDdo que en todo su ancho\u2028Graba noche y d\xEDa, grillos y canarios\u2028Martillos, turbinas, ladridos, chubascos\u2028Y la voz tan tierna de mi bien amado\nGracias a la vida que me ha dado tanto\u2028Me ha dado el sonido y el abecedario\u2028Con \xE9l las palabras que pienso y declaro\u2028Madre, amigo, hermano, y luz alumbrando\u2028La ruta del alma del que estoy amando\nGracias a la vida que me ha dado tanto\u2028Me ha dado la marcha de mis pies cansados\u2028Con ellos anduve ciudades y charcos\u2028Playas y desiertos, monta\xF1as y llanos\u2028Y la casa tuya, tu calle y tu patio\nGracias a la vida que me ha dado tanto\u2028Me dio el coraz\xF3n que agita su marco\u2028Cuando miro el fruto del cerebro humano\u2028Cuando miro al bueno tan lejos del malo\u2028Cuando miro al fondo de tus ojos claros\nGracias a la vida que me ha dado tanto\u2028Me ha dado la risa y me ha dado el llanto\u2028As\xED yo distingo dicha de quebranto\u2028Los dos materiales que forman mi canto\u2028Y el canto de ustedes que es mi mismo canto\u2028Y el canto de todos que es mi propio canto\u2028Gracias a la vida que me ha dado tanto\n\nVALS DE ABRIL (letra y m\xFAsica Lucio Muniz)\n\nVuelvo a palpitar, viendo su perfil y es m\xEDo el momento\nEn que natural la luna de abril crece con el viento\nHoy me ha vuelto a herir s\xF3lo con brillar y acordes me arranca\nQu\xE9 querr\xE1 decir me quiere alcanzar con su sangre blanca.\nS\xE9 que antes me vi\xF3 pero me olvid\xF3 y fue en soledades\nQue me sumergi\xF3 luna que hoy volvi\xF3 forma que me invades\nVuelves a rodar sobre el caser\xF3n donde flota un fr\xEDo\nQue tibieza fue y que guardar\xE9 en un rinc\xF3n m\xEDo\n\nRara mariposa, volando despacio\nAnda silenciosa sola en el espacio\nLa luz de su vuelo  que pronto se aleja\nMe oscurece el cielo ya.\n\nLa mir\xE9 pasar y a veces pens\xE9 que algo me dec\xEDa\nDe su mudo andar silencioso pi\xE9 su zona fue m\xEDa\nTrepado al pretil aromando a miel las enredaderas\nQu\xE9 claro fue abril dejando su piel sobre las veredas\nJunto a su luz voy y al volverla a ver regreso a los a\xF1os\nDonde intacto estoy ni\xF1o sin saber estos desenga\xF1os\nQuiero aprisionar la luz del balc\xF3n saber una a una\nLas notas que est\xE1n en esa canci\xF3n muda de la luna.\n'
+    letra: '<h2>GRACIAS A LA VIDA</h2>\n    <i><small>letra y m\xFAscia Violeta Parra</small></i><br/>\n<br/>\nGracias a la vida que me ha dado tanto\u2028Me dio dos luceros, que cuando los abro<br/>\nPerfecto distingo lo negro del blanco<br/>\nY en el alto cielo su fondo estrellado<br/>\nY en las multitudes el hombre que yo amo<br/>\nGracias a la vida que me ha dado tanto\u2028Me ha dado el o\xEDdo que en todo su ancho\u2028Graba noche y d\xEDa, grillos y canarios\u2028Martillos, turbinas, ladridos, chubascos\u2028Y la voz tan tierna de mi bien amado<br/>\nGracias a la vida que me ha dado tanto\u2028Me ha dado el sonido y el abecedario\u2028Con \xE9l las palabras que pienso y declaro\u2028Madre, amigo, hermano, y luz alumbrando\u2028La ruta del alma del que estoy amando<br/>\nGracias a la vida que me ha dado tanto\u2028Me ha dado la marcha de mis pies cansados\u2028Con ellos anduve ciudades y charcos\u2028Playas y desiertos, monta\xF1as y llanos\u2028Y la casa tuya, tu calle y tu patio<br/>\nGracias a la vida que me ha dado tanto\u2028Me dio el coraz\xF3n que agita su marco\u2028Cuando miro el fruto del cerebro humano\u2028Cuando miro al bueno tan lejos del malo\u2028Cuando miro al fondo de tus ojos claros<br/>\nGracias a la vida que me ha dado tanto\u2028Me ha dado la risa y me ha dado el llanto\u2028As\xED yo distingo dicha de quebranto\u2028Los dos materiales que forman mi canto\u2028Y el canto de ustedes que es mi mismo canto\u2028Y el canto de todos que es mi propio canto\u2028Gracias a la vida que me ha dado tanto<br/>\n<br/>\n'
   }
 };
 // CONCATENATED MODULE: ./components/header/index.js
@@ -3478,19 +3478,19 @@ var header__ref2 = Object(preact_min["h"])(
 var _ref3 = Object(preact_min["h"])(
   List_default.a.ItemGraphic,
   null,
-  'music_note'
+  '\xA0 \uD83C\uDFB6'
 );
 
 var _ref4 = Object(preact_min["h"])(
   List_default.a.ItemGraphic,
   null,
-  'music_note'
+  '\xA0 \xA7'
 );
 
 var _ref5 = Object(preact_min["h"])(
   List_default.a.ItemGraphic,
   null,
-  'music_note'
+  '\xA0 \xA7'
 );
 
 var header_Header = function (_Component) {
@@ -3566,7 +3566,7 @@ var header_Header = function (_Component) {
         titleResult = ' Canciones';
       } else if (routeText === "/obras-plasticas") {
         // else {
-        titleResult = 'Obras Plasticas';
+        titleResult = 'Obras Plásticas';
       }
       return titleResult;
     };
@@ -3702,7 +3702,7 @@ var header_Header = function (_Component) {
               { style: {
                   marginLeft: '1rem'
                 } },
-              'Obras plasticas'
+              'Obras pl\xE1sticas'
             ),
             _ref4
           ),
@@ -4185,6 +4185,10 @@ var LayoutGrid_default = /*#__PURE__*/__webpack_require__.n(LayoutGrid);
 var LayoutGrid_style = __webpack_require__("JL9d");
 var LayoutGrid_style_default = /*#__PURE__*/__webpack_require__.n(LayoutGrid_style);
 
+// EXTERNAL MODULE: ../node_modules/emojis/index.js
+var emojis = __webpack_require__("boCY");
+var emojis_default = /*#__PURE__*/__webpack_require__.n(emojis);
+
 // EXTERNAL MODULE: ./routes/cancion/style.css
 var cancion_style = __webpack_require__("COXA");
 var cancion_style_default = /*#__PURE__*/__webpack_require__.n(cancion_style);
@@ -4197,6 +4201,7 @@ function cancion__classCallCheck(instance, Constructor) { if (!(instance instanc
 function cancion__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function cancion__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -4257,19 +4262,20 @@ var cancion_Cancion = function (_Component) {
       Object(preact_min["h"])(
         'div',
         { style: {
-            backgroundColor: 'hsla(356, 11%, 7%, 0.8)'
+            backgroundColor: 'hsla(356, 11%, 7%, 0.85)'
           } },
         Object(preact_min["h"])(
           LayoutGrid_default.a,
-          { style: { minHeight: '100vh' } },
+          { style: {
+              minHeight: '100vh'
+            } },
           Object(preact_min["h"])(
             LayoutGrid_default.a.Inner,
             null,
             Object(preact_min["h"])(
               LayoutGrid_default.a.Cell,
               { 'class': cancion_style_default.a.temaPresentVisual, style: {
-                  height: '100%',
-                  minHeight: '50vh'
+                  height: '50vh'
                 }, desktopCols: '6', phoneCols: '12', tabletCols: '12' },
               Object(preact_min["h"])(
                 'iframe',
@@ -4288,11 +4294,16 @@ var cancion_Cancion = function (_Component) {
                   backgroundColor: 'transparent',
                   margin: '0 auto auto auto'
                 }, desktopCols: '6', phoneCols: '12', tabletCols: '12' },
-              Object(preact_min["h"])(
-                'p',
-                null,
-                this.state.data.letra
-              )
+              Object(preact_min["h"])('div', { style: {
+                  backgroundColor: 'hsla(0, 1%, 16%, 0.9)',
+                  padding: '1rem',
+                  borderRadius: '1%',
+                  border: 'solid hsl(0, 3%, 14%) 9px',
+                  fontSize: '1.2rem',
+                  color: 'hsla(0, 1%, 92%, 1)'
+                }, dangerouslySetInnerHTML: {
+                  __html: this.state.data.letra
+                } })
             )
           )
         )
@@ -4591,10 +4602,6 @@ var material_tea_MaterialTEA = function (_Component) {
 }(preact_min["Component"]);
 
 
-// EXTERNAL MODULE: ../node_modules/emojis/index.js
-var emojis = __webpack_require__("boCY");
-var emojis_default = /*#__PURE__*/__webpack_require__.n(emojis);
-
 // EXTERNAL MODULE: ./routes/obra-plastica/style.css
 var obra_plastica_style = __webpack_require__("Mzro");
 var obra_plastica_style_default = /*#__PURE__*/__webpack_require__.n(obra_plastica_style);
@@ -4672,14 +4679,15 @@ var obra_plastica_ObraPlastica = function (_Component) {
                 // backgroundImage: `url(${this.state.data.mainImage})`,
                 // minHeight: '90vh'
               }, desktopCols: '6', phoneCols: '12', tabletCols: '12' },
-            Object(preact_min["h"])('img', { src: this.state.data.mainImage, style: { height: '100%', width: '100%' } })
+            Object(preact_min["h"])('img', { src: this.state.data.mainImage, style: { height: '100%', width: '100%' } }),
+            emojis_default.a.unicode('Autor :heart: '),
+            ' ',
+            this.state.data.autorObraPlastica
           ),
           Object(preact_min["h"])(
             LayoutGrid_default.a.Cell,
             { 'class': obra_plastica_style_default.a.temaPresentVisual, style: {}, desktopCols: '6', phoneCols: '12', tabletCols: '12' },
-            emojis_default.a.unicode('Autor :heart: '),
-            ' ',
-            this.state.data.autorObraPlastica
+            this.state.data.description
           )
         )
       )
