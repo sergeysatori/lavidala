@@ -679,6 +679,14 @@ default_1.Icon = ButtonIcon;
 
 /***/ }),
 
+/***/ "AGIH":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"home":"home__1bp4I","temaPresentVisual":"temaPresentVisual__1Jztf","cardHeader":"cardHeader__2oU7c","cardBody":"cardBody__1be3A"};
+
+/***/ }),
+
 /***/ "AkAO":
 /***/ (function(module, exports) {
 
@@ -692,6 +700,14 @@ function _setPrototypeOf(o, p) {
 }
 
 module.exports = _setPrototypeOf;
+
+/***/ }),
+
+/***/ "COXA":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"home":"home__-MZlr","temaPresentVisual":"temaPresentVisual__2NYxw","cardHeader":"cardHeader__1kf1x","cardBody":"cardBody__12TQS"};
 
 /***/ }),
 
@@ -2858,6 +2874,13 @@ module.exports = _get;
 
 /***/ }),
 
+/***/ "JL9d":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "JkW7":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3282,6 +3305,140 @@ var List_style_default = /*#__PURE__*/__webpack_require__.n(List_style);
 var TopAppBar_style = __webpack_require__("FnKr");
 var TopAppBar_style_default = /*#__PURE__*/__webpack_require__.n(TopAppBar_style);
 
+// CONCATENATED MODULE: ./database/index.js
+// 1 - Estrellita
+// 2 - Valsecito con mates y sol
+// 3 - Vida-la del Perdón
+// 4 - Zambita de Madre
+// 5 - Negrita Martina
+// 6 - Vals de Abril
+// 7 - Vidalita
+// 8 - Baguala del desierto
+// 9 - Malambo pal diferente
+// 10 - Río de los Pájaros
+// 11 - Guri Pescador
+// 12 - Milonga del mate
+// 13 - Gracias a la Vida
+
+var canciones = {
+  estrellita: {
+    mainImage: '/assets/images/estrellita.jpeg',
+    autorObraPlastica: 'María de los A Martinez',
+    title: 'Estrellita',
+    description: 'Descripcion de Estrellita',
+    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    slug: 'estrellita',
+    letra: 'ESTRELLITA (letra y m\xFAsica Clarisa Prince)\n\n(tango/milonga para un ni\xF1o de 7 a\xF1os, con TEA, que una noche a la orilla del mar pidi\xF3 valent\xEDa a un estrella)\n\n\r\nDeslumbrados peces rojos\n\nnadaron a lo profundo\n\nde mi llano pensamiento\n\ninvocando al bandone\xF3n.\n\n\r\ndemoledor y claro coraz\xF3n de siete eneros\n\nmirando el cielo, creyendo que tal vez,\n\ncon punter\xEDa alz\xF3 su voz sobre las olas\n\ncomo una oda pidi\xF3 un deseo\u2026\n\n\r\nestrellita,\n\nestrellita,\n\nsi me o\xEDs\n\n\r\nDAME EL BESO DE TU LUZ PARA ALIVIAR\n\nLOS ABISMOS QUE EN LA NOCHE DEBO ANDAR\n\n\xBFNO VES\n\nDESDE ALL\xC1 ARRIBA\n\nQUE SE EST\xC1 APAGANDO MI FE?\n\n\r\nCon arena en las palabras\n\nsus mareas aprendices\n\nintentaban mantenerme\n\na orillas de su dolor\n\n\r\nDesparramando sin piedad sus siete inviernos\n\nsobre el cuaderno de tempestad azul\n\ncon arcoiris de cristal construy\xF3 un puente\n\npara los duendes y me invit\xF3 a cantar:\n\n\r\nestrellita,\n\nestrellita,\n\nsi me o\xEDs\n\n\r\nDAME EL BESO DE TU LUZ PARA ALIVIAR\n\nLOS ABISMOS QUE EN LA NOCHE DEBO ANDAR\n\n\xBFNO VES\n\nDESDE ALL\xC1 ARRIBA\n\nQUE SE EST\xC1 APAGANDO MI FE?\n\n'
+  },
+  valsecitoconmatesysol: {
+    mainImage: '/assets/images/valcesito-con-mates-y-sol.jpeg',
+    autorObraPlastica: 'María de los A Martinez',
+    title: 'Valsecito Mate y Sol',
+    description: 'Descripcion de Valsecito Mate y Sol',
+    videoURL: 'https://www.youtube.com/embed/Vwu-xH3lfmI',
+    slug: 'valsecito-con-mates-y-sol',
+    letra: 'VALSECITO CON MATES Y SOL  (letra y m\xFAsica Clarisa Prince)\n\n\nTe trajo un oto\xF1o sombr\xEDo de amor\ny sue\xF1os te\xF1idos de adioses,\nla luna en tu boca para embellecer\nla noche, naciente, la noche\n\ny el dolor de saber\nque tampoco ser\xE1 la verdad,\nla canci\xF3n del amor\nes m\xE1s simple, mi vida, al final\n\nMatecitos y besos, ma\xF1anas de sol,\nlas penas desnudas, tu voz y mi voz,\nsaber que andaremos distintos caminos\xA0\ny nunca seremos tu y yo.\n\nTan verde esmeralda, esperanza, me di\xF3\nmirarme en tus ojos, tus ojos,\ntus manos abiertas jardines en flor,\njazmines, azahares y rosas\n\ny el dolor de saber\nque tampoco ser\xE1 la verdad,\nla canci\xF3n del amor\nes m\xE1s simple, mi vida, al final\n\nMatecitos y besos, ma\xF1anas de sol,\nlas penas desnudas, tu voz y mi voz,\nsaber que andaremos distintos caminos\xA0\ny nunca seremos tu y yo.\n'
+  },
+  vidaladelperdon: {
+    mainImage: '/assets/images/vida-la-del-perdon.jpeg',
+    autorObraPlastica: 'Seida Lans',
+    title: 'Vida-la del Perdón',
+    description: 'Descripcion de La del perdon',
+    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    slug: 'vida-la-del-perdon',
+    letra: 'VIDA- LA DEL PERD\xD3N  (letra y m\xFAsica: Clarisa Prince)\n\nDonde nace la poes\xEDa y se encienden los colores\nVoy a buscar la manera mejor\nde perdonar mis errores\n\nAY!  VIDA-  LA DEL PERD\xD3N\nLA TIERRA DENTRO DEL PECHO\nAGRADECE TU AGUACERO\nCON AROMAS DE ALGO NUEVO\nAY!  VIDA- LA DEL PERD\xD3N\nYA NADA HABR\xC1 SIDO EN VANO\nSI SE TRANSFORMA EN CANCI\xD3N DE SANAR\nEL CAMINO CAMINADO\n\nEl dolor que me causabas\nY que anidaba en mi pecho\nsali\xF3  a volar sobre el sol\ny ha florecido en el suelo\n\nAY!  VIDA-  LA DEL PERD\xD3N\nLA TIERRA DENTRO DEL PECHO\nAGRADECE TU AGUACERO\nCON AROMAS DE ALGO NUEVO\nAY!  VIDA- LA DEL PERD\xD3N\nYA NADA HABR\xC1 SIDO EN VANO\nSI SE TRANSFORMA EN CANCI\xD3N DE SANAR\nEL CAMINO CAMINADO\n'
+  },
+  zambitademadre: {
+    mainImage: '/assets/images/zambita-de-madre.jpeg',
+    autorObraPlastica: 'Mercedes Fuentes',
+    title: 'Zambita de Madre',
+    description: 'Descripcion de Zambita de Madre',
+    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    slug: 'zambita-de-madre',
+    letra: 'ZAMBITA DE MADRE (letra y m\xFAsica Clarisa Prince)\n\nUn latido tras otro cambi\xF3\nPor entero el universo\nCon la avidez del amor creador\nSe llevo todo el invierno\nCon la avidez del amor creador\nSe llevo todo el invierno\n\nY floreci\xF3 para siempre un jard\xEDn\nDe sus almohadas y d\xEDas\nNo hay aspereza que pueda opacar\nEsta esperanza hecha vida\nNo hay aspereza que pueda opacar\nEsta esperanza hecha vida\n\nZAMBITA DE MADRE,\nLOS SOLES LLENOS DE MIEL\nQUE NO HAY TRISTEZA QUE PUEDA\nCON TU RAZ\xD3N DE QUERER\nQUE ESTA VIDITA HA LOGRADO\nEL FUEGO ETERNO ENCENDER\nQUE ESTA VIDITA HA LOGRADO\nEL FUEGO ETERNO ENCENDER\n\nUn pasito tras otro cambi\xF3\nEl juego de la balanza\nCon un tesoro de besos al sol\nBail\xF3 encantada esta danza\n\nY floreci\xF3 para siempre un jard\xEDn\nDe sus almohadas y d\xEDas\nNo hay aspereza que pueda opacar\nEsta esperanza hecha vida\nNo hay aspereza que pueda opacar\nEsta esperanza hecha vida\n\nZAMBITA DE MADRE,\nLOS SOLES LLENOS DE MIEL\nQUE NO HAY TRISTEZA QUE PUEDA\nCON TU RAZ\xD3N DE QUERER\nQUE ESTA VIDITA HA LOGRADO\nEL FUEGO ETERNO ENCENDER\nQUE ESTA VIDITA HA LOGRADO\nEL FUEGO ETERNO ENCENDER\n'
+  },
+  negritamartina: {
+    mainImage: '/assets/images/negrita-martina.jpeg',
+    autorObraPlastica: 'Ema Delgado',
+    title: 'Negrita Martina',
+    description: 'Descripcion de Negrita Martina',
+    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    slug: 'negrita-martina',
+    letra: 'NEGRITA MARTINA   (letra y m\xFAsica Daniel Viglietti)\n\n\nEscuche, negrita Martina,\xA0\nla copla chiquita que el rey va a dejar\xA0\ny ponga motita en la almohada,\xA0\nque ust\xE9 est\xE1 cansada de tanto esperar.\xA0\u2028\u2028Su madre est\xE1 en el arroyo\xA0\nlavando la ropa de amita Leonor.\xA0\nSu padre ha vuelto cansado:\xA0\u2028no vendi\xF3 un plumero, le trajo una flor.\xA0\u2028\nMartina, Melchor ya lo sabe:\n"T\xFA no comes rosas; t\xFA precisas pan".\xA0\u2028Rey mago de los ni\xF1os pobres\nno te trajo harina, tan s\xF3lo canci\xF3n.\xA0\u2028\nAbrace, negrita Martina\nla copla chiquita que el rey le dej\xF3\xA0\ny ponga motita en la almohada,\xA0\nque ust\xE9 est\xE1 cansada de tanto esperar\n'
+  },
+  valsdeabril: {
+    mainImage: '/assets/images/vals-de-abril.jpeg',
+    autorObraPlastica: 'María de los A Martinez',
+    title: 'Vals de Abril',
+    description: 'Descripcion de Vals de Abril',
+    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    slug: 'vals-de-abril',
+    letra: 'VALS DE ABRIL (letra y m\xFAsica Lucio Muniz)\n\nVuelvo a palpitar, viendo su perfil y es m\xEDo el momento\nEn que natural la luna de abril crece con el viento\nHoy me ha vuelto a herir s\xF3lo con brillar y acordes me arranca\nQu\xE9 querr\xE1 decir me quiere alcanzar con su sangre blanca.\nS\xE9 que antes me vi\xF3 pero me olvid\xF3 y fue en soledades\nQue me sumergi\xF3 luna que hoy volvi\xF3 forma que me invades\nVuelves a rodar sobre el caser\xF3n donde flota un fr\xEDo\nQue tibieza fue y que guardar\xE9 en un rinc\xF3n m\xEDo\n\nRara mariposa, volando despacio\nAnda silenciosa sola en el espacio\nLa luz de su vuelo  que pronto se aleja\nMe oscurece el cielo ya.\n\nLa mir\xE9 pasar y a veces pens\xE9 que algo me dec\xEDa\nDe su mudo andar silencioso pi\xE9 su zona fue m\xEDa\nTrepado al pretil aromando a miel las enredaderas\nQu\xE9 claro fue abril dejando su piel sobre las veredas\nJunto a su luz voy y al volverla a ver regreso a los a\xF1os\nDonde intacto estoy ni\xF1o sin saber estos desenga\xF1os\nQuiero aprisionar la luz del balc\xF3n saber una a una\nLas notas que est\xE1n en esa canci\xF3n muda de la luna.\n'
+  },
+  vidalita: {
+    mainImage: '/assets/images/vidalita.jpeg',
+    autorObraPlastica: 'María de los A Martinez',
+    title: 'Vidalita',
+    description: 'Descripcion de Vidalita',
+    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    slug: 'vidalita',
+    letra: 'VIDALITA (Letra: Wenceslao Varela. M\xFAsica: Clarisa Prince)\n\nPalomita blanca\u2028vidalita,\nvos que ten\xE9s alas,\nsi vol\xE1s pal cielo,\u2028vidalita,\nll\xE9vame esta carta.\u2028\u2028Vi\xE1 pedir en ella\u2028vidalit\xE1,\u2028al Dios que nos manda,\u2028que se d\xE9 una vuelta,\u2028vidalit\xE1,\u2028por mi pobre patria.\u2028\u2028Vi\xE1 decirle en  ella,\u2028vidalit\xE1,\u2028que los de mi raza\u2028se est\xE1n separando.\u2028vidalit\xE1.\u2028y eso es una l\xE1stima...\u2028\u2028Si la lee y la entiende\u2028vidalit\xE1,\u2028nos dir\xE1 la causa:\u2028pocos tienen mucho\u2028vidalit\xE1,\u2028y los muchos nada...\u2028\u2028Adim\xE1s que  sepa\u2028vidalit\xE1.\u2028que pocos trabajan,\u2028porque trabajando\u2028vidalit\xE1,\u2028no se junta plata.\u2028\u2028Yo le doy mi rancho\u2028vidalit\xE1,\u2028y el recao pa cama\u2028y dispu\xE9s salimos\u2028vidalit\xE1,\u2028a aliviar disgracias.\u2028\nPalomita blanca\u2028vidalit\xE1\u2028si llev\xE1s la carta\u2028te vi\xE1 a hacer un nido\u2028vidalit\xE1,\u2028entre mi guitarra.\n'
+  },
+  bagualadeldesierto: {
+    mainImage: '/assets/images/baguala-del-desierto.jpeg',
+    autorObraPlastica: 'María de los A Martinez',
+    title: 'Baguala del desierto',
+    description: 'Descripcion Baguala del desierto',
+    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    slug: 'baguala-del-desierto',
+    letra: 'BAGUALA DEL DESIERTO (Letra y m\xFAsica Clarisa Prince)\n\nLlegu\xE9 al fondo del desierto\ncantando a la eternidad\nAtravesando la muerte\nDesnudando otra verdad\n\nBendita desilusi\xF3n\nArden mis ojos\nGracias por esta certeza\nIluminando el dolor\n\nOh!\n\nSiete veces he perdido\nel rumbo del coraz\xF3n\nPero camino a la muerte\npor territorio de amor\n\nBendita desilusi\xF3n\nArden mis ojos\nGracias por esta certeza\nIluminando el dolor\n\nOh!\n\nLlegu\xE9 al fondo del silencio\ndesnudando el coraz\xF3n\nAtravesando la vida\npor territorio de amor\n\nBendita desilusi\xF3n\nArden mis ojos\nGracias por esta certeza\nIluminando el dolor\nIluminando el dolor\nIluminando  el dolor\nIluminando\nOh!\nOh!'
+  },
+  malambopaldiferente: {
+    mainImage: '/assets/images/malambo-pal-diferente.jpeg',
+    autorObraPlastica: 'Mauricio Marra',
+    title: 'Malambo pal diferente',
+    description: 'Descripcion Malambo pal diferente',
+    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    slug: 'malambo-pal-diferente',
+    letra: 'MALAMBO PAL DIFERENTE  (letra y m\xFAsica Clarisa Prince)\nDe tanto verle bajar la frente\nLe hice un malambo pal diferente\n\nD\xF3nde est\xE1 tu voz?\nD\xF3nde la escond\xE9s?\nNo ves que hace falta tu diferente forma de ver?\nQue si vos mostr\xE1s\ntu verdad al sol\nSeguro bailamo el mismo malambo en el coraz\xF3n\n\nMALAMBO PAL CORAZ\xD3N\nCON MIL GOLPES DIEFERENTES\nSE EXPANDAN CON IGUALDAD\nLOS AMORES PARA SIEMPRE\n\nMALAMBO PAL CORAZ\xD3N\nCON MIL GOLPES DIFERENTES\nQUE SE EXPANDAN EN EL AIRE\nLOS AMORES PARA SIEMPRE.\n\nAgua tierra y sol\npa empezar a andar\nInfinitas formas de hacer visible la eternidad\nSer original\nes tan natural\nLa simpleza antigua de ser igualmente inmensidad\n\nMALAMBO PAL CORAZ\xD3N\nCON MIL GOLPES DIEFERENTES\nSE EXPANDAN CON IGUALDAD\nLOS AMORES PARA SIEMPRE\n\nMALAMBO PAL CORAZ\xD3N\nCON MIL GOLPES DIFERENTES\nQUE SE EXPANDAN EN EL AIRE\nLOS AMORES PARA SIEMPRE.'
+  },
+  riodelospajaros: {
+    mainImage: '/assets/images/rio-de-los-pajaros.jpeg',
+    autorObraPlastica: 'Marcelo Alpuy',
+    title: 'Río de los Pájaros',
+    description: 'Descripcion de Río de los Pájaros',
+    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    slug: 'rio-de-los-pajaros',
+    letra: 'R\xCDO DE LOS P\xC1JAROS    (letra y m\xFAsica An\xEDbal Sampayo)\n\nEl Uruguay no es un r\xEDo, Es un cielo azul que viaja\nPintor de nubes, camino, Con sabor a mieles ruanas\nLos amores de la costa, Son amores sin destino\nCamalotes de esperanza, Que se va llevando el r\xEDo\n\nChu\xE1 chu\xE1 chu\xE1 ja jaja\nNo cantes m\xE1s torcacita\nQue llora sangre el ceibal\n\nMorenita lavandera biguacita de la costa\nenr\xF3llate la pollera ponete a lavar la ropa\n\nTu madre cocina charque, tu padre fue r\xEDo arriba\nY vos te quedaste sola lavando ropa en la orilla\n\nChu\xE1 chu\xE1 chu\xE1 ja jaja\nNo cantes m\xE1s torcacita\nQue llora sangre el ceibal\n\nCanoita pescadora agu\xE1ntame el temporal\nSi mis brazos no se cansan remando te he de sacar\nGuricito pelo chuzo, ojitos de yacar\xE9\nBarriguita chifladora lomito color caf\xE9\n\nChu\xE1 chu\xE1 chu\xE1 ja jaja\nNo cantes m\xE1s tocarcita\nQue llora sangre el ceibal\n'
+  },
+  guripescador: {
+    mainImage: '/assets/images/guri-pescador.jpeg',
+    autorObraPlastica: 'JC Barreto  ',
+    title: 'Guri Pescador',
+    description: 'Descripcion Guri Pescador',
+    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    slug: 'guri-pescador',
+    letra: 'GUR\xCD PESCADOR (letra y m\xFAsica Osiris Rodriguez Castillo)\n\nCon una ca\xF1a de bamb\xFA- un perro lanudo-\nun tarrito con lombrices...y entre los verdes juncos: las mojarras.\nA\xFAn veo aquella tararira- lujosa- como la vaina de un cuchillo de plata-\n\xA1tan parecida al sue\xF1o de un gur\xED Pescador...\n\nHay un reino bajo el agua\nun sauce me lo cont\xF3\ndonde el pejerrey escucha\ny canta el bagre cantor.\n\nEn la taipa de un asube\nyo v\xED un gur\xED pescador\nque confundiendo a las piavas\nles cantaba esta canci\xF3n.\n\nTararira - Tararira\nque arisca y sabia que est\xE1s\nanzuelo que cae al agua\nmojarra que te llev\xE1s\npica pica Tararira\nplata viva del juncal\nmientras no se corte el hilo\njunto al agua me hallar\xE1s.\n\nY yo que crec\xED en silencio\nbajo los sauces del Y\xED\ncobrizo de soles largos\ncomprendo bien al gur\xED.\n\nSiempre la suerte fue esquiva\ncual los peces para m\xED\npero \xE9l me ense\xF1\xF3 estas coplas\nque alumbran como un candil.\n'
+  },
+  milongadelmate: {
+    mainImage: '/assets/images/milonga-del-mate.jpeg',
+    autorObraPlastica: 'Gonzalo Mesa',
+    title: 'Milonga del mate',
+    description: 'Descripcion Milonga del mate',
+    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    slug: 'milonga-del-mate',
+    letra: 'MILONGA DEL MATE  (letra y m\xFAsica: Carisa Prince)\nDe la  m\xE1gica intuici\xF3n de una abuela naci\xF3 el mate\nHace tanto tiempo atr\xE1s! ... lloraba el sol sobre los sauces.\nCuenco, pozo, coraz\xF3n, de alma verde con bombilla,\nPuede llenar los silencios o encender la maravilla.\n\nY todo aquel que andaba solo\nSin saber d\xF3nde poner sus besos\nComo refugio de pesares,\nde agua y yerba, tomaba un mate.\n\nNI\xD1AS MURIENDO DE AMOR,\nHOMBRES HERIDOS,\nY TODO AQUEL QUE HUBIESE PREFERIDO\nNO HABERSE EQUIVOCADO TANTO.\n\nDe que lluvias, con qu\xE9 mar, nutrieron los yerbatales?\nque la espuma al cebador le da vuelta las verdades!\nComo el r\xEDo llevar\xE1 tus palabras mar adentro\nY armar\xE1, para girar, lunas llenas con su centro.\n'
+  },
+  graciasalavida: {
+    mainImage: '/assets/images/gracias-a-la-vida.jpeg',
+    autorObraPlastica: 'Oscar Laguarda',
+    title: 'Gracias a la vida',
+    description: 'Descripcion de Gracias a la vida',
+    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    slug: 'gracias-a-la-vida',
+    letra: 'GRACIAS A LA VIDA  (letra y m\xFAscia Violeta Parra)\n\nGracias a la vida que me ha dado tanto\u2028Me dio dos luceros, que cuando los abro\nPerfecto distingo lo negro del blanco\nY en el alto cielo su fondo estrellado\nY en las multitudes el hombre que yo amo\nGracias a la vida que me ha dado tanto\u2028Me ha dado el o\xEDdo que en todo su ancho\u2028Graba noche y d\xEDa, grillos y canarios\u2028Martillos, turbinas, ladridos, chubascos\u2028Y la voz tan tierna de mi bien amado\nGracias a la vida que me ha dado tanto\u2028Me ha dado el sonido y el abecedario\u2028Con \xE9l las palabras que pienso y declaro\u2028Madre, amigo, hermano, y luz alumbrando\u2028La ruta del alma del que estoy amando\nGracias a la vida que me ha dado tanto\u2028Me ha dado la marcha de mis pies cansados\u2028Con ellos anduve ciudades y charcos\u2028Playas y desiertos, monta\xF1as y llanos\u2028Y la casa tuya, tu calle y tu patio\nGracias a la vida que me ha dado tanto\u2028Me dio el coraz\xF3n que agita su marco\u2028Cuando miro el fruto del cerebro humano\u2028Cuando miro al bueno tan lejos del malo\u2028Cuando miro al fondo de tus ojos claros\nGracias a la vida que me ha dado tanto\u2028Me ha dado la risa y me ha dado el llanto\u2028As\xED yo distingo dicha de quebranto\u2028Los dos materiales que forman mi canto\u2028Y el canto de ustedes que es mi mismo canto\u2028Y el canto de todos que es mi propio canto\u2028Gracias a la vida que me ha dado tanto\n\nVALS DE ABRIL (letra y m\xFAsica Lucio Muniz)\n\nVuelvo a palpitar, viendo su perfil y es m\xEDo el momento\nEn que natural la luna de abril crece con el viento\nHoy me ha vuelto a herir s\xF3lo con brillar y acordes me arranca\nQu\xE9 querr\xE1 decir me quiere alcanzar con su sangre blanca.\nS\xE9 que antes me vi\xF3 pero me olvid\xF3 y fue en soledades\nQue me sumergi\xF3 luna que hoy volvi\xF3 forma que me invades\nVuelves a rodar sobre el caser\xF3n donde flota un fr\xEDo\nQue tibieza fue y que guardar\xE9 en un rinc\xF3n m\xEDo\n\nRara mariposa, volando despacio\nAnda silenciosa sola en el espacio\nLa luz de su vuelo  que pronto se aleja\nMe oscurece el cielo ya.\n\nLa mir\xE9 pasar y a veces pens\xE9 que algo me dec\xEDa\nDe su mudo andar silencioso pi\xE9 su zona fue m\xEDa\nTrepado al pretil aromando a miel las enredaderas\nQu\xE9 claro fue abril dejando su piel sobre las veredas\nJunto a su luz voy y al volverla a ver regreso a los a\xF1os\nDonde intacto estoy ni\xF1o sin saber estos desenga\xF1os\nQuiero aprisionar la luz del balc\xF3n saber una a una\nLas notas que est\xE1n en esa canci\xF3n muda de la luna.\n'
+  }
+};
 // CONCATENATED MODULE: ./components/header/index.js
 
 
@@ -3303,161 +3460,315 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+
 // import style from './style';
 
 var header__ref = Object(preact_min["h"])(
-	TopAppBar_default.a.Title,
-	null,
-	'Preact app'
+  List_default.a.ItemGraphic,
+  null,
+  'home'
 );
 
 var header__ref2 = Object(preact_min["h"])(
-	TopAppBar_default.a.Icon,
-	null,
-	'settings'
+  List_default.a.ItemGraphic,
+  null,
+  'account_circle'
 );
 
 var _ref3 = Object(preact_min["h"])(
-	List_default.a.ItemGraphic,
-	null,
-	'home'
+  List_default.a.ItemGraphic,
+  null,
+  'music_note'
 );
 
 var _ref4 = Object(preact_min["h"])(
-	List_default.a.ItemGraphic,
-	null,
-	'account_circle'
+  List_default.a.ItemGraphic,
+  null,
+  'music_note'
 );
 
 var _ref5 = Object(preact_min["h"])(
-	Dialog_default.a.Header,
-	null,
-	'Settings'
-);
-
-var _ref6 = Object(preact_min["h"])(
-	Dialog_default.a.Footer,
-	null,
-	Object(preact_min["h"])(
-		Dialog_default.a.FooterButton,
-		{ accept: true },
-		'OK'
-	)
+  List_default.a.ItemGraphic,
+  null,
+  'music_note'
 );
 
 var header_Header = function (_Component) {
-	_inherits(Header, _Component);
+  _inherits(Header, _Component);
 
-	function Header() {
-		var _temp, _this, _ret;
+  function Header(props) {
+    _classCallCheck(this, Header);
 
-		_classCallCheck(this, Header);
+    var _this = _possibleConstructorReturn(this, _Component.call(this, props));
 
-		for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-			args[_key] = arguments[_key];
-		}
+    _this.openDrawer = function () {
+      return _this.drawer.MDComponent.open = true;
+    };
 
-		return _ret = (_temp = (_this = _possibleConstructorReturn(this, _Component.call.apply(_Component, [this].concat(args))), _this), _this.openDrawer = function () {
-			return _this.drawer.MDComponent.open = true;
-		}, _this.openSettings = function () {
-			return _this.dialog.MDComponent.show();
-		}, _this.drawerRef = function (drawer) {
-			return _this.drawer = drawer;
-		}, _this.dialogRef = function (dialog) {
-			return _this.dialog = dialog;
-		}, _this.linkTo = function (path) {
-			return function () {
-				route(path);
-				_this.closeDrawer();
-			};
-		}, _this.goHome = _this.linkTo('/'), _this.goToMyProfile = _this.linkTo('/profile'), _this.toggleDarkTheme = function () {
-			_this.setState({
-				darkThemeEnabled: !_this.state.darkThemeEnabled
-			}, function () {
-				if (_this.state.darkThemeEnabled) {
-					document.body.classList.add('mdc-theme--dark');
-				} else {
-					document.body.classList.remove('mdc-theme--dark');
-				}
-			});
-		}, _temp), _possibleConstructorReturn(_this, _ret);
-	}
+    _this.drawerRef = function (drawer) {
+      return _this.drawer = drawer;
+    };
 
-	Header.prototype.closeDrawer = function closeDrawer() {
-		this.drawer.MDComponent.open = false;
-		this.state = {
-			darkThemeEnabled: false
-		};
-	};
+    _this.linkTo = function (path) {
+      return function () {
+        route(path);
+        _this.closeDrawer();
+      };
+    };
 
-	Header.prototype.render = function render(props) {
-		console.log(props.selectedRoute);
-		return Object(preact_min["h"])(
-			'div',
-			null,
-			Object(preact_min["h"])(
-				TopAppBar_default.a,
-				{ className: 'toolbar' },
-				Object(preact_min["h"])(
-					TopAppBar_default.a.Row,
-					null,
-					Object(preact_min["h"])(
-						TopAppBar_default.a.Section,
-						{ 'align-start': true },
-						Object(preact_min["h"])(
-							TopAppBar_default.a.Icon,
-							{ menu: true, onClick: this.openDrawer },
-							'menu'
-						),
-						header__ref
-					),
-					Object(preact_min["h"])(
-						TopAppBar_default.a.Section,
-						{ 'align-end': true, 'shrink-to-fit': true, onClick: this.openSettings },
-						header__ref2
-					)
-				)
-			),
-			Object(preact_min["h"])(
-				Drawer_default.a,
-				{ modal: true, ref: this.drawerRef },
-				Object(preact_min["h"])(
-					Drawer_default.a.DrawerContent,
-					null,
-					Object(preact_min["h"])(
-						Drawer_default.a.DrawerItem,
-						{ selected: props.selectedRoute === '/', onClick: this.goHome },
-						_ref3,
-						'Home'
-					),
-					Object(preact_min["h"])(
-						Drawer_default.a.DrawerItem,
-						{ selected: props.selectedRoute === '/profile', onClick: this.goToMyProfile },
-						_ref4,
-						'Profile'
-					)
-				)
-			),
-			Object(preact_min["h"])(
-				Dialog_default.a,
-				{ ref: this.dialogRef },
-				_ref5,
-				Object(preact_min["h"])(
-					Dialog_default.a.Body,
-					null,
-					Object(preact_min["h"])(
-						'div',
-						null,
-						'Enable dark theme ',
-						Object(preact_min["h"])(Switch_default.a, { onClick: this.toggleDarkTheme })
-					)
-				),
-				_ref6
-			)
-		);
-	};
+    _this.goHome = _this.linkTo('/');
+    _this.goToMyProfile = _this.linkTo('/autor');
+    _this.goToMaterialTEA = _this.linkTo('/material-tea');
+    _this.goToCanciones = _this.linkTo('/canciones');
+    _this.goToestrellita = _this.linkTo('/cancion/estrellita');
+    _this.goTovalsecitoconmatesysol = _this.linkTo('/cancion/valsecito-con-mates-y-sol');
+    _this.goTovidaladelperdon = _this.linkTo('/cancion/vida-la-del-perdon');
+    _this.goTozambitademadre = _this.linkTo('/cancion/zambita-de-madre');
+    _this.goTonegritamartina = _this.linkTo('/cancion/negrita-martina');
+    _this.goTovalsdeabril = _this.linkTo('/cancion/vals-de-abril');
+    _this.goTovidalita = _this.linkTo('/cancion/vidalita');
+    _this.goTobagualadeldesierto = _this.linkTo('/cancion/baguala-del-desierto');
+    _this.goTomalambopaldiferente = _this.linkTo('/cancion/malambo-pal-diferente');
+    _this.goToriodelospajaros = _this.linkTo('/cancion/rio-de-los-pajaros');
+    _this.goToguripescador = _this.linkTo('/cancion/guri-pescador');
+    _this.goTomilongadelmate = _this.linkTo('/cancion/milonga-del-mate');
+    _this.goTograciasalavida = _this.linkTo('/cancion/gracias-a-la-vida');
+    _this.goToObras = _this.linkTo('/obras-plasticas');
+    _this.goToObraestrellita = _this.linkTo('/obra-plastica/estrellita');
+    _this.goToObravalsecitoconmatesysol = _this.linkTo('/obra-plastica/valsecito-con-mates-y-sol');
+    _this.goToObravidaladelperdon = _this.linkTo('/obra-plastica/vida-la-del-perdon');
+    _this.goToObrazambitademadre = _this.linkTo('/obra-plastica/zambita-de-madre');
+    _this.goToObranegritamartina = _this.linkTo('/obra-plastica/negrita-martina');
+    _this.goToObravalsdeabril = _this.linkTo('/obra-plastica/vals-de-abril');
+    _this.goToObravidalita = _this.linkTo('/obra-plastica/vidalita');
+    _this.goToObrabagualadeldesierto = _this.linkTo('/obra-plastica/baguala-del-desierto');
+    _this.goToObramalambopaldiferente = _this.linkTo('/obra-plastica/malambo-pal-diferente');
+    _this.goToObrariodelospajaros = _this.linkTo('/obra-plastica/rio-de-los-pajaros');
+    _this.goToObraguripescador = _this.linkTo('/obra-plastica/guri-pescador');
+    _this.goToObramilongadelmate = _this.linkTo('/obra-plastica/milonga-del-mate');
+    _this.goToObragraciasalavida = _this.linkTo('/obra-plastica/gracias-a-la-vida');
 
-	return Header;
+    _this.getTitle = function () {
+      //the semantic key names of the database entries of the songs must be a reduced version of the route without whitespaces nor dashes, just all the letters alltogether
+      var routeText = _this.state.selectedRoute;
+      var cancionId = /[^/]*$/g.exec(routeText)[0].replace(/-/g, '');
+
+      var cancionData = _this.state.cancionesData[cancionId];
+      var titleResult = void 0;
+
+      if (cancionData) {
+        titleResult = cancionData.title;
+      } else if (routeText === '/') {
+        // else {
+        titleResult = ' Clarisa Prince y ';
+      } else if (routeText === "/canciones") {
+        // else {
+        titleResult = ' Canciones';
+      } else if (routeText === "/obras-plasticas") {
+        // else {
+        titleResult = 'Obras Plasticas';
+      }
+      return titleResult;
+    };
+
+    _this.state = {
+      cancionesMarkup: [],
+      cancionesData: canciones,
+      selectedRoute: _this.props.selectedRoute
+    };
+    _this.getSongsListMarkup = _this.getSongsListMarkup.bind(_this);
+    _this.getObrasPlasticasListMarkup = _this.getObrasPlasticasListMarkup.bind(_this);
+    _this.getIsSelectedSong = _this.getIsSelectedSong.bind(_this);
+    _this.closeDrawer = _this.closeDrawer.bind(_this);
+    _this.linkTo = _this.linkTo.bind(_this);
+    // this.navigateToSong = this.navigateToSong.bind(this);
+    return _this;
+  }
+  // componentDidMount() {
+  //   console.log('state', this.state);
+  //    this.setState({ cancionesMarkup: this.getSongsListMarkup()})
+  // }
+
+
+  Header.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+    this.setState({ selectedRoute: nextProps.selectedRoute });
+  };
+
+  Header.prototype.closeDrawer = function closeDrawer() {
+    this.drawer.MDComponent.open = false;
+    // this.state = {};
+  };
+  // navigateToSong(e, cancion) {
+  //    route(`/cancion/${this.state.cancionesData[cancion].slug}`);
+  //    this.closeDrawer();
+  //   let url = `/cancion/${this.state.cancionesData[this.state.selecteSong].slug}`;
+  //   this.linkTo(url)
+  // }
+
+  // navigateToSong = this.linkTo(`/cancion/${this.state.cancionesData[this.state.selecteSong].slug}`);
+
+  //canciones
+
+
+  //obras plasticas
+
+
+  Header.prototype.render = function render(props) {
+    console.log(props.selectedRoute);
+    return Object(preact_min["h"])(
+      'div',
+      null,
+      Object(preact_min["h"])(
+        TopAppBar_default.a,
+        { style: {
+            width: '100vw',
+            padding: '0rem 3rem 0rem 1rem',
+            backgroundColor: 'hsla(25, 45%, 23%, 0.53)',
+            transition: 'width 2s'
+          }, className: 'toolbar' },
+        Object(preact_min["h"])(
+          TopAppBar_default.a.Row,
+          null,
+          Object(preact_min["h"])(
+            TopAppBar_default.a.Section,
+            { 'align-start': 'align-start' },
+            Object(preact_min["h"])(
+              TopAppBar_default.a.Icon,
+              { menu: 'menu', style: {
+                  cursor: 'pointer'
+                }, onClick: this.openDrawer },
+              'flare'
+            ),
+            Object(preact_min["h"])(
+              TopAppBar_default.a.Title,
+              { style: {
+                  fontFamily: 'Sign Painter',
+                  fontSize: '1.5rem',
+                  margin: 'auto'
+                } },
+              this.getTitle()
+            )
+          )
+        )
+      ),
+      Object(preact_min["h"])(
+        Drawer_default.a,
+        { modal: 'modal', ref: this.drawerRef },
+        Object(preact_min["h"])(
+          Drawer_default.a.DrawerContent,
+          { style: {
+              backgoundColor: 'hsl(24, 18%, 28%)',
+              color: 'hsl(24, 18%, 88%)'
+            } },
+          Object(preact_min["h"])(
+            Drawer_default.a.DrawerItem,
+            { style: {
+                cursor: 'pointer'
+              }, selected: props.selectedRoute === '/' || props.selectedRoute === '/no-encontrado', onClick: this.goHome },
+            header__ref,
+            'Home'
+          ),
+          Object(preact_min["h"])(
+            Drawer_default.a.DrawerItem,
+            { style: {
+                cursor: 'pointer'
+              }, selected: props.selectedRoute === '/autor', onClick: this.goToMyProfile },
+            header__ref2,
+            'Ficha Tecnica'
+          ),
+          Object(preact_min["h"])(
+            Drawer_default.a.DrawerItem,
+            { style: {
+                cursor: 'pointer'
+              }, selected: props.selectedRoute === '/canciones', onClick: this.goToCanciones },
+            Object(preact_min["h"])(
+              'h1',
+              { style: {
+                  marginLeft: '1rem'
+                } },
+              'Canciones'
+            ),
+            _ref3
+          ),
+          /* Lista de Canciones */
+          this.getSongsListMarkup(),
+          Object(preact_min["h"])(
+            Drawer_default.a.DrawerItem,
+            { style: {
+                cursor: 'pointer'
+              }, selected: props.selectedRoute === '/obras-plasticas', onClick: this.goToObras },
+            Object(preact_min["h"])(
+              'h1',
+              { style: {
+                  marginLeft: '1rem'
+                } },
+              'Obras plasticas'
+            ),
+            _ref4
+          ),
+          /* Lista de Canciones */
+          this.getObrasPlasticasListMarkup(),
+          Object(preact_min["h"])(
+            Drawer_default.a.DrawerItem,
+            { style: {
+                cursor: 'pointer'
+              }, selected: props.selectedRoute === '/material-tea', onClick: this.goToMaterialTEA },
+            Object(preact_min["h"])(
+              'h1',
+              { style: {
+                  marginLeft: '1rem'
+                } },
+              'Material TEA'
+            ),
+            _ref5
+          )
+        )
+      )
+    );
+  };
+
+  Header.prototype.getIsSelectedSong = function getIsSelectedSong(cancion) {
+    // this.setState({selecteSong: cancion})
+    return;
+  };
+
+  Header.prototype.getSongsListMarkup = function getSongsListMarkup() {
+    // debugger
+    var cancionesList = [];
+    for (var cancion in this.state.cancionesData) {
+      if (this.state.cancionesData.hasOwnProperty(cancion)) {
+        cancionesList.push(Object(preact_min["h"])(
+          Drawer_default.a.DrawerItem,
+          { style: {
+              cursor: 'pointer'
+            }, selected: this.props.selectedRoute === '/cancion/' + this.state.cancionesData[cancion].slug, onClick: this['goTo' + cancion] },
+          this.state.cancionesData[cancion].title
+        ));
+      }
+    }
+    // this.setState({cancionesMarkup: cancionesList});
+    return cancionesList;
+  };
+
+  Header.prototype.getObrasPlasticasListMarkup = function getObrasPlasticasListMarkup() {
+    // debugger
+    var cancionesList = [];
+    for (var cancion in this.state.cancionesData) {
+      if (this.state.cancionesData.hasOwnProperty(cancion)) {
+        cancionesList.push(Object(preact_min["h"])(
+          Drawer_default.a.DrawerItem,
+          { style: {
+              cursor: 'pointer'
+            }, selected: this.props.selectedRoute === '/obra-plastica/' + this.state.cancionesData[cancion].slug, onClick: this['goToObra' + cancion] },
+          this.state.cancionesData[cancion].title
+        ));
+      }
+    }
+    // this.setState({cancionesMarkup: cancionesList});
+    return cancionesList;
+  };
+
+  return Header;
 }(preact_min["Component"]);
 
 
@@ -3469,6 +3780,74 @@ var Card_default = /*#__PURE__*/__webpack_require__.n(Card);
 var Card_style = __webpack_require__("UlEV");
 var Card_style_default = /*#__PURE__*/__webpack_require__.n(Card_style);
 
+// EXTERNAL MODULE: ./routes/404/style.css
+var _04_style = __webpack_require__("xxi1");
+var _04_style_default = /*#__PURE__*/__webpack_require__.n(_04_style);
+
+// CONCATENATED MODULE: ./routes/404/index.js
+
+
+function _04__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _04__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _04__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+
+
+var _04__ref = Object(preact_min["h"])(
+	'h2',
+	{ 'class': ' mdc-typography--title' },
+	'404! No pudimos encontrar \xE9sta p\xE1gina.'
+);
+
+var _04_NotFound = function (_Component) {
+	_04__inherits(NotFound, _Component);
+
+	function NotFound() {
+		_04__classCallCheck(this, NotFound);
+
+		return _04__possibleConstructorReturn(this, _Component.apply(this, arguments));
+	}
+
+	NotFound.prototype.componentDidMount = function componentDidMount() {
+		route('/no-encontrado');
+	};
+
+	NotFound.prototype.render = function render() {
+		return Object(preact_min["h"])(
+			'div',
+			{ 'class': _04_style_default.a.home + ' page', style: {
+					backgroundImage: 'url(/assets/images/la-vida-la-bg-intro.JPG)',
+					width: '100%',
+					height: '150%',
+					overflow: 'hidden'
+				} },
+			Object(preact_min["h"])(
+				Card_default.a,
+				null,
+				Object(preact_min["h"])(
+					'div',
+					{ 'class': _04_style_default.a.cardHeader },
+					_04__ref
+				),
+				Object(preact_min["h"])(
+					'div',
+					{ 'class': _04_style_default.a.cardBody },
+					'Parece que la p\xE1gina a la que intent\xE1s acceder no existe.'
+				)
+			)
+		);
+	};
+
+	return NotFound;
+}(preact_min["Component"]);
+
+
 // EXTERNAL MODULE: ../node_modules/preact-material-components/Button/style.css
 var Button_style = __webpack_require__("aqQ4");
 var Button_style_default = /*#__PURE__*/__webpack_require__.n(Button_style);
@@ -3477,7 +3856,32 @@ var Button_style_default = /*#__PURE__*/__webpack_require__.n(Button_style);
 var home_style = __webpack_require__("ZAL5");
 var home_style_default = /*#__PURE__*/__webpack_require__.n(home_style);
 
-// CONCATENATED MODULE: ./routes/home/index.js
+// EXTERNAL MODULE: ../node_modules/preact-material-components/Icon/index.js
+var Icon = __webpack_require__("MeGi");
+var Icon_default = /*#__PURE__*/__webpack_require__.n(Icon);
+
+// CONCATENATED MODULE: ./utils/responsive.js
+var isMobile = function isMobile() {
+  // return this.setState({
+  //   isMobile: window.innerWidth < 600
+  //     ? true
+  //     : false
+  // }, ()=> {console.log('is mobile');})
+};
+var getImageSize = function getImageSize(winWidth, imgWidth, winHeight, imgHeight) {
+  var deviceFactor = 1;
+  if (winHeight > winWidth) {
+    deviceFactor = 1;
+  }
+  winWidth = winWidth * deviceFactor;
+  winHeight = winHeight * deviceFactor;
+  var ratio = Math.min(winWidth / imgWidth, winHeight / imgHeight);
+  return {
+    height: imgHeight * ratio,
+    width: imgWidth * ratio
+  };
+};
+// CONCATENATED MODULE: /usr/local/lib/node_modules/preact-cli/lib/lib/webpack/dummy-loader.js!./routes/home/index.js
 
 
 function home__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -3492,71 +3896,169 @@ function home__inherits(subClass, superClass) { if (typeof superClass !== "funct
 
 
 
-var home__ref = Object(preact_min["h"])(
-	'h1',
-	null,
-	'Home route'
-);
 
-var home__ref2 = Object(preact_min["h"])(
-	'h2',
-	{ 'class': ' mdc-typography--title' },
-	'Home card'
-);
 
-var home__ref3 = Object(preact_min["h"])(
-	'div',
-	{ 'class': ' mdc-typography--caption' },
-	'Welcome to home route'
-);
-
-var home__ref4 = Object(preact_min["h"])(
-	Card_default.a.Actions,
-	null,
-	Object(preact_min["h"])(
-		Card_default.a.ActionButton,
-		null,
-		'OKAY'
-	)
-);
 
 var home_Home = function (_Component) {
-	home__inherits(Home, _Component);
+  home__inherits(Home, _Component);
 
-	function Home() {
-		home__classCallCheck(this, Home);
+  function Home(props) {
+    home__classCallCheck(this, Home);
 
-		return home__possibleConstructorReturn(this, _Component.apply(this, arguments));
-	}
+    var _this = home__possibleConstructorReturn(this, _Component.call(this, props));
 
-	Home.prototype.render = function render() {
-		return Object(preact_min["h"])(
-			'div',
-			{ 'class': home_style_default.a.home + ' page' },
-			home__ref,
-			Object(preact_min["h"])(
-				Card_default.a,
-				null,
-				Object(preact_min["h"])(
-					'div',
-					{ 'class': home_style_default.a.cardHeader },
-					home__ref2,
-					home__ref3
-				),
-				Object(preact_min["h"])(
-					'div',
-					{ 'class': home_style_default.a.cardBody },
-					'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.'
-				),
-				home__ref4
-			)
-		);
-	};
+    _this.handleResize = _this.handleResize.bind(_this);
+    // this.getImageSize = this.getImageSize.bind(this)
+    if (typeof window !== "undefined") {
+      _this.state = {
+        imageSize: getImageSize(window.innerWidth, 1280, window.innerHeight, 960),
+        isMobile: home_isMobile()
+      };
+    } else {
+      _this.state = {
+        imageSize: {
+          width: '100%',
+          height: '100%'
+        },
+        isMobile: false
+      };
+    }
+    return _this;
+  }
 
-	return Home;
+  Home.prototype.componentWillMount = function componentWillMount() {
+    this.handleResize();
+  };
+
+  Home.prototype.componentDidMount = function componentDidMount() {
+    window.addEventListener("resize", this.handleResize);
+  };
+
+  Home.prototype.componentWillUnmount = function componentWillUnmount() {
+    window.removeEventListener("resize", this.handleResize);
+  };
+
+  Home.prototype.handleResize = function handleResize() {
+    if (typeof window !== "undefined") {
+      this.setState({
+        imageSize: getImageSize(document.body.clientWidth, 1280, window.innerHeight, 2000),
+        isMobile: home_isMobile()
+      });
+    }
+  };
+
+  // <div class={`${style.home} page`}>
+  // </div>
+
+
+  Home.prototype.render = function render() {
+    return Object(preact_min["h"])(
+      'div',
+      { style: {
+
+          // backgroundColor: 'rgb(176, 159, 115)',
+          // backgroundImage: 'url(/assets/images/la-vida-la-bg-intro.JPG)',
+
+          width: '100%',
+          height: '150%',
+          overflow: 'hidden'
+        } },
+      Object(preact_min["h"])(
+        'div',
+        { name: 'crisalidas', style: {
+            width: this.state.imageSize.width + 'px',
+            height: this.state.imageSize.height + 'px',
+            marginTop: '' + (this.state.isMobile ? '16vh' : '0vh'),
+            backgroundImage: 'url(/assets/images/crisalidas.gif)',
+            // backgroundSize: 'cover',
+            backgroundSize: this.state.imageSize.width + 'px ' + this.state.imageSize.height + 'px',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center top',
+            margin: '2rem auto auto'
+          } },
+        Object(preact_min["h"])(
+          'div',
+          { style: {
+              width: this.state.imageSize.width + 'px',
+              // width: '100vw',
+              height: this.state.imageSize.height + 'px',
+              // maxWidth: '90vh',
+              // backgroundImage: 'url(/assets/images/crisalidas.png)',
+              // backgroundSize: 'contain',
+              // backgroundRepeat: 'no-repeat',
+              // backgroundPosition: 'top center',
+              // backgroundColor: '#b09f73',
+              position: 'relative',
+              fontFamily: 'Sign Painter',
+              writingMode: 'vertical-rl',
+              textOrientation: 'upright',
+              fontSize: '1.5rem',
+              textTransform: 'uppercase'
+            } },
+          Object(preact_min["h"])('div', { href: '/canciones', onClick: function onClick() {
+              return route('/canciones');
+            }, title: 'Canciones', 'class': '' + home_style_default.a.portadaLink, style: {
+              left: '5%',
+              top: '' + (this.state.isMobile ? '0%' : '16%'),
+              width: '14.06%',
+              height: '' + (this.state.isMobile ? '100%' : '122vh')
+            } }),
+          Object(preact_min["h"])('div', { onClick: function onClick() {
+              return route('/obras-plasticas');
+            }, href: '/obras-plasticas', title: 'Obras pl\xE1sticas', 'class': '' + home_style_default.a.portadaLink, style: {
+              left: '24%',
+              top: '' + (this.state.isMobile ? '0%' : '16%'),
+              width: '14.06%',
+              height: '' + (this.state.isMobile ? '100%' : '122vh')
+            } }),
+          Object(preact_min["h"])('div', { onClick: function onClick() {
+              return route('/fotos-y-videos');
+            }, href: '/fotos-y-videos', title: 'Fotos y v\xEDdeos', 'class': '' + home_style_default.a.portadaLink, style: {
+              left: '42%',
+              top: '' + (this.state.isMobile ? '0%' : '16%'),
+              width: '14.06%',
+              height: '' + (this.state.isMobile ? '100%' : '122vh')
+            } }),
+          Object(preact_min["h"])('div', { onClick: function onClick() {
+              return route('/material-tea');
+            }, href: '/material-tea', title: 'Material TEA', 'class': '' + home_style_default.a.portadaLink, style: {
+              left: '60%',
+              top: '' + (this.state.isMobile ? '0%' : '16%'),
+              width: '14.06%',
+              height: '' + (this.state.isMobile ? '100%' : '122vh')
+            } }),
+          Object(preact_min["h"])('div', { onClick: function onClick() {
+              return route('/ficha-tecnica');
+            }, href: '/ficha-tecnica', title: 'Ficha t\xE9cnica', 'class': '' + home_style_default.a.portadaLink, style: {
+              left: '80%',
+              top: '' + (this.state.isMobile ? '0%' : '16%'),
+              width: '14.06%',
+              height: '' + (this.state.isMobile ? '100%' : '122vh')
+            } })
+        )
+      )
+    );
+  };
+
+  return Home;
 }(preact_min["Component"]);
 
 
+
+function home_isMobile() {
+  // debugger
+  if (typeof window !== "undefined") {
+    if (window.innerWidth < 630) {
+      return true;
+    }
+    return false;
+  }
+}
+// <Card style={{color:'hsl(230, 90%, 58%)', width: `${window.innerWidth > 679 ? this.state.imageSize.width+'px' : '90vw'}`, margin: 'auto', maxWidth: '90vh'}}>
+//   <h1>Sitio en construcción</h1>
+//   <Icon>event_busy</Icon>
+//   <br/>
+// </Card>
 // EXTERNAL MODULE: ../node_modules/preact-material-components/Button/index.js
 var Button = __webpack_require__("7/cg");
 var Button_default = /*#__PURE__*/__webpack_require__.n(Button);
@@ -3565,7 +4067,7 @@ var Button_default = /*#__PURE__*/__webpack_require__.n(Button);
 var profile_style = __webpack_require__("Tv6c");
 var profile_style_default = /*#__PURE__*/__webpack_require__.n(profile_style);
 
-// CONCATENATED MODULE: ./routes/profile/index.js
+// CONCATENATED MODULE: /usr/local/lib/node_modules/preact-cli/lib/lib/webpack/dummy-loader.js!./routes/profile/index.js
 
 
 function profile__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -3573,6 +4075,7 @@ function profile__classCallCheck(instance, Constructor) { if (!(instance instanc
 function profile__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function profile__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -3625,38 +4128,47 @@ var profile_Profile = function (_Component) {
 
 		return Object(preact_min["h"])(
 			'div',
-			{ 'class': profile_style_default.a.profile + ' page' },
+			{ 'class': profile_style_default.a.profile + ' page', style: {
+					backgroundImage: 'url(/assets/images/la-vida-la-bg-intro.JPG)',
+					width: '100%',
+					height: '150%',
+					overflow: 'hidden'
+				} },
 			Object(preact_min["h"])(
-				'h1',
-				null,
-				'Profile: ',
-				user
-			),
-			Object(preact_min["h"])(
-				'p',
-				null,
-				'This is the user profile for a user named ',
-				user,
-				'.'
-			),
-			Object(preact_min["h"])(
-				'div',
-				null,
-				'Current time: ',
-				new Date(time).toLocaleString()
-			),
-			Object(preact_min["h"])(
-				'p',
-				null,
+				Card_default.a,
+				{ style: { color: '#fff', width: '90vw', margin: 'auto', maxWidth: '600px' } },
 				Object(preact_min["h"])(
-					Button_default.a,
-					{ raised: true, ripple: true, onClick: this.increment },
-					'Click Me'
+					'h1',
+					null,
+					'Profile: ',
+					user
 				),
-				' ',
-				'Clicked ',
-				count,
-				' times.'
+				Object(preact_min["h"])(
+					'p',
+					null,
+					'This is the user profile for a user named ',
+					user,
+					'.'
+				),
+				Object(preact_min["h"])(
+					'div',
+					null,
+					'Current time: ',
+					new Date(time).toLocaleString()
+				),
+				Object(preact_min["h"])(
+					'p',
+					null,
+					Object(preact_min["h"])(
+						Button_default.a,
+						{ raised: true, ripple: true, onClick: this.increment },
+						'Click Me'
+					),
+					' ',
+					'Clicked ',
+					count,
+					' times.'
+				)
 			)
 		);
 	};
@@ -3665,61 +4177,730 @@ var profile_Profile = function (_Component) {
 }(preact_min["Component"]);
 
 
-// EXTERNAL MODULE: ./routes/404/style.css
-var _04_style = __webpack_require__("xxi1");
-var _04_style_default = /*#__PURE__*/__webpack_require__.n(_04_style);
+// EXTERNAL MODULE: ../node_modules/preact-material-components/LayoutGrid/index.js
+var LayoutGrid = __webpack_require__("Q1yZ");
+var LayoutGrid_default = /*#__PURE__*/__webpack_require__.n(LayoutGrid);
 
-// CONCATENATED MODULE: ./routes/404/index.js
+// EXTERNAL MODULE: ../node_modules/preact-material-components/LayoutGrid/style.css
+var LayoutGrid_style = __webpack_require__("JL9d");
+var LayoutGrid_style_default = /*#__PURE__*/__webpack_require__.n(LayoutGrid_style);
 
+// EXTERNAL MODULE: ./routes/cancion/style.css
+var cancion_style = __webpack_require__("COXA");
+var cancion_style_default = /*#__PURE__*/__webpack_require__.n(cancion_style);
 
-function _04__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _04__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _04__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
+// CONCATENATED MODULE: /usr/local/lib/node_modules/preact-cli/lib/lib/webpack/dummy-loader.js!./routes/cancion/index.js
 
 
+function cancion__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var _04__ref = Object(preact_min["h"])(
-	'h2',
-	{ 'class': ' mdc-typography--title' },
-	'404! Page not found.'
-);
+function cancion__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-var _04_NotFound = function (_Component) {
-	_04__inherits(NotFound, _Component);
+function cancion__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	function NotFound() {
-		_04__classCallCheck(this, NotFound);
 
-		return _04__possibleConstructorReturn(this, _Component.apply(this, arguments));
-	}
 
-	NotFound.prototype.render = function render() {
-		return Object(preact_min["h"])(
-			'div',
-			{ 'class': _04_style_default.a.home + ' page' },
-			Object(preact_min["h"])(
-				Card_default.a,
-				null,
-				Object(preact_min["h"])(
-					'div',
-					{ 'class': _04_style_default.a.cardHeader },
-					_04__ref
-				),
-				Object(preact_min["h"])(
-					'div',
-					{ 'class': _04_style_default.a.cardBody },
-					'Looks like the page you are trying to access, doesn\'t exist.'
-				)
-			)
-		);
-	};
 
-	return NotFound;
+
+
+
+
+
+
+
+
+var cancion_Cancion = function (_Component) {
+  cancion__inherits(Cancion, _Component);
+
+  function Cancion(props) {
+    cancion__classCallCheck(this, Cancion);
+
+    var _this = cancion__possibleConstructorReturn(this, _Component.call(this, props));
+
+    _this.state = {
+      counter: 0,
+      data: canciones[_this.props.id.replace(/-/g, '')]
+    };
+    // this.isMobile = this.isMobile.bind(this);
+    return _this;
+  }
+
+  Cancion.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+    this.setState({
+      data: canciones[nextProps.id.replace(/-/g, '')]
+    });
+  };
+
+  Cancion.prototype.componentDidMount = function componentDidMount() {
+    // this.isMobile();
+    // window.addEventListener("resize", this.isMobile.bind(this));
+  };
+
+  Cancion.prototype.componentWillUnmount = function componentWillUnmount() {}
+  // window.removeEventListener("resize", this.isMobile.bind(this));
+
+  // <LayoutGrid.Cell class={style.temaPresentVisual} style={{
+  //     backgroundImage: `url(${this.state.data.mainImage})`
+  //   }} desktopCols="6" phoneCols="12" tabletCols="12">{this.props.id}</LayoutGrid.Cell>
+  ;
+
+  Cancion.prototype.render = function render() {
+    return Object(preact_min["h"])(
+      'div',
+      { 'class': cancion_style_default.a.home + ' page', style: {
+          backgroundImage: 'url(' + this.state.data.mainImage + ')',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+          // width: '100vw',
+          // height: '100vh',
+        } },
+      Object(preact_min["h"])(
+        'div',
+        { style: {
+            backgroundColor: 'hsla(356, 11%, 7%, 0.8)'
+          } },
+        Object(preact_min["h"])(
+          LayoutGrid_default.a,
+          { style: { minHeight: '100vh' } },
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Inner,
+            null,
+            Object(preact_min["h"])(
+              LayoutGrid_default.a.Cell,
+              { 'class': cancion_style_default.a.temaPresentVisual, style: {
+                  height: '100%',
+                  minHeight: '50vh'
+                }, desktopCols: '6', phoneCols: '12', tabletCols: '12' },
+              Object(preact_min["h"])(
+                'iframe',
+                { width: '100%', height: '100%', src: '' + this.state.data.videoURL, frameborder: '0', allow: 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen: 'allowfullscreen' },
+                'Cargando...'
+              )
+            ),
+            Object(preact_min["h"])(
+              LayoutGrid_default.a.Cell,
+              { style: {
+                  // height: '100%',
+                  color: '#fff',
+                  textAlign: 'center',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center',
+                  backgroundColor: 'transparent',
+                  margin: '0 auto auto auto'
+                }, desktopCols: '6', phoneCols: '12', tabletCols: '12' },
+              Object(preact_min["h"])(
+                'p',
+                null,
+                this.state.data.letra
+              )
+            )
+          )
+        )
+      )
+    );
+  };
+
+  return Cancion;
+}(preact_min["Component"]);
+
+
+// EXTERNAL MODULE: ./routes/canciones/style.css
+var canciones_style = __webpack_require__("KDbP");
+var canciones_style_default = /*#__PURE__*/__webpack_require__.n(canciones_style);
+
+// CONCATENATED MODULE: /usr/local/lib/node_modules/preact-cli/lib/lib/webpack/dummy-loader.js!./routes/canciones/index.js
+
+
+function canciones__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function canciones__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function canciones__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+
+
+
+// import {isMobile} from '../../utils/responsive';
+
+
+
+var canciones_Canciones = function (_Component) {
+  canciones__inherits(Canciones, _Component);
+
+  function Canciones(props) {
+    canciones__classCallCheck(this, Canciones);
+
+    var _this = canciones__possibleConstructorReturn(this, _Component.call(this, props));
+
+    _this.state = {};
+    // this.isMobile = this.isMobile.bind(this);
+    return _this;
+  }
+
+  Canciones.prototype.componentDidMount = function componentDidMount() {
+    // this.isMobile();
+    // window.addEventListener("resize", this.isMobile.bind(this));
+  };
+
+  Canciones.prototype.componentWillUnmount = function componentWillUnmount() {}
+  // window.removeEventListener("resize", this.isMobile.bind(this));
+
+
+  // isMobile() {
+  //   this.setState({
+  //     isMobile: window.innerWidth < 600
+  //       ? true
+  //       : false
+  //   })
+  // }
+
+  ;
+
+  Canciones.prototype.render = function render() {
+    return Object(preact_min["h"])(
+      'div',
+      { 'class': canciones_style_default.a.home + ' page' },
+      Object(preact_min["h"])(
+        LayoutGrid_default.a,
+        null,
+        Object(preact_min["h"])(
+          LayoutGrid_default.a.Inner,
+          null,
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/cancion/estrellita');
+              }, 'class': canciones_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.delperdon.mainImage})`,
+
+              }, cols: '12' },
+            'Estrellita'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/cancion/valsecito-con-mates-y-sol');
+              }, 'class': canciones_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.delperdon.mainImage})`,
+
+              }, cols: '12' },
+            'Valsecito con mates y sol'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/cancion/vida-la-del-perdon');
+              }, 'class': canciones_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.delperdon.mainImage})`,
+
+              }, cols: '12' },
+            'Vida-la del perd\xF3n'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/cancion/zambita-de-madre');
+              }, 'class': canciones_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Zambita de Madre'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/cancion/negrita-martina');
+              }, 'class': canciones_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Negrita Martina'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/cancion/vals-de-abril');
+              }, 'class': canciones_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Vals de Abril'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/cancion/vidalita');
+              }, 'class': canciones_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Vidalita'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/cancion/baguala-del-desierto');
+              }, 'class': canciones_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Baguala del desierto'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/cancion/malambo-pal-diferente');
+              }, 'class': canciones_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Malambo pal diferente'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/cancion/rio-de-los-pajaros');
+              }, 'class': canciones_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'R\xEDo de los P\xE1jaros'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/cancion/guri-pescador');
+              }, 'class': canciones_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Guri Pescador'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/cancion/milonga-del-mate');
+              }, 'class': canciones_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Milonga del mate'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/cancion/gracias-a-la-vida');
+              }, 'class': canciones_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Gracias a la vida'
+          )
+        )
+      )
+    );
+  };
+
+  return Canciones;
+}(preact_min["Component"]);
+
+
+
+
+var dataBase = {
+  delperdon: {
+    mainImage: '/assets/images/la-vida-la-del-perdon.jpg',
+    title: 'Vida-la del perdon',
+    description: 'Descripcion de La del perdon'
+  },
+  graciasALaVida: {
+    mainImage: '/assets/images/gracias_a_la_vida_vparra_oscar_laguarda1366X1020_72.jpg',
+    title: 'Gracias a la vida',
+    description: 'Gracias a la vida de Violeta Parra.'
+  }
+};
+// EXTERNAL MODULE: ./routes/material-tea/style.css
+var material_tea_style = __webpack_require__("AGIH");
+var material_tea_style_default = /*#__PURE__*/__webpack_require__.n(material_tea_style);
+
+// CONCATENATED MODULE: /usr/local/lib/node_modules/preact-cli/lib/lib/webpack/dummy-loader.js!./routes/material-tea/index.js
+
+
+function material_tea__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function material_tea__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function material_tea__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+
+
+
+// import {canciones} from '../../database';
+
+
+
+var material_tea_MaterialTEA = function (_Component) {
+  material_tea__inherits(MaterialTEA, _Component);
+
+  function MaterialTEA(props) {
+    material_tea__classCallCheck(this, MaterialTEA);
+
+    var _this = material_tea__possibleConstructorReturn(this, _Component.call(this, props));
+
+    _this.state = {};
+    // this.isMobile = this.isMobile.bind(this);
+    return _this;
+  }
+
+  MaterialTEA.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {};
+
+  MaterialTEA.prototype.componentDidMount = function componentDidMount() {
+    // this.isMobile();
+    // window.addEventListener("resize", this.isMobile.bind(this));
+  };
+
+  MaterialTEA.prototype.componentWillUnmount = function componentWillUnmount() {
+    // window.removeEventListener("resize", this.isMobile.bind(this));
+  };
+
+  MaterialTEA.prototype.render = function render() {
+    return Object(preact_min["h"])(
+      'div',
+      { 'class': material_tea_style_default.a.home + ' page' },
+      Object(preact_min["h"])(
+        LayoutGrid_default.a,
+        null,
+        Object(preact_min["h"])(
+          LayoutGrid_default.a.Inner,
+          null,
+          Object(preact_min["h"])(LayoutGrid_default.a.Cell, { 'class': material_tea_style_default.a.temaPresentVisual, style: { height: '100%' }, desktopCols: '6', phoneCols: '12', tabletCols: '12' })
+        )
+      )
+    );
+  };
+
+  return MaterialTEA;
+}(preact_min["Component"]);
+
+
+// EXTERNAL MODULE: ../node_modules/emojis/index.js
+var emojis = __webpack_require__("boCY");
+var emojis_default = /*#__PURE__*/__webpack_require__.n(emojis);
+
+// EXTERNAL MODULE: ./routes/obra-plastica/style.css
+var obra_plastica_style = __webpack_require__("Mzro");
+var obra_plastica_style_default = /*#__PURE__*/__webpack_require__.n(obra_plastica_style);
+
+// CONCATENATED MODULE: /usr/local/lib/node_modules/preact-cli/lib/lib/webpack/dummy-loader.js!./routes/obra-plastica/index.js
+
+
+function obra_plastica__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function obra_plastica__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function obra_plastica__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+var obra_plastica_ObraPlastica = function (_Component) {
+  obra_plastica__inherits(ObraPlastica, _Component);
+
+  function ObraPlastica(props) {
+    obra_plastica__classCallCheck(this, ObraPlastica);
+
+    var _this = obra_plastica__possibleConstructorReturn(this, _Component.call(this, props));
+
+    _this.state = {
+      counter: 0,
+      data: canciones[_this.props.id.replace(/-/g, '')]
+    };
+    // this.isMobile = this.isMobile.bind(this);
+    return _this;
+  }
+
+  ObraPlastica.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+    this.setState({
+      data: canciones[nextProps.id.replace(/-/g, '')]
+    });
+  };
+
+  ObraPlastica.prototype.componentDidMount = function componentDidMount() {
+    // this.isMobile();
+    // window.addEventListener("resize", this.isMobile.bind(this));
+  };
+
+  ObraPlastica.prototype.componentWillUnmount = function componentWillUnmount() {
+    // window.removeEventListener("resize", this.isMobile.bind(this));
+  };
+
+  ObraPlastica.prototype.render = function render() {
+    return Object(preact_min["h"])(
+      'div',
+      { 'class': obra_plastica_style_default.a.home + ' page' },
+      Object(preact_min["h"])(
+        LayoutGrid_default.a,
+        null,
+        Object(preact_min["h"])(
+          LayoutGrid_default.a.Inner,
+          null,
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { cols: 12, 'class': { color: '#fff' }, style: { height: '100%' }, desktopCols: '6', phoneCols: '12', tabletCols: '12' },
+            this.state.data
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { 'class': obra_plastica_style_default.a.temaPresentVisual, style: {
+                // backgroundImage: `url(${this.state.data.mainImage})`,
+                // minHeight: '90vh'
+              }, desktopCols: '6', phoneCols: '12', tabletCols: '12' },
+            Object(preact_min["h"])('img', { src: this.state.data.mainImage, style: { height: '100%', width: '100%' } })
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { 'class': obra_plastica_style_default.a.temaPresentVisual, style: {}, desktopCols: '6', phoneCols: '12', tabletCols: '12' },
+            emojis_default.a.unicode('Autor :heart: '),
+            ' ',
+            this.state.data.autorObraPlastica
+          )
+        )
+      )
+    );
+  };
+
+  return ObraPlastica;
+}(preact_min["Component"]);
+
+
+// EXTERNAL MODULE: ./routes/obras-plasticas/style.css
+var obras_plasticas_style = __webpack_require__("OIVa");
+var obras_plasticas_style_default = /*#__PURE__*/__webpack_require__.n(obras_plasticas_style);
+
+// CONCATENATED MODULE: /usr/local/lib/node_modules/preact-cli/lib/lib/webpack/dummy-loader.js!./routes/obras-plasticas/index.js
+
+
+function obras_plasticas__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function obras_plasticas__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function obras_plasticas__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+
+
+
+// import {isMobile} from '../../utils/responsive';
+
+
+
+
+var obras_plasticas_ObrasPlasticas = function (_Component) {
+  obras_plasticas__inherits(ObrasPlasticas, _Component);
+
+  function ObrasPlasticas(props) {
+    obras_plasticas__classCallCheck(this, ObrasPlasticas);
+
+    var _this = obras_plasticas__possibleConstructorReturn(this, _Component.call(this, props));
+
+    _this.state = {
+      data: canciones[_this.props.path.replace(/-/g, '')]
+    };
+    // this.isMobile = this.isMobile.bind(this);
+    return _this;
+  }
+
+  ObrasPlasticas.prototype.componentDidMount = function componentDidMount() {
+    // this.isMobile();
+    // window.addEventListener("resize", this.isMobile.bind(this));
+  };
+
+  ObrasPlasticas.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+    this.setState({
+      data: canciones[nextProps.id.replace(/-/g, '')]
+    });
+  };
+
+  ObrasPlasticas.prototype.componentWillUnmount = function componentWillUnmount() {}
+  // window.removeEventListener("resize", this.isMobile.bind(this));
+
+
+  // isMobile() {
+  //   this.setState({
+  //     isMobile: window.innerWidth < 600
+  //       ? true
+  //       : false
+  //   })
+  // }
+
+  ;
+
+  ObrasPlasticas.prototype.render = function render() {
+    return Object(preact_min["h"])(
+      'div',
+      { 'class': obras_plasticas_style_default.a.home + ' page' },
+      Object(preact_min["h"])(
+        LayoutGrid_default.a,
+        null,
+        Object(preact_min["h"])(
+          LayoutGrid_default.a.Inner,
+          null,
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/obra-plastica/estrellita');
+              }, 'class': obras_plasticas_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.delperdon.mainImage})`,
+
+              }, cols: '12' },
+            'Estrellita'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/obra-plastica/valsecito-con-mates-y-sol');
+              }, 'class': obras_plasticas_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.delperdon.mainImage})`,
+
+              }, cols: '12' },
+            'Valsecito con mates y sol'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/obra-plastica/vida-la-del-perdon');
+              }, 'class': obras_plasticas_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.delperdon.mainImage})`,
+
+              }, cols: '12' },
+            'Vida-la del perd\xF3n'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/obra-plastica/zambita-de-madre');
+              }, 'class': obras_plasticas_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Zambita de Madre'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/obra-plastica/negrita-martina');
+              }, 'class': obras_plasticas_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Negrita Martina'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/obra-plastica/vals-de-abril');
+              }, 'class': obras_plasticas_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Vals de Abril'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/obra-plastica/vidalita');
+              }, 'class': obras_plasticas_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Vidalita'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/obra-plastica/baguala-del-desierto');
+              }, 'class': obras_plasticas_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Baguala del desierto'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/obra-plastica/malambo-pal-diferente');
+              }, 'class': obras_plasticas_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Malambo pal diferente'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/obra-plastica/rio-de-los-pajaros');
+              }, 'class': obras_plasticas_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'R\xEDo de los P\xE1jaros'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/obra-plastica/guri-pescador');
+              }, 'class': obras_plasticas_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Guri Pescador'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/obra-plastica/milonga-del-mate');
+              }, 'class': obras_plasticas_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Milonga del mate'
+          ),
+          Object(preact_min["h"])(
+            LayoutGrid_default.a.Cell,
+            { onClick: function onClick() {
+                return route('/obra-plastica/gracias-a-la-vida');
+              }, 'class': obras_plasticas_style_default.a.listaCancionesCell, style: {
+                // backgroundImage: `url(${dataBase.graciasALaVida.mainImage})`,
+
+              }, cols: '12' },
+            'Gracias a la vida'
+          )
+        )
+      )
+    );
+  };
+
+  return ObrasPlasticas;
 }(preact_min["Component"]);
 
 
@@ -3736,19 +4917,35 @@ function app__inherits(subClass, superClass) { if (typeof superClass !== "functi
 
 
 
+// import Home from '../routes/home';
+// import Profile from '../routes/profile';
+
+// import createHashHistory from 'history/createHashHistory';
 
 
 
-// import Home from 'async!../routes/home';
-// import Profile from 'async!../routes/profile';
+
+
+
+
 
 var app__ref = Object(preact_min["h"])(home_Home, { path: '/' });
 
-var app__ref2 = Object(preact_min["h"])(profile_Profile, { path: '/profile/', user: 'me' });
+var app__ref2 = Object(preact_min["h"])(profile_Profile, { path: '/autor/', user: 'me' });
 
-var app__ref3 = Object(preact_min["h"])(profile_Profile, { path: '/profile/:user' });
+var app__ref3 = Object(preact_min["h"])(profile_Profile, { path: '/autor/:user' });
 
-var app__ref4 = Object(preact_min["h"])(_04_NotFound, { 'default': true });
+var app__ref4 = Object(preact_min["h"])(cancion_Cancion, { path: '/cancion/:id' });
+
+var app__ref5 = Object(preact_min["h"])(canciones_Canciones, { path: '/canciones' });
+
+var _ref6 = Object(preact_min["h"])(obra_plastica_ObraPlastica, { path: '/obra-plastica/:id' });
+
+var _ref7 = Object(preact_min["h"])(obras_plasticas_ObrasPlasticas, { path: '/obras-plasticas/' });
+
+var _ref8 = Object(preact_min["h"])(material_tea_MaterialTEA, { path: '/material-tea/' });
+
+var _ref9 = Object(preact_min["h"])(_04_NotFound, { 'default': true });
 
 var app_App = function (_Component) {
 	app__inherits(App, _Component);
@@ -3763,11 +4960,16 @@ var app_App = function (_Component) {
 		}
 
 		return _ret = (_temp = (_this = app__possibleConstructorReturn(this, _Component.call.apply(_Component, [this].concat(args))), _this), _this.handleRoute = function (e) {
+
 			_this.setState({
 				currentUrl: e.url
 			});
 		}, _temp), app__possibleConstructorReturn(_this, _ret);
 	}
+	// constructor(props) {
+	//   super(props);
+	//
+	// }
 	/** Gets fired when the route changes.
   *	@param {Object} event		"change" event from [preact-router](http://git.io/preact-router)
   *	@param {string} event.url	The newly routed URL
@@ -3785,7 +4987,12 @@ var app_App = function (_Component) {
 				app__ref,
 				app__ref2,
 				app__ref3,
-				app__ref4
+				app__ref4,
+				app__ref5,
+				_ref6,
+				_ref7,
+				_ref8,
+				_ref9
 			)
 		);
 	};
@@ -4088,6 +5295,14 @@ function extend() {
 
 /***/ }),
 
+/***/ "KDbP":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"home":"home__WMZ1j","listaCancionesCell":"listaCancionesCell___bFff","cardHeader":"cardHeader__3ETfZ","cardBody":"cardBody__1-VRs"};
+
+/***/ }),
+
 /***/ "KM04":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4354,6 +5569,14 @@ exports.Icon = Icon;
 var _default = Icon;
 exports.default = _default;
 //# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "Mzro":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"home":"home__216tT","temaPresentVisual":"temaPresentVisual__3G3yY","cardHeader":"cardHeader__1LSp1","cardBody":"cardBody__3Ra72"};
 
 /***/ }),
 
@@ -5355,6 +6578,14 @@ var top_app_bar_MDCTopAppBar = function (_MDCComponent) {
 
 /***/ }),
 
+/***/ "OIVa":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"home":"home__1lYo6","listaCancionesCell":"listaCancionesCell__N-fH1","cardHeader":"cardHeader__-Dicr","cardBody":"cardBody__3MWFY"};
+
+/***/ }),
+
 /***/ "Oyyg":
 /***/ (function(module, exports) {
 
@@ -5560,6 +6791,192 @@ function _createClass(Constructor, protoProps, staticProps) {
 }
 
 module.exports = _createClass;
+
+/***/ }),
+
+/***/ "Q1yZ":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _interopRequireDefault = __webpack_require__("SpGf");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.LayoutGrid = exports.LayoutGridCell = exports.LayoutGridInner = void 0;
+
+var _get2 = _interopRequireDefault(__webpack_require__("J5U+"));
+
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__("0fcM"));
+
+var _createClass2 = _interopRequireDefault(__webpack_require__("P8NW"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("0421"));
+
+var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__("UJE0"));
+
+var _inherits2 = _interopRequireDefault(__webpack_require__("d4H2"));
+
+var _preact = __webpack_require__("KM04");
+
+var _MaterialComponent4 = _interopRequireDefault(__webpack_require__("uc5p"));
+
+var LayoutGridInner =
+/*#__PURE__*/
+function (_MaterialComponent) {
+  (0, _inherits2.default)(LayoutGridInner, _MaterialComponent);
+
+  function LayoutGridInner() {
+    var _this;
+
+    (0, _classCallCheck2.default)(this, LayoutGridInner);
+    _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(LayoutGridInner).apply(this, arguments));
+    _this.componentName = 'layout-grid__inner';
+    _this.mdcProps = [];
+    return _this;
+  }
+
+  (0, _createClass2.default)(LayoutGridInner, [{
+    key: "materialDom",
+    value: function materialDom(props) {
+      return (0, _preact.h)("div", _extends({
+        ref: this.setControlRef
+      }, props), props.children);
+    }
+  }]);
+  return LayoutGridInner;
+}(_MaterialComponent4.default);
+
+exports.LayoutGridInner = LayoutGridInner;
+
+var LayoutGridCell =
+/*#__PURE__*/
+function (_MaterialComponent2) {
+  (0, _inherits2.default)(LayoutGridCell, _MaterialComponent2);
+
+  function LayoutGridCell() {
+    var _this2;
+
+    (0, _classCallCheck2.default)(this, LayoutGridCell);
+    _this2 = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(LayoutGridCell).apply(this, arguments));
+    _this2.componentName = 'layout-grid__cell';
+    _this2.mdcProps = [];
+    return _this2;
+  }
+
+  (0, _createClass2.default)(LayoutGridCell, [{
+    key: "render",
+    value: function render(props) {
+      var element = (0, _get2.default)((0, _getPrototypeOf2.default)(LayoutGridCell.prototype), "render", this).call(this, props); // remove the extra attributes used for customising this element - keep the DOM clean
+
+      Object.keys(LayoutGridCell.propsDict).forEach(function (key) {
+        return delete element.attributes[LayoutGridCell.propsDict[key]];
+      });
+      return element;
+    }
+  }, {
+    key: "materialDom",
+    value: function materialDom(props) {
+      return (0, _preact.h)("div", _extends({}, props, {
+        className: LayoutGridCell.createClassName(props),
+        ref: this.setControlRef
+      }), props.children);
+    }
+  }], [{
+    key: "createClassName",
+    value: function createClassName(props) {
+      var baseClass = 'mdc-layout-grid__cell--';
+      var classes = [];
+
+      if (props[LayoutGridCell.propsDict.cols]) {
+        classes.push("".concat(baseClass, "span-").concat(props[LayoutGridCell.propsDict.cols]));
+      }
+
+      if (props[LayoutGridCell.propsDict.desktop]) {
+        classes.push("".concat(baseClass, "span-").concat(props[LayoutGridCell.propsDict.desktop], "-desktop"));
+      }
+
+      if (props[LayoutGridCell.propsDict.tablet]) {
+        classes.push("".concat(baseClass, "span-").concat(props[LayoutGridCell.propsDict.tablet], "-tablet"));
+      }
+
+      if (props[LayoutGridCell.propsDict.phone]) {
+        classes.push("".concat(baseClass, "span-").concat(props[LayoutGridCell.propsDict.phone], "-phone"));
+      }
+
+      if (props[LayoutGridCell.propsDict.order]) {
+        classes.push("".concat(baseClass, "order-").concat(props[LayoutGridCell.propsDict.order]));
+      }
+
+      if (props[LayoutGridCell.propsDict.align]) {
+        classes.push("".concat(baseClass, "align-").concat(props[LayoutGridCell.propsDict.align]));
+      }
+
+      return classes.join(' ');
+    }
+  }]);
+  return LayoutGridCell;
+}(_MaterialComponent4.default);
+
+exports.LayoutGridCell = LayoutGridCell;
+LayoutGridCell.propsDict = {
+  align: 'align',
+  cols: 'cols',
+  desktop: 'desktopCols',
+  order: 'order',
+  phone: 'phoneCols',
+  tablet: 'tabletCols'
+};
+
+var LayoutGrid =
+/*#__PURE__*/
+function (_MaterialComponent3) {
+  (0, _inherits2.default)(LayoutGrid, _MaterialComponent3);
+
+  function LayoutGrid() {
+    var _this3;
+
+    (0, _classCallCheck2.default)(this, LayoutGrid);
+    _this3 = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(LayoutGrid).apply(this, arguments));
+    _this3.componentName = 'layout-grid';
+    _this3.mdcProps = [];
+    return _this3;
+  }
+
+  (0, _createClass2.default)(LayoutGrid, [{
+    key: "materialDom",
+    value: function materialDom(props) {
+      return (0, _preact.h)("div", _extends({
+        ref: this.setControlRef
+      }, props), props.children);
+    }
+  }]);
+  return LayoutGrid;
+}(_MaterialComponent4.default);
+
+exports.LayoutGrid = LayoutGrid;
+
+var default_1 =
+/*#__PURE__*/
+function (_LayoutGrid) {
+  (0, _inherits2.default)(default_1, _LayoutGrid);
+
+  function default_1() {
+    (0, _classCallCheck2.default)(this, default_1);
+    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(default_1).apply(this, arguments));
+  }
+
+  return default_1;
+}(LayoutGrid);
+
+exports.default = default_1;
+default_1.Cell = LayoutGridCell;
+default_1.Inner = LayoutGridInner;
+//# sourceMappingURL=index.js.map
 
 /***/ }),
 
@@ -6002,11 +7419,18 @@ module.exports = _getPrototypeOf;
 
 /***/ }),
 
+/***/ "Vy1O":
+/***/ (function(module, exports) {
+
+module.exports = require("url");
+
+/***/ }),
+
 /***/ "ZAL5":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"home":"home__MseGd","cardHeader":"cardHeader__2Vd1U","cardBody":"cardBody__fYYFu"};
+module.exports = {"home":"home__MseGd","laVidaLaIntro":"laVidaLaIntro__3Hmx0","cardHeader":"cardHeader__2Vd1U","cardBody":"cardBody__fYYFu","portadaLink":"portadaLink__1HmU9"};
 
 /***/ }),
 
@@ -6047,6 +7471,62 @@ function _typeof(obj) {
 }
 
 module.exports = _typeof;
+
+/***/ }),
+
+/***/ "boCY":
+/***/ (function(module, exports, __webpack_require__) {
+
+var url = __webpack_require__("Vy1O");
+var emojis = __webpack_require__("n4cK");
+
+exports.unicode = function (input) {
+  return replace(input, unicodeForEmoji);
+};
+
+exports.html = function (input, baseUrl) {
+  return replace(input, htmlForEmoji, baseUrl);
+};
+
+function replace(input, fn, baseUrl) {
+  var tokens = input.split(':'); // tokens split by colon
+  var parsed = []; // parsed tokens
+  var emojiBefore = true; // flag indicating if previous iteration token is an emoji
+
+  for (var i = 0; i < tokens.length; ++i) {
+    // for each token
+    var emojiCurrent = isEmoji(tokens[i]); // flag indicating if current iteration token is an emoji
+
+    if (!emojiBefore && !emojiCurrent) {
+      // if we are not dealing with an emoji
+      parsed.push(':'); // adds the colon back
+    }
+
+    if (emojiCurrent) {
+      // if current iteration token is an emoji
+      parsed.push(fn(tokens[i], baseUrl)); // parses the emoji and push it to the parsed array
+    } else {
+      // if current iteration token isn't an emoji
+      parsed.push(tokens[i]); // push it without any parsing
+    }
+    emojiBefore = emojiCurrent; // setting current flag as before flag
+  }
+
+  return parsed.join(''); // joining the parsed tokens and returning it
+}
+
+function isEmoji(token) {
+  return emojis[token] !== undefined;
+}
+
+function unicodeForEmoji(token) {
+  return emojis[token];
+}
+
+function htmlForEmoji(token, baseUrl) {
+  var src = (baseUrl ? url.resolve(baseUrl, token) : token) + '.png';
+  return '<img class="emoji" width="20" height="20" src="' + src + '" alt="' + token + '">';
+}
 
 /***/ }),
 
@@ -6546,6 +8026,13 @@ function getNormalizedEventCoords(ev, pageOffset, clientRect) {
 }
 
 
+
+/***/ }),
+
+/***/ "n4cK":
+/***/ (function(module, exports) {
+
+module.exports = {"100":"💯","1234":"🔢","+1":"👍","-1":"👎","8ball":"🎱","a":"🅰️","ab":"🆎","abc":"🔤","abcd":"🔡","accept":"🉑","aerial_tramway":"🚡","airplane":"✈️","alarm_clock":"⏰","alien":"👽","ambulance":"🚑","anchor":"⚓","angel":"👼","anger":"💢","angry":"😠","anguished":"😧","ant":"🐜","apple":"🍎","aquarius":"♒","aries":"♈","arrow_backward":"◀️","arrow_double_down":"⏬","arrow_double_up":"⏫","arrow_down":"⬇️","arrow_down_small":"🔽","arrow_forward":"▶️","arrow_heading_down":"⤵️","arrow_heading_up":"⤴️","arrow_left":"⬅️","arrow_lower_left":"↙️","arrow_lower_right":"↘️","arrow_right":"➡️","arrow_right_hook":"↪️","arrow_up":"⬆️","arrow_up_down":"↕️","arrow_up_small":"🔼","arrow_upper_left":"↖️","arrow_upper_right":"↗️","arrows_clockwise":"🔃","arrows_counterclockwise":"🔄","art":"🎨","articulated_lorry":"🚛","astonished":"😲","atm":"🏧","b":"🅱️","baby":"👶","baby_bottle":"🍼","baby_chick":"🐤","baby_symbol":"🚼","back":"🔙","baggage_claim":"🛄","balloon":"🎈","ballot_box_with_check":"☑️","bamboo":"🎍","banana":"🍌","bangbang":"‼️","bank":"🏦","bar_chart":"📊","barber":"💈","baseball":"⚾️","basketball":"🏀","bath":"🛀","bathtub":"🛁","battery":"🔋","bear":"🐻","beer":"🍺","beers":"🍻","beetle":"🐞","beginner":"🔰","bell":"🔔","bento":"🍱","bicyclist":"🚴","bike":"🚲","bikini":"👙","bird":"🐦","birthday":"🎂","black_circle":"⚫","black_joker":"🃏","black_medium_small_square":"◾","black_medium_square":"◼️","black_nib":"✒️","black_small_square":"▪️","black_square":"","black_square_button":"🔲","blossom":"🌼","blowfish":"🐡","blue_book":"📘","blue_car":"🚙","blue_heart":"💙","blush":"😊","boar":"🐗","boat":"⛵","bomb":"💣","book":"📖","bookmark":"🔖","bookmark_tabs":"📑","books":"📚","boom":"💥","boot":"👢","bouquet":"💐","bow":"🙇","bowling":"🎳","bowtie":"","boy":"👦","bread":"🍞","bride_with_veil":"👰","bridge_at_night":"🌉","briefcase":"💼","broken_heart":"💔","bug":"🐛","bulb":"💡","bullettrain_front":"🚅","bullettrain_side":"🚄","bus":"🚌","busstop":"🚏","bust_in_silhouette":"👤","busts_in_silhouette":"👥","cactus":"🌵","cake":"🍰","calendar":"📆","calling":"📲","camel":"🐫","camera":"📷","cancer":"♋","candy":"🍬","capital_abcd":"🔠","capricorn":"♑","car":"🚗","card_index":"📇","carousel_horse":"🎠","cat":"🐱","cat2":"🐈","cd":"💿","chart":"💹","chart_with_downwards_trend":"📉","chart_with_upwards_trend":"📈","checkered_flag":"🏁","cherries":"🍒","cherry_blossom":"🌸","chestnut":"🌰","chicken":"🐔","children_crossing":"🚸","chocolate_bar":"🍫","christmas_tree":"🎄","church":"⛪","cinema":"🎦","circus_tent":"🎪","city_sunrise":"🌇","city_sunset":"🌆","cl":"🆑","clap":"👏","clapper":"🎬","clipboard":"📋","clock1":"🕐","clock10":"🕙","clock1030":"🕥","clock11":"🕚","clock1130":"🕦","clock12":"🕛","clock1230":"🕧","clock130":"🕜","clock2":"🕑","clock230":"🕝","clock3":"🕒","clock330":"🕞","clock4":"🕓","clock430":"🕟","clock5":"🕔","clock530":"🕠","clock6":"🕕","clock630":"🕡","clock7":"🕖","clock730":"🕢","clock8":"🕗","clock830":"🕣","clock9":"🕘","clock930":"🕤","closed_book":"📕","closed_lock_with_key":"🔐","closed_umbrella":"🌂","cloud":"☁️","clubs":"♣️","cn":"🇨🇳","cocktail":"🍸","coffee":"☕","cold_sweat":"😰","collision":"💥","computer":"💻","confetti_ball":"🎊","confounded":"😖","confused":"😕","congratulations":"㊗️","construction":"🚧","construction_worker":"👷","convenience_store":"🏪","cookie":"🍪","cool":"🆒","cop":"👮","copyright":"©️","corn":"🌽","couple":"👫","couple_with_heart":"💑","couplekiss":"💏","cow":"🐮","cow2":"🐄","credit_card":"💳","crocodile":"🐊","crossed_flags":"🎌","crown":"👑","cry":"😢","crying_cat_face":"😿","crystal_ball":"🔮","cupid":"💘","curly_loop":"➰","currency_exchange":"💱","curry":"🍛","custard":"🍮","customs":"🛃","cyclone":"🌀","dancer":"💃","dancers":"👯","dango":"🍡","dart":"🎯","dash":"💨","date":"📅","de":"🇩🇪","deciduous_tree":"🌳","department_store":"🏬","diamond_shape_with_a_dot_inside":"💠","diamonds":"♦️","disappointed":"😞","disappointed_relieved":"😥","dizzy":"💫","dizzy_face":"😵","do_not_litter":"🚯","dog":"🐶","dog2":"🐕","dollar":"💵","dolls":"🎎","dolphin":"🐬","door":"🚪","doughnut":"🍩","dragon":"🐉","dragon_face":"🐲","dress":"👗","dromedary_camel":"🐪","droplet":"💧","dvd":"📀","e-mail":"📧","ear":"👂","ear_of_rice":"🌾","earth_africa":"🌍","earth_americas":"🌎","earth_asia":"🌏","egg":"🍳","eggplant":"🍆","eight":"8️⃣","eight_pointed_black_star":"✴️","eight_spoked_asterisk":"✳️","electric_plug":"🔌","elephant":"🐘","email":"✉️","end":"🔚","envelope":"✉️","es":"🇪🇸","euro":"💶","european_castle":"🏰","european_post_office":"🏤","evergreen_tree":"🌲","exclamation":"❗","expressionless":"😑","eyeglasses":"👓","eyes":"👀","facepunch":"👊","factory":"🏭","fallen_leaf":"🍂","family":"👪","fast_forward":"⏩","fax":"📠","fearful":"😨","feelsgood":"","feet":"🐾","ferris_wheel":"🎡","file_folder":"📁","finnadie":"","fire":"🔥","fire_engine":"🚒","fireworks":"🎆","first_quarter_moon":"🌓","first_quarter_moon_with_face":"🌛","fish":"🐟","fish_cake":"🍥","fishing_pole_and_fish":"🎣","fist":"✊","five":"5️⃣","flags":"🎏","flashlight":"🔦","floppy_disk":"💾","flower_playing_cards":"🎴","flushed":"😳","foggy":"🌁","football":"🏈","fork_and_knife":"🍴","fountain":"⛲","four":"4️⃣","four_leaf_clover":"🍀","fr":"🇫🇷","free":"🆓","fried_shrimp":"🍤","fries":"🍟","frog":"🐸","frowning":"😦","fu":"","fuelpump":"⛽","full_moon":"🌕","full_moon_with_face":"🌝","game_die":"🎲","gb":"🇬🇧","gem":"💎","gemini":"♊","ghost":"👻","gift":"🎁","gift_heart":"💝","girl":"👧","globe_with_meridians":"🌐","goat":"🐐","goberserk":"","godmode":"","golf":"⛳","grapes":"🍇","green_apple":"🍏","green_book":"📗","green_heart":"💚","grey_exclamation":"❕","grey_question":"❔","grimacing":"😬","grin":"😁","grinning":"😀","guardsman":"💂","guitar":"🎸","gun":"🔫","haircut":"💇","hamburger":"🍔","hammer":"🔨","hamster":"🐹","hand":"✋","handbag":"👜","hankey":"💩","hash":"#️⃣","hatched_chick":"🐥","hatching_chick":"🐣","headphones":"🎧","hear_no_evil":"🙉","heart":"❤️","heart_decoration":"💟","heart_eyes":"😍","heart_eyes_cat":"😻","heartbeat":"💓","heartpulse":"💗","hearts":"♥️","heavy_check_mark":"✔️","heavy_division_sign":"➗","heavy_dollar_sign":"💲","heavy_exclamation_mark":"❗","heavy_minus_sign":"➖","heavy_multiplication_x":"✖️","heavy_plus_sign":"➕","helicopter":"🚁","herb":"🌿","hibiscus":"🌺","high_brightness":"🔆","high_heel":"👠","hocho":"🔪","honey_pot":"🍯","honeybee":"🐝","horse":"🐴","horse_racing":"🏇","hospital":"🏥","hotel":"🏨","hotsprings":"♨️","hourglass":"⌛","hourglass_flowing_sand":"⏳","house":"🏠","house_with_garden":"🏡","hurtrealbad":"","hushed":"😯","ice_cream":"🍨","icecream":"🍦","id":"🆔","ideograph_advantage":"🉐","imp":"👿","inbox_tray":"📥","incoming_envelope":"📨","information_desk_person":"💁","information_source":"ℹ️","innocent":"😇","interrobang":"⁉️","iphone":"📱","it":"🇮🇹","izakaya_lantern":"🏮","jack_o_lantern":"🎃","japan":"🗾","japanese_castle":"🏯","japanese_goblin":"👺","japanese_ogre":"👹","jeans":"👖","joy":"😂","joy_cat":"😹","jp":"🇯🇵","key":"🔑","keycap_ten":"🔟","kimono":"👘","kiss":"💋","kissing":"😗","kissing_cat":"😽","kissing_closed_eyes":"😚","kissing_heart":"😘","kissing_smiling_eyes":"😙","koala":"🐨","koko":"🈁","kr":"🇰🇷","large_blue_circle":"🔵","large_blue_diamond":"🔷","large_orange_diamond":"🔶","last_quarter_moon":"🌗","last_quarter_moon_with_face":"🌜","laughing":"😆","leaves":"🍃","ledger":"📒","left_luggage":"🛅","left_right_arrow":"↔️","leftwards_arrow_with_hook":"↩️","lemon":"🍋","leo":"♌","leopard":"🐆","libra":"♎","light_rail":"🚈","link":"🔗","lips":"👄","lipstick":"💄","lock":"🔒","lock_with_ink_pen":"🔏","lollipop":"🍭","loop":"➿","loudspeaker":"📢","love_hotel":"🏩","love_letter":"💌","low_brightness":"🔅","m":"Ⓜ️","mag":"🔍","mag_right":"🔎","mahjong":"🀄","mailbox":"📫","mailbox_closed":"📪","mailbox_with_mail":"📬","mailbox_with_no_mail":"📭","man":"👨","man_with_gua_pi_mao":"👲","man_with_turban":"👳","mans_shoe":"👞","maple_leaf":"🍁","mask":"😷","massage":"💆","meat_on_bone":"🍖","mega":"📣","melon":"🍈","memo":"📝","mens":"🚹","metal":"","metro":"🚇","microphone":"🎤","microscope":"🔬","milky_way":"🌌","minibus":"🚐","minidisc":"💽","mobile_phone_off":"📴","money_with_wings":"💸","moneybag":"💰","monkey":"🐒","monkey_face":"🐵","monorail":"🚝","moon":"🌔","mortar_board":"🎓","mount_fuji":"🗻","mountain_bicyclist":"🚵","mountain_cableway":"🚠","mountain_railway":"🚞","mouse":"🐭","mouse2":"🐁","movie_camera":"🎥","moyai":"🗿","muscle":"💪","mushroom":"🍄","musical_keyboard":"🎹","musical_note":"🎵","musical_score":"🎼","mute":"🔇","nail_care":"💅","name_badge":"📛","neckbeard":"","necktie":"👔","negative_squared_cross_mark":"❎","neutral_face":"😐","new":"🆕","new_moon":"🌑","new_moon_with_face":"🌚","newspaper":"📰","ng":"🆖","nine":"9️⃣","no_bell":"🔕","no_bicycles":"🚳","no_entry":"⛔","no_entry_sign":"🚫","no_good":"🙅","no_mobile_phones":"📵","no_mouth":"😶","no_pedestrians":"🚷","no_smoking":"🚭","non-potable_water":"🚱","nose":"👃","notebook":"📓","notebook_with_decorative_cover":"📔","notes":"🎶","nut_and_bolt":"🔩","o":"⭕","o2":"🅾️","ocean":"🌊","octocat":"","octopus":"🐙","oden":"🍢","office":"🏢","ok":"🆗","ok_hand":"👌","ok_woman":"🙆","older_man":"👴","older_woman":"👵","on":"🔛","oncoming_automobile":"🚘","oncoming_bus":"🚍","oncoming_police_car":"🚔","oncoming_taxi":"🚖","one":"1️⃣","open_file_folder":"📂","open_hands":"👐","open_mouth":"😮","ophiuchus":"⛎","orange_book":"📙","outbox_tray":"📤","ox":"🐂","package":"📦","page_facing_up":"📄","page_with_curl":"📃","pager":"📟","palm_tree":"🌴","panda_face":"🐼","paperclip":"📎","parking":"🅿️","part_alternation_mark":"〽️","partly_sunny":"⛅","passport_control":"🛂","paw_prints":"🐾","peach":"🍑","pear":"🍐","pencil":"📝","pencil2":"✏️","penguin":"🐧","pensive":"😔","performing_arts":"🎭","persevere":"😣","person_frowning":"🙍","person_with_blond_hair":"👱","person_with_pouting_face":"🙎","phone":"☎️","pig":"🐷","pig2":"🐖","pig_nose":"🐽","pill":"💊","pineapple":"🍍","pisces":"♓","pizza":"🍕","plus1":"","point_down":"👇","point_left":"👈","point_right":"👉","point_up":"☝️","point_up_2":"👆","police_car":"🚓","poodle":"🐩","poop":"💩","post_office":"🏣","postal_horn":"📯","postbox":"📮","potable_water":"🚰","pouch":"👝","poultry_leg":"🍗","pound":"💷","pouting_cat":"😾","pray":"🙏","princess":"👸","punch":"👊","purple_heart":"💜","purse":"👛","pushpin":"📌","put_litter_in_its_place":"🚮","question":"❓","rabbit":"🐰","rabbit2":"🐇","racehorse":"🐎","radio":"📻","radio_button":"🔘","rage":"😡","rage1":"","rage2":"","rage3":"","rage4":"","railway_car":"🚃","rainbow":"🌈","raised_hand":"✋","raised_hands":"🙌","raising_hand":"🙋","ram":"🐏","ramen":"🍜","rat":"🐀","recycle":"♻️","red_car":"🚗","red_circle":"🔴","registered":"®️","relaxed":"☺️","relieved":"😌","repeat":"🔁","repeat_one":"🔂","restroom":"🚻","revolving_hearts":"💞","rewind":"⏪","ribbon":"🎀","rice":"🍚","rice_ball":"🍙","rice_cracker":"🍘","rice_scene":"🎑","ring":"💍","rocket":"🚀","roller_coaster":"🎢","rooster":"🐓","rose":"🌹","rotating_light":"🚨","round_pushpin":"📍","rowboat":"🚣","ru":"🇷🇺","rugby_football":"🏉","runner":"🏃","running":"🏃","running_shirt_with_sash":"🎽","sa":"🈂️","sagittarius":"♐","sailboat":"⛵","sake":"🍶","sandal":"👡","santa":"🎅","satellite":"📡","satisfied":"😆","saxophone":"🎷","school":"🏫","school_satchel":"🎒","scissors":"✂️","scorpius":"♏","scream":"😱","scream_cat":"🙀","scroll":"📜","seat":"💺","secret":"㊙️","see_no_evil":"🙈","seedling":"🌱","seven":"7️⃣","shaved_ice":"🍧","sheep":"🐑","shell":"🐚","ship":"🚢","shipit":"","shirt":"👕","shit":"💩","shoe":"👞","shower":"🚿","signal_strength":"📶","six":"6️⃣","six_pointed_star":"🔯","ski":"🎿","skull":"💀","sleeping":"😴","sleepy":"😪","slot_machine":"🎰","small_blue_diamond":"🔹","small_orange_diamond":"🔸","small_red_triangle":"🔺","small_red_triangle_down":"🔻","smile":"😄","smile_cat":"😸","smiley":"😃","smiley_cat":"😺","smiling_imp":"😈","smirk":"😏","smirk_cat":"😼","smoking":"🚬","snail":"🐌","snake":"🐍","snowboarder":"🏂","snowflake":"❄️","snowman":"⛄","sob":"😭","soccer":"⚽","soon":"🔜","sos":"🆘","sound":"🔉","space_invader":"👾","spades":"♠️","spaghetti":"🍝","sparkle":"❇️","sparkler":"🎇","sparkles":"✨","sparkling_heart":"💖","speak_no_evil":"🙊","speaker":"🔈","speech_balloon":"💬","speedboat":"🚤","squirrel":"","star":"⭐","star2":"🌟","stars":"🌠","station":"🚉","statue_of_liberty":"🗽","steam_locomotive":"🚂","stew":"🍲","straight_ruler":"📏","strawberry":"🍓","stuck_out_tongue":"😛","stuck_out_tongue_closed_eyes":"😝","stuck_out_tongue_winking_eye":"😜","sun_with_face":"🌞","sunflower":"🌻","sunglasses":"😎","sunny":"☀️","sunrise":"🌅","sunrise_over_mountains":"🌄","surfer":"🏄","sushi":"🍣","suspect":"","suspension_railway":"🚟","sweat":"😓","sweat_drops":"💦","sweat_smile":"😅","sweet_potato":"🍠","swimmer":"🏊","symbols":"🔣","syringe":"💉","tada":"🎉","tanabata_tree":"🎋","tangerine":"🍊","taurus":"♉","taxi":"🚕","tea":"🍵","telephone":"☎️","telephone_receiver":"📞","telescope":"🔭","tennis":"🎾","tent":"⛺","thought_balloon":"💭","three":"3️⃣","thumbsdown":"👎","thumbsup":"👍","ticket":"🎫","tiger":"🐯","tiger2":"🐅","tired_face":"😫","tm":"™️","toilet":"🚽","tokyo_tower":"🗼","tomato":"🍅","tongue":"👅","top":"🔝","tophat":"🎩","tractor":"🚜","traffic_light":"🚥","train":"🚋","train2":"🚆","tram":"🚊","triangular_flag_on_post":"🚩","triangular_ruler":"📐","trident":"🔱","triumph":"😤","trolleybus":"🚎","trollface":"","trophy":"🏆","tropical_drink":"🍹","tropical_fish":"🐠","truck":"🚚","trumpet":"🎺","tshirt":"👕","tulip":"🌷","turtle":"🐢","tv":"📺","twisted_rightwards_arrows":"🔀","two":"2️⃣","two_hearts":"💕","two_men_holding_hands":"👬","two_women_holding_hands":"👭","u5272":"🈹","u5408":"🈴","u55b6":"🈺","u6307":"🈯","u6708":"🈷️","u6709":"🈶","u6e80":"🈵","u7121":"🈚","u7533":"🈸","u7981":"🈲","u7a7a":"🈳","uk":"🇬🇧","umbrella":"☔","unamused":"😒","underage":"🔞","unlock":"🔓","up":"🆙","us":"🇺🇸","v":"✌️","vertical_traffic_light":"🚦","vhs":"📼","vibration_mode":"📳","video_camera":"📹","video_game":"🎮","violin":"🎻","virgo":"♍","volcano":"🌋","vs":"🆚","walking":"🚶","waning_crescent_moon":"🌘","waning_gibbous_moon":"🌖","warning":"⚠️","watch":"⌚","water_buffalo":"🐃","watermelon":"🍉","wave":"👋","wavy_dash":"〰️","waxing_crescent_moon":"🌒","waxing_gibbous_moon":"🌔","wc":"🚾","weary":"😩","wedding":"💒","whale":"🐳","whale2":"🐋","wheelchair":"♿","white_check_mark":"✅","white_circle":"⚪","white_flower":"💮","white_large_square":"⬜","white_medium_small_square":"◽","white_medium_square":"◻️","white_small_square":"▫️","white_square_button":"🔳","wind_chime":"🎐","wine_glass":"🍷","wink":"😉","wolf":"🐺","woman":"👩","womans_clothes":"👚","womans_hat":"👒","womens":"🚺","worried":"😟","wrench":"🔧","x":"❌","yellow_heart":"💛","yen":"💴","yum":"😋","zap":"⚡","zero":"0️⃣","zzz":"💤"}
 
 /***/ }),
 

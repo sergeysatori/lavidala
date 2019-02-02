@@ -113,7 +113,7 @@ export default class Header extends Component {
     }
     else if (routeText === "/obras-plasticas") {
     // else {
-      titleResult = 'Obras Plasticas'
+      titleResult = 'Obras Plásticas'
     }
     return titleResult
   }
@@ -167,7 +167,7 @@ export default class Header extends Component {
             <h1 style={{
                 marginLeft: '1rem'
               }}>Canciones</h1>
-            <List.ItemGraphic>music_note</List.ItemGraphic>
+            <List.ItemGraphic>&nbsp; 🎶</List.ItemGraphic>
           </Drawer.DrawerItem>
 
           {/* Lista de Canciones */
@@ -178,8 +178,8 @@ export default class Header extends Component {
             }} selected={props.selectedRoute === '/obras-plasticas'} onClick={this.goToObras}>
             <h1 style={{
                 marginLeft: '1rem'
-              }}>Obras plasticas</h1>
-            <List.ItemGraphic>music_note</List.ItemGraphic>
+              }}>Obras plásticas</h1>
+            <List.ItemGraphic>&nbsp; §</List.ItemGraphic>
           </Drawer.DrawerItem>
 
           {/* Lista de Canciones */
@@ -192,7 +192,7 @@ export default class Header extends Component {
             <h1 style={{
                 marginLeft: '1rem'
               }}>Material TEA</h1>
-            <List.ItemGraphic>music_note</List.ItemGraphic>
+            <List.ItemGraphic>&nbsp; §</List.ItemGraphic>
           </Drawer.DrawerItem>
 
         </Drawer.DrawerContent>

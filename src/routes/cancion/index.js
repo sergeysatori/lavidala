@@ -6,6 +6,7 @@ import LayoutGrid from 'preact-material-components/LayoutGrid';
 import 'preact-material-components/LayoutGrid/style.css';
 import {isMobile} from '../../utils/responsive';
 import {canciones} from '../../database';
+import emojis from 'emojis';
 
 import style from './style';
 
@@ -36,21 +37,22 @@ export default class Cancion extends Component {
   //     backgroundImage: `url(${this.state.data.mainImage})`
   //   }} desktopCols="6" phoneCols="12" tabletCols="12">{this.props.id}</LayoutGrid.Cell>
   render() {
-    return (<div class={`${style.home} page`}  style={{
-      backgroundImage: `url(${this.state.data.mainImage})`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      // width: '100vw',
-      // height: '100vh',
-    }}>
+    return (<div class={`${style.home} page`} style={{
+        backgroundImage: `url(${this.state.data.mainImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        // width: '100vw',
+        // height: '100vh',
+      }}>
       <div style={{
-          backgroundColor: 'hsla(356, 11%, 7%, 0.8)'
+          backgroundColor: 'hsla(356, 11%, 7%, 0.85)'
         }}>
-        <LayoutGrid style={{minHeight: '100vh'}}>
+        <LayoutGrid style={{
+            minHeight: '100vh'
+          }}>
           <LayoutGrid.Inner>
             <LayoutGrid.Cell class={style.temaPresentVisual} style={{
-                height: '100%',
-                minHeight: '50vh'
+                height: '50vh'
               }} desktopCols="6" phoneCols="12" tabletCols="12">
               <iframe width="100%" height="100%" src={`${this.state.data.videoURL}`} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen">
                 Cargando...
@@ -59,13 +61,23 @@ export default class Cancion extends Component {
             <LayoutGrid.Cell style={{
                 // height: '100%',
                 color: '#fff',
-              	textAlign: 'center',
-              	backgroundRepeat: 'no-repeat',
-              	backgroundPosition: 'center',
-              	backgroundColor: 'transparent',
-              	margin: '0 auto auto auto',
+                textAlign: 'center',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
+                backgroundColor: 'transparent',
+                margin: '0 auto auto auto'
               }} desktopCols="6" phoneCols="12" tabletCols="12">
-            <text>{this.state.data.letra}</text>
+              <div style={{
+                  backgroundColor: 'hsla(0, 1%, 16%, 0.9)',
+                  padding: '1rem',
+                  borderRadius: '1%',
+                  border: 'solid hsl(0, 3%, 14%) 9px',
+                  fontSize: '1.2rem',
+                  color: 'hsla(0, 1%, 92%, 1)'
+                }} dangerouslySetInnerHTML={{
+                  __html: this.state.data.letra
+                }}/>
+
             </LayoutGrid.Cell>
           </LayoutGrid.Inner>
         </LayoutGrid>

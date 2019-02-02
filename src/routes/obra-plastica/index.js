@@ -46,11 +46,12 @@ export default class ObraPlastica extends Component {
               // minHeight: '90vh'
             }} desktopCols="6" phoneCols="12" tabletCols="12">
           <img src={this.state.data.mainImage} style={{height:'100%',width:'100%'}}/>
+          {emojis.unicode('Autor :heart: ')} {this.state.data.autorObraPlastica}
           </LayoutGrid.Cell>
           <LayoutGrid.Cell class={style.temaPresentVisual} style={{
 
             }} desktopCols="6" phoneCols="12" tabletCols="12">
-            {emojis.unicode('Autor :heart: ')} {this.state.data.autorObraPlastica}
+            {this.state.data.description}
           </LayoutGrid.Cell>
         </LayoutGrid.Inner>
       </LayoutGrid>
