@@ -415,7 +415,7 @@ Que llora sangre el ceibal<br/>
     autorObraPlastica: 'JC Barreto',
     title: 'Guri Pescador',
     description: 'Descripcion Guri Pescador',
-    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    videoURL: 'https://youtu.be/CHTRkEagrrs',
     slug: 'guri-pescador',
     letra: `<h2>GURÍ PESCADOR</h2>
     <i><small>letra y música Osiris Rodriguez Castillo</small></i><br/>
