@@ -14,7 +14,52 @@
   	padding: 20px 0;
 	}
 } */
+.verticalLink {
+	position: absolute;
+  height: 100%;
+	cursor: pointer;
+	top: 20%;
+	/* background-color: hsla(33, 27%, 57%, 0.7); */
+}
 
+@media (max-width:679px){
+	.verticalLink {
+		top: 0%;
+	}
+	.crisalidas {
+		margin-top: 16vh;
+		/* height: 100vh; */
+		width: 100vw;
+	}
+}
+@media (min-width:680px)	and (max-width:900px){
+	.crisalidas {
+		margin-top: 16vh;
+		/* height: 100vh; */
+		width: 50vw;
+	}
+}
+@media (min-width:901px) and (max-width:1299px){
+	.verticalLink {
+		top: 23%;
+	}
+	.crisalidas {
+		width: 50vw;
+	}
+}
+@media (min-width:1300px){
+	.verticalLink {
+		top: 42%;
+	}
+	.crisalidas {
+		width: 40vw;
+	}
+}
+.crisalidas {
+	margin-top: 30vh;
+	height: 100%;
+	background-size: 100%;
+}
 .laVidaLaIntro {
 	width: auto;
 	height: 80vw;
