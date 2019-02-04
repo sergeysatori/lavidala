@@ -11,3 +11,6 @@
 .cardBody {
   padding: 16px;
 }
+#main-container:nth-child(2){
+	display: none;
+}

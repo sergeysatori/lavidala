@@ -34,7 +34,7 @@ export default class ObraPlastica extends Component {
     // window.removeEventListener("resize", this.isMobile.bind(this));
   }
   render() {
-    return (<div class={`${style.home} page`}>
+    return (<div id="main-container" class={`${style.home} page`}>
 
       <LayoutGrid>
         <LayoutGrid.Inner>

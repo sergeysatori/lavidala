@@ -29,12 +29,12 @@ export default class MaterialTEA extends Component {
   }
 
   render() {
-    return (<div class={`${style.home} page`}>
+    return (<div id="main-container" class={`${style.home} page`}>
 
       <LayoutGrid>
         <LayoutGrid.Inner>
           <LayoutGrid.Cell class={style.temaPresentVisual} style={{height: '100%'}} desktopCols="6" phoneCols="12" tabletCols="12">
-            
+
           </LayoutGrid.Cell>
         </LayoutGrid.Inner>
       </LayoutGrid>

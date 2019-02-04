@@ -1,3 +1,6 @@
+#main-container:nth-child(2){
+	display: none;
+}
 .home {
 	/* padding: 20px; */
 	padding: 64px 0 0;
@@ -7,7 +10,7 @@
 	/* background-color: #f9e68c; */
 }
 .temaPresentVisual {
-	
+
   width: 100%;
   background-size: cover;
 	color: #fff;

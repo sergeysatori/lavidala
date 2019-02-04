@@ -42,7 +42,7 @@ export default class ObrasPlasticas extends Component {
   // }
 
   render() {
-    return (<div class={`${style.home} page`}>
+    return (<div id="main-container" class={`${style.home} page`}>
 
       <LayoutGrid>
         <LayoutGrid.Inner>
