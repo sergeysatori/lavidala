@@ -33,7 +33,7 @@ export default class Profile extends Component {
 	// Note: `user` comes from the URL, courtesy of our router
 	render({ user }, { time, count }) {
 		return (
-			<div id="main-container" class={`${style.profile} page main-container`} style={{
+			<div  class={`${style.profile} page main-container`} style={{
 	        backgroundImage: 'url(/assets/images/la-vida-la-bg-intro.JPG)',
 	        width: '100%',
 	        height: '150%',
