@@ -27,7 +27,7 @@ export default class Home extends Component {
   // <div class={`${style.home} page`}>
   // </div>
   render() {
-    return (<div id="main-container" style={{
+    return (<div id="main-container" class="main-container" style={{
 
         // backgroundColor: 'rgb(176, 159, 115)',
         // backgroundImage: 'url(/assets/images/la-vida-la-bg-intro.JPG)',

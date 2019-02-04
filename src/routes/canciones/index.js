@@ -35,7 +35,7 @@ export default class Canciones extends Component {
   // }
 
   render() {
-    return (<div id="main-container" class={`${style.home} page`}>
+    return (<div id="main-container" class={`${style.home} page main-container`}>
 
       <LayoutGrid>
         <LayoutGrid.Inner>
