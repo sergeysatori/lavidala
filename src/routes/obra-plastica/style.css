@@ -17,6 +17,34 @@
 	background-color: transparent;
 	margin: 0 auto auto auto;
 }
+.obraImage{
+	height:	100%;
+	width:	100%;
+}
+@media (max-width:679px){
+	.obraImage{
+		height:	100%;
+		width:	100%;
+	}
+}
+@media (min-width:680px)	and (max-width:900px){
+	.obraImage{
+		height:	100%;
+		width:	100%;
+	}
+}
+@media (min-width:901px) and (max-width:1299px){
+	.obraImage{
+		height:	70vh;
+		width:	auto;
+	}
+}
+@media (min-width:1300px){
+	.obraImage{
+		height:	70vh;
+		width:	auto;
+	}
+}
 .cardHeader {
   padding: 16px;
 }
