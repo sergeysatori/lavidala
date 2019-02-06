@@ -17,7 +17,7 @@ export const canciones = {
     mainImage: '/assets/images/estrellita.jpeg',
     autorObraPlastica: 'Michel Prince',
     title: 'Estrellita',
-    description: 'Descripcion de Estrellita',
+    description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'estrellita',
     letra: `<h2>ESTRELLITA </h2>
@@ -67,9 +67,9 @@ QUE SE ESTÁ APAGANDO MI FE?<br/>
   },
   valsecitoconmatesysol: {
     mainImage: '/assets/images/valcesito-con-mates-y-sol.jpeg',
-    autorObraPlastica: 'María de los A Martinez',
+    autorObraPlastica: 'Gonzalo Mesa',
     title: 'Valsecito Mate y Sol',
-    description: 'Descripcion de Valsecito Mate y Sol',
+    description: '',
     videoURL: 'https://www.youtube.com/embed/Vwu-xH3lfmI',
     slug: 'valsecito-con-mates-y-sol',
     letra: `<h2>VALSECITO CON MATES Y SOL</h2>
@@ -110,7 +110,7 @@ y nunca seremos tu y yo.<br/>
     mainImage: '/assets/images/vida-la-del-perdon.jpeg',
     autorObraPlastica: 'Seida Lans',
     title: 'Vida-la del Perdón',
-    description: 'Descripcion de La del perdon',
+    description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'vida-la-del-perdon',
     letra: `<h2>VIDA- LA DEL PERDÓN</h2>
@@ -148,7 +148,7 @@ EL CAMINO CAMINADO<br/>
     mainImage: '/assets/images/zambita-de-madre.jpeg',
     autorObraPlastica: 'Mercedes Fuentes',
     title: 'Zambita de Madre',
-    description: 'Descripcion de Zambita de Madre',
+    description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'zambita-de-madre',
     letra: `<h2>ZAMBITA DE MADRE</h2>
@@ -203,7 +203,7 @@ EL FUEGO ETERNO ENCENDER<br/>
     mainImage: '/assets/images/negrita-martina.jpeg',
     autorObraPlastica: 'Ema Delgado',
     title: 'Negrita Martina',
-    description: 'Descripcion de Negrita Martina',
+    description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'negrita-martina',
     letra: `<h2>NEGRITA MARTINA</h2>
@@ -226,9 +226,9 @@ que usté está cansada de tanto esperar<br/>
   },
   valsdeabril: {
     mainImage: '/assets/images/vals-de-abril.jpeg',
-    autorObraPlastica: 'María de los A Martinez',
+    autorObraPlastica: 'Ery Ramón',
     title: 'Vals de Abril',
-    description: 'Descripcion de Vals de Abril',
+    description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'vals-de-abril',
     letra: `<h2>VALS DE ABRIL</h2>
@@ -262,7 +262,7 @@ Las notas que están en esa canción muda de la luna.<br/>
     mainImage: '/assets/images/vidalita.jpeg',
     autorObraPlastica: 'Esteban Prince',
     title: 'Vidalita',
-    description: 'Descripcion de Vidalita',
+    description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'vidalita',
     letra: `<h2>VIDALITA</h2>
@@ -279,7 +279,7 @@ Palomita blanca vidalitá si llevás la carta te viá a hacer un nido vi
     mainImage: '/assets/images/baguala-del-desierto.jpg',
     autorObraPlastica: 'María de los A Martinez',
     title: 'Baguala del desierto',
-    description: 'Descripcion Baguala del desierto',
+    description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'baguala-del-desierto',
     letra: `<h2>BAGUALA DEL DESIERTO</h2>
@@ -328,7 +328,7 @@ Oh!`
     mainImage: '/assets/images/malambo-pal-diferente.jpeg',
     autorObraPlastica: 'Mauricio Marra',
     title: 'Malambo pal diferente',
-    description: 'Descripcion Malambo pal diferente',
+    description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'malambo-pal-diferente',
     letra: `<h2>MALAMBO PAL DIFERENTE</h2>
@@ -375,7 +375,7 @@ LOS AMORES PARA SIEMPRE.`
     mainImage: '/assets/images/rio-de-los-pajaros.jpeg',
     autorObraPlastica: 'Marcelo Alpuy',
     title: 'Río de los Pájaros',
-    description: 'Descripcion de Río de los Pájaros',
+    description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'rio-de-los-pajaros',
     letra: `<h2>RÍO DE LOS PÁJAROS</h2>
@@ -414,7 +414,7 @@ Que llora sangre el ceibal<br/>
     mainImage: '/assets/images/guri-pescador.jpg',
     autorObraPlastica: 'JC Barreto',
     title: 'Guri Pescador',
-    description: 'Descripcion Guri Pescador',
+    description: '',
     videoURL: 'https://www.youtube.com/embed/CHTRkEagrrs',
     slug: 'guri-pescador',
     letra: `<h2>GURÍ PESCADOR</h2>
@@ -459,7 +459,7 @@ que alumbran como un candil.
     mainImage: '/assets/images/milonga-del-mate.jpg',
     autorObraPlastica: 'Irma Alvarez',
     title: 'Milonga del mate',
-    description: 'Descripcion Milonga del mate',
+    description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'milonga-del-mate',
     letra: `<h2>MILONGA DEL MATE</h2>
@@ -490,7 +490,7 @@ Y armará, para girar, lunas llenas con su centro.<br/>
     mainImage: '/assets/images/gracias-a-la-vida.jpeg',
     autorObraPlastica: 'Oscar Laguarda',
     title: 'Gracias a la vida',
-    description: 'Descripcion de Gracias a la vida',
+    description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'gracias-a-la-vida',
     letra: `<h2>GRACIAS A LA VIDA</h2>
