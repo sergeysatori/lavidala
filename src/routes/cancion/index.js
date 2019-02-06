@@ -37,7 +37,7 @@ export default class Cancion extends Component {
   //     backgroundImage: `url(${this.state.data.mainImage})`
   //   }} desktopCols="6" phoneCols="12" tabletCols="12">{this.props.id}</LayoutGrid.Cell>
   render() {
-    return (<div id="cancion" class={`${style.home} page`} style={{
+    return (<div class={`${style.home} page main-container`} style={{
         backgroundImage: `url(${this.state.data.mainImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',

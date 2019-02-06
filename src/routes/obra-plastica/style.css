@@ -35,13 +35,13 @@
 }
 @media (min-width:901px) and (max-width:1299px){
 	.obraImage{
-		height:	70vh;
+		height:	80vh;
 		width:	auto;
 	}
 }
 @media (min-width:1300px){
 	.obraImage{
-		height:	70vh;
+		height:	80vh;
 		width:	auto;
 	}
 }
