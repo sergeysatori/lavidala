@@ -204,7 +204,7 @@ EL FUEGO ETERNO ENCENDER<br/>
     autorObraPlastica: 'Ema Delgado',
     title: 'Negrita Martina',
     description: '',
-    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    videoURL: 'https://www.youtube.com/embed/jnBNho2dEng',
     slug: 'negrita-martina',
     letra: `<h2>NEGRITA MARTINA</h2>
   <i><small>letra y música Daniel Viglietti</small></i><br/>
