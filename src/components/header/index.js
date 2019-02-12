@@ -12,12 +12,12 @@ import 'preact-material-components/List/style.css';
 import 'preact-material-components/TopAppBar/style.css';
 import {canciones as cancionesData} from '../../database';
 import ReactGA from 'react-ga';
-ReactGA.initialize('UA-134439002-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
+
 // import style from './style';
 
 export default class Header extends Component {
   constructor(props) {
+
     super(props);
     this.state = {
       cancionesMarkup: [],
@@ -29,6 +29,10 @@ export default class Header extends Component {
     this.getIsSelectedSong = this.getIsSelectedSong.bind(this);
     this.closeDrawer = this.closeDrawer.bind(this);
     this.linkTo = this.linkTo.bind(this);
+    if (typeof window !== "undefined") {
+      ReactGA.initialize('UA-134439002-1');
+      ReactGA.pageview(window.location.pathname + window.location.search);
+    }
     // this.navigateToSong = this.navigateToSong.bind(this);
   }
   // componentDidMount() {
