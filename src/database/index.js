@@ -460,7 +460,7 @@ que alumbran como un candil.
     autorObraPlastica: 'Irma Alvarez',
     title: 'Milonga del mate',
     description: '',
-    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    videoURL: 'https://www.youtube.com/embed/zVVDvaa0fRU',
     slug: 'milonga-del-mate',
     letra: `<h2>MILONGA DEL MATE</h2>
     <i><small>letra y música: Carisa Prince</small></i><br/>
