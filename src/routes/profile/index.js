@@ -34,21 +34,19 @@ export default class Profile extends Component {
 	render({ user }, { time, count }) {
 		return (
 			<div  class={`${style.profile} page main-container`} style={{
-	        backgroundImage: 'url(/assets/images/la-vida-la-bg-intro.JPG)',
+	        // backgroundImage: 'url(/assets/images/la-vida-la-bg-intro.JPG)',
 	        width: '100%',
 	        height: '150%',
 	        overflow: 'hidden'
 	      }}>
-				<Card style={{color:'#fff', width: '90vw', margin: 'auto', maxWidth: '600px'}}>
-				<h1>Profile: {user}</h1>
-				<p>This is the user profile for a user named { user }.</p>
+				<Card style={{width: '90vw', margin: 'auto', maxWidth: '600px'}}>
+				<h1></h1>
+				<p></p>
 
-				<div>Current time: {new Date(time).toLocaleString()}</div>
+				<div></div>
 
 				<p>
-					<Button raised ripple onClick={this.increment}>Click Me</Button>
-					{' '}
-					Clicked {count} times.
+
 				</p>
 			</Card>
 			</div>

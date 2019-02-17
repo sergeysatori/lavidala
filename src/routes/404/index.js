@@ -11,7 +11,7 @@ export default class NotFound extends Component {
 	render() {
 		return (
 			<div  class={`${style.home} page main-container`} style={{
-	        backgroundImage: 'url(/assets/images/la-vida-la-bg-intro.JPG)',
+	        //backgroundImage: 'url(/assets/images/la-vida-la-bg-intro.JPG)',
 	        width: '100%',
 	        height: '150%',
 	        overflow: 'hidden'
