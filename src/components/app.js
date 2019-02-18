@@ -36,8 +36,8 @@ export default class App extends Component {
 				<Header selectedRoute={this.state.currentUrl}/>
 				<Router onChange={this.handleRoute}>
 					<Home path="/" />
-					<Profile path="/autor/" user="me" />
-					<Profile path="/autor/:user" />
+					<Profile path="/ficha-tecnica/" user="me" />
+					<Profile path="/ficha-tecnica/:user" />
 					<Cancion path="/cancion/:id" />
 					<Canciones path="/canciones" />
 					<ObraPlastica path="/obra-plastica/:id" />

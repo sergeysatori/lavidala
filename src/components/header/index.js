@@ -63,7 +63,7 @@ export default class Header extends Component {
   // navigateToSong = this.linkTo(`/cancion/${this.state.cancionesData[this.state.selecteSong].slug}`);
 
   goHome = this.linkTo('/');
-  goToMyProfile = this.linkTo('/autor');
+  goToMyProfile = this.linkTo('/ficha-tecnica');
 
   goToMaterialTEA = this.linkTo('/material-tea');
   //canciones
@@ -163,7 +163,7 @@ export default class Header extends Component {
           </Drawer.DrawerItem>
           <Drawer.DrawerItem style={{
               cursor: 'pointer'
-            }} selected={props.selectedRoute === '/autor'} onClick={this.goToMyProfile}>
+            }} selected={props.selectedRoute === '/ficha-tecnica'} onClick={this.goToMyProfile}>
             <List.ItemGraphic>account_circle</List.ItemGraphic>
             Ficha Tecnica
           </Drawer.DrawerItem>
