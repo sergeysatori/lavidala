@@ -593,6 +593,6 @@ comunicativas (pictogramas, braile, ayudas auditivas)</span></p>
 
 <p style="margin:0cm 0cm 0.0001pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">&nbsp;</span></p>
 
-<p style="margin:0cm 0cm 0.0001pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">(Autores: Clarisa Prince, Andrea
-Crosa, Carmen Lema, Soledad Cardona, María Eugenia Bevc)</span></p></div><div ></div><div >
+<p style="margin:0cm 0cm 0.0001pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)"><i><small>Autores: Clarisa Prince, Andrea
+Crosa, Carmen Lema, Soledad Cardona, María Eugenia Bevc.</small></i></span></p></div><div ></div><div >
 </div></div></div><div id=":1tv" style="display:none"><div id=":1tw" ></div></div><div ></div></div>`

@@ -34,14 +34,7 @@ export default class MaterialTEA extends Component {
       <LayoutGrid>
         <LayoutGrid.Inner>
           <LayoutGrid.Cell class={style.temaPresentVisual} style={{height: '100%'}} desktopCols="12" phoneCols="12" tabletCols="12">
-            <Card style={{
-                width: '90vw',
-                margin: 'auto',
-                maxWidth: '600px',
-                backgroundColor: 'hsla(356, 11%, 7%, 0.85)',
-                color: '#fff',
-                padding: '1rem'
-              }}>
+            
               <div style={{
                   backgroundColor: 'hsla(0, 1%, 16%, 0.9)',
                   padding: '1rem',
@@ -53,7 +46,7 @@ export default class MaterialTEA extends Component {
                   __html: materialTEA
                 }}/>
 
-            </Card>
+
           </LayoutGrid.Cell>
         </LayoutGrid.Inner>
       </LayoutGrid>
