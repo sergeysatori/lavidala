@@ -5,7 +5,7 @@ import 'preact-material-components/Button/style.css';
 import LayoutGrid from 'preact-material-components/LayoutGrid';
 import 'preact-material-components/LayoutGrid/style.css';
 import {isMobile} from '../../utils/responsive';
-// import {canciones} from '../../database';
+import {materialTEA} from '../../database';
 
 import style from './style';
 
@@ -33,7 +33,7 @@ export default class MaterialTEA extends Component {
 
       <LayoutGrid>
         <LayoutGrid.Inner>
-          <LayoutGrid.Cell class={style.temaPresentVisual} style={{height: '100%'}} desktopCols="6" phoneCols="12" tabletCols="12">
+          <LayoutGrid.Cell class={style.temaPresentVisual} style={{height: '100%'}} desktopCols="12" phoneCols="12" tabletCols="12">
             <Card style={{
                 width: '90vw',
                 margin: 'auto',
@@ -42,13 +42,17 @@ export default class MaterialTEA extends Component {
                 color: '#fff',
                 padding: '1rem'
               }}>
-              <h1>Aún en construcción!</h1>
+              <div style={{
+                  backgroundColor: 'hsla(0, 1%, 16%, 0.9)',
+                  padding: '1rem',
+                  borderRadius: '1%',
+                  border: 'solid hsl(0, 3%, 14%) 9px',
+                  fontSize: '1.2rem',
+                  color: 'hsla(0, 1%, 100%, 1)'
+                }} dangerouslySetInnerHTML={{
+                  __html: materialTEA
+                }}/>
 
-              <div>Estamos preparando el material TEA &#x1F913;
-              </div>
-              <p>Volvé pronto!!</p>
-
-              <p></p>
             </Card>
           </LayoutGrid.Cell>
         </LayoutGrid.Inner>

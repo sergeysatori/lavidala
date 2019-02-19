@@ -122,6 +122,10 @@ export default class Header extends Component {
     // else {
       titleResult = 'Obras Plásticas'
     }
+    else if (routeText === "/material-tea") {
+    // else {
+      titleResult = 'Material TEA'
+    }
     return titleResult
   }
 
