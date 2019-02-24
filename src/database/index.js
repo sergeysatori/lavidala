@@ -20,8 +20,7 @@ export const canciones = {
     description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'estrellita',
-    letra: `<h2>ESTRELLITA </h2>
-  <i><small>letra y música Clarisa Prince</small></i>
+    letra: `<i><small>letra y música Clarisa Prince</small></i>
   (tango/milonga para un niño de 7 años, con TEA, que una noche a la orilla del mar pidió valentía a un estrella)<br/>
 
 Deslumbrados peces rojos<br/>
@@ -72,7 +71,7 @@ QUE SE ESTÁ APAGANDO MI FE?<br/>
     description: '',
     videoURL: 'https://www.youtube.com/embed/Vwu-xH3lfmI',
     slug: 'valsecito-con-mates-y-sol',
-    letra: `<h2>VALSECITO CON MATES Y SOL</h2>
+    letra: `
   <i><small>letra y música Clarisa Prince</small></i><br/>
 <br/>
 Te trajo un otoño sombrío de amor<br/>
@@ -113,7 +112,7 @@ y nunca seremos tu y yo.<br/>
     description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'vida-la-del-perdon',
-    letra: `<h2>VIDA- LA DEL PERDÓN</h2>
+    letra: `
   <i><small>letra y música: Clarisa Prince</small></i><br/>
 <br/>
 Donde nace la poesía y se encienden los colores<br/>
@@ -151,7 +150,7 @@ EL CAMINO CAMINADO<br/>
     description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'zambita-de-madre',
-    letra: `<h2>ZAMBITA DE MADRE</h2>
+    letra: `
   <i><small>letra y música Clarisa Prince</small></i><br/>
 <br/>
 Un latido tras otro cambió<br/>
@@ -206,7 +205,7 @@ EL FUEGO ETERNO ENCENDER<br/>
     description: '',
     videoURL: 'https://www.youtube.com/embed/jnBNho2dEng',
     slug: 'negrita-martina',
-    letra: `<h2>NEGRITA MARTINA</h2>
+    letra: `
   <i><small>letra y música Daniel Viglietti</small></i><br/>
 <br/>
 Escuche, negrita Martina, <br/>
@@ -231,7 +230,7 @@ que usté está cansada de tanto esperar<br/>
     description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'vals-de-abril',
-    letra: `<h2>VALS DE ABRIL</h2>
+    letra: `
     <i><small>letra y música Lucio Muniz</small></i>
 <br/><br/>
 Vuelvo a palpitar, viendo su perfil y es mío el momento<br/>
@@ -265,7 +264,7 @@ Las notas que están en esa canción muda de la luna.<br/>
     description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'vidalita',
-    letra: `<h2>VIDALITA</h2>
+    letra: `
     <i><small>Letra: Wenceslao Varela. Música: Clarisa Prince</small></i>
 <br/><br/>
 Palomita blanca vidalita,<br/>
@@ -282,8 +281,7 @@ Palomita blanca vidalitá si llevás la carta te viá a hacer un nido vi
     description: '',
     videoURL: 'https://www.youtube.com/embed/D48UpMjbGNE',
     slug: 'baguala-del-desierto',
-    letra: `<h2>BAGUALA DEL DESIERTO</h2>
-    <i><small>Letra y música Clarisa Prince</small></i>
+    letra: `<i><small>Letra y música Clarisa Prince</small></i>
 <br/><br/>
 Llegué al fondo del desierto<br/>
 cantando a la eternidad<br/>
@@ -331,7 +329,7 @@ Oh!`
     description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'malambo-pal-diferente',
-    letra: `<h2>MALAMBO PAL DIFERENTE</h2>
+    letra: `
     <i><small>letra y música Clarisa Prince</small></i><br/>
     <br/>
 De tanto verle bajar la frente<br/>
@@ -378,7 +376,7 @@ LOS AMORES PARA SIEMPRE.`
     description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'rio-de-los-pajaros',
-    letra: `<h2>RÍO DE LOS PÁJAROS</h2>
+    letra: `
     <i><small>letra y música Aníbal Sampayo</small></i><br/>
 <br/>
 El Uruguay no es un río, Es un cielo azul que viaja<br/>
@@ -417,7 +415,7 @@ Que llora sangre el ceibal<br/>
     description: '',
     videoURL: 'https://www.youtube.com/embed/CHTRkEagrrs',
     slug: 'guri-pescador',
-    letra: `<h2>GURÍ PESCADOR</h2>
+    letra: `
     <i><small>letra y música Osiris Rodriguez Castillo</small></i><br/>
 <br/>
 Con una caña de bambú- un perro lanudo-<br/>
@@ -462,7 +460,7 @@ que alumbran como un candil.
     description: '',
     videoURL: 'https://www.youtube.com/embed/zVVDvaa0fRU',
     slug: 'milonga-del-mate',
-    letra: `<h2>MILONGA DEL MATE</h2>
+    letra: `
     <i><small>letra y música: Carisa Prince</small></i><br/>
     <br/>
 De la  mágica intuición de una abuela nació el mate<br/>
@@ -493,7 +491,7 @@ Y armará, para girar, lunas llenas con su centro.<br/>
     description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'gracias-a-la-vida',
-    letra: `<h2>GRACIAS A LA VIDA</h2>
+    letra: `
     <i><small>letra y múscia Violeta Parra</small></i><br/>
 <br/>
 Gracias a la vida que me ha dado tanto Me dio dos luceros, que cuando los abro<br/>
