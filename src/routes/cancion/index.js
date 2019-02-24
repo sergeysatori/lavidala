@@ -73,7 +73,7 @@ export default class Cancion extends Component {
                   padding: '1rem .3rem',
                   borderRadius: '1%',
                   border: 'solid hsl(0, 3%, 14%) 9px',
-                  fontSize: '1.5rem',
+                  fontSize: '1.3rem',
                   color: 'hsla(0, 1%, 92%, 1)'
                 }} dangerouslySetInnerHTML={{
                   __html: this.state.data.letra
