@@ -6,7 +6,7 @@ import {route} from 'preact-router';
 
 export default class NotFound extends Component {
 	componentDidMount(){
-		route('/no-encontrado');
+		// route('/no-encontrado');
 	}
 	render() {
 		return (

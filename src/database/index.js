@@ -280,7 +280,7 @@ Palomita blanca vidalitá si llevás la carta te viá a hacer un nido vi
     autorObraPlastica: 'María de los A Martinez',
     title: 'Baguala del desierto',
     description: '',
-    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    videoURL: 'https://www.youtube.com/embed/D48UpMjbGNE',
     slug: 'baguala-del-desierto',
     letra: `<h2>BAGUALA DEL DESIERTO</h2>
     <i><small>Letra y música Clarisa Prince</small></i>
