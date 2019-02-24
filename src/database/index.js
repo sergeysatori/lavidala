@@ -20,8 +20,8 @@ export const canciones = {
     description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'estrellita',
-    letra: `<i><small>letra y música Clarisa Prince</small></i>
-  (tango/milonga para un niño de 7 años, con TEA, que una noche a la orilla del mar pidió valentía a un estrella)<br/>
+    letra: `<i><small>letra y música Clarisa Prince</small></i><br/>
+  <small>Tango/milonga para un niño de 7 años, con TEA, que una noche a la orilla del mar pidió valentía a un estrella.</small><br/>
 
 Deslumbrados peces rojos<br/>
 nadaron a lo profundo<br/>
