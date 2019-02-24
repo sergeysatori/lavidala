@@ -51,7 +51,7 @@ export default class Cancion extends Component {
             minHeight: '100vh'
           }}>
           <LayoutGrid.Inner>
-            <LayoutGrid.Cell class={style.temaPresentVisual} style={{
+            <LayoutGrid.Cell name='video-container' class={style.temaPresentVisual} style={{
                 height: '50vh'
               }} desktopCols="6" phoneCols="12" tabletCols="12">
               <iframe width="100%" height="100%" src={`${this.state.data.videoURL}`} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen">
@@ -67,12 +67,13 @@ export default class Cancion extends Component {
                 backgroundColor: 'transparent',
                 margin: '0 auto auto auto'
               }} desktopCols="6" phoneCols="12" tabletCols="12">
-              <div style={{
+              <div name='lyrics-container' class={style.lyricsContainer}
+                 style={{
                   backgroundColor: 'hsla(0, 1%, 16%, 0.9)',
-                  padding: '1rem',
+                  padding: '1rem .3rem',
                   borderRadius: '1%',
                   border: 'solid hsl(0, 3%, 14%) 9px',
-                  fontSize: '1.2rem',
+                  fontSize: '1.5rem',
                   color: 'hsla(0, 1%, 92%, 1)'
                 }} dangerouslySetInnerHTML={{
                   __html: this.state.data.letra
