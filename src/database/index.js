@@ -20,43 +20,43 @@ export const canciones = {
     description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'estrellita',
-    letra: `<i><small>letra y música Clarisa Prince</small></i><br/>
+    letra: `<i><small>letra y música Clarisa Prince</small></i><br/><br/>
   <small>Tango/milonga para un niño de 7 años, con TEA, que una noche a la orilla del mar pidió valentía a un estrella.</small><br/>
-
+<br/>
 Deslumbrados peces rojos<br/>
 nadaron a lo profundo<br/>
 de mi llano pensamiento<br/>
 invocando al bandoneón.<br/>
-
-demoledor y claro corazón de siete eneros<br/>
+<br/>
+Demoledor y claro corazón de siete eneros<br/>
 mirando el cielo, creyendo que tal vez,<br/>
 con puntería alzó su voz sobre las olas<br/>
 como una oda pidió un deseo…<br/>
-
+<br/>
 estrellita,<br/>
 estrellita,<br/>
 si me oís<br/>
-
+<br/>
 DAME EL BESO DE TU LUZ PARA ALIVIAR<br/>
 LOS ABISMOS QUE EN LA NOCHE DEBO ANDAR<br/>
 ¿NO VES<br/>
 DESDE ALLÁ ARRIBA<br/>
 QUE SE ESTÁ APAGANDO MI FE?<br/>
-
+<br/>
 Con arena en las palabras<br/>
 sus mareas aprendices<br/>
 intentaban mantenerme<br/>
 a orillas de su dolor<br/>
-
+<br/>
 Desparramando sin piedad sus siete inviernos<br/>
 sobre el cuaderno de tempestad azul<br/>
 con arcoiris de cristal construyó un puente<br/>
 para los duendes y me invitó a cantar:<br/>
-
+<br/>
 estrellita,<br/>
 estrellita,<br/>
 si me oís<br/>
-
+<br/>
 DAME EL BESO DE TU LUZ PARA ALIVIAR<br/>
 LOS ABISMOS QUE EN LA NOCHE DEBO ANDAR<br/>
 ¿NO VES<br/>
