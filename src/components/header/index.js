@@ -85,6 +85,8 @@ export default class Header extends Component {
 
   //obras plasticas
   goToObras = this.linkTo('/obras-plasticas');
+  //fotos y videos
+  goToFotosYVideos = this.linkTo('/fotos-y-videos');
 
   goToObraestrellita = this.linkTo('/obra-plastica/estrellita');
   goToObravalsecitoconmatesysol = this.linkTo('/obra-plastica/valsecito-con-mates-y-sol');
@@ -126,6 +128,10 @@ export default class Header extends Component {
     // else {
       titleResult = 'Material TEA'
     }
+    else if (routeText === "/fotos-y-videos") {
+    // else {
+      titleResult = 'Fotos y Videos'
+    }
     return titleResult
   }
 
@@ -165,13 +171,21 @@ export default class Header extends Component {
             <List.ItemGraphic>home</List.ItemGraphic>
             Home
           </Drawer.DrawerItem>
+
           <Drawer.DrawerItem style={{
               cursor: 'pointer'
             }} selected={props.selectedRoute === '/ficha-tecnica'} onClick={this.goToMyProfile}>
             <List.ItemGraphic>account_circle</List.ItemGraphic>
             Ficha Tecnica
           </Drawer.DrawerItem>
-
+          <Drawer.DrawerItem style={{
+              cursor: 'pointer'
+            }} selected={props.selectedRoute === '/fotos-y-videos'} onClick={this.goToFotosYVideos}>
+            <h1 style={{
+                marginLeft: '1rem'
+              }}>Fotos y Videos</h1>
+              <List.ItemGraphic>&nbsp; 🎶</List.ItemGraphic>
+            </Drawer.DrawerItem>
           <Drawer.DrawerItem style={{
               cursor: 'pointer'
             }} selected={props.selectedRoute === '/canciones'} onClick={this.goToCanciones}>

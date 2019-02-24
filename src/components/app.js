@@ -13,6 +13,7 @@ import Canciones from 'async!../routes/canciones';
 import MaterialTEA from 'async!../routes/material-tea';
 import ObraPlastica from 'async!../routes/obra-plastica';
 import ObrasPlasticas from 'async!../routes/obras-plasticas';
+import FotosYVideos from 'async!../routes/fotos-y-videos';
 
 export default class App extends Component {
 	// constructor(props) {
@@ -42,6 +43,7 @@ export default class App extends Component {
 					<Canciones path="/canciones" />
 					<ObraPlastica path="/obra-plastica/:id" />
 					<ObrasPlasticas path="/obras-plasticas/" />
+					<FotosYVideos path="/fotos-y-videos/" />
 					<MaterialTEA path="/material-tea/" />
           <NotFound default />
 				</Router>

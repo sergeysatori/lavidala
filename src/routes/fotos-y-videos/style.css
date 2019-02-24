@@ -1,0 +1,44 @@
+
+.home {
+
+}
+.temaPresentVisual {
+  width: 100%;
+  background-size: contain;
+	color: #fff;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	margin: 0 auto auto auto;
+}
+.appimagegallery {
+	height: 80vh;
+}
+/* @media (max-width:679px){
+	.home {
+		max-width: 100%;
+	}
+}
+@media (min-width:680px)	and (max-width:900px){
+	.home {
+		max-width: 100%;
+	}
+}
+@media (min-width:901px) and (max-width:1299px){
+	.home {
+		max-height: 90vh;
+	}
+}
+@media (min-width:1300px){
+	.home {
+		max-height: 90vh;
+	}
+} */
+.cardHeader {
+  padding: 16px;
+}
+
+.cardBody {
+  padding: 16px;
+}

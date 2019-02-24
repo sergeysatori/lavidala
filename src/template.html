@@ -11,7 +11,7 @@
 			"@context": "https://schema.org",
 			"@type": "Organization",
 			"url": "https://lavidala.soy",
-			"logo": "https://lavidala.soy/<%= htmlWebpackPlugin.files.publicPath + htmlWebpackPlugin.options.manifest.icons[1] %>"
+			"logo": "https://lavidala.soy/<%= htmlWebpackPlugin.files.publicPath%><%= htmlWebpackPlugin.options.manifest.icons[1] %>"
 		}
 		</script>
 		<link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath %>manifest.json">

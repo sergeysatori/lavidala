@@ -11,7 +11,449 @@
 // 11 - Guri Pescador
 // 12 - Milonga del mate
 //  13 - Gracias a la Vida
+//
+// const PREFIX_URL = 'www.xmpl.com',
+//   example = [
+//     {
+//       thumbnail: `${PREFIX_URL}4v.jpg`,
+//       original: `${PREFIX_URL}4v.jpg`,
+//       embedUrl: 'https://www.youtube.com/embed/4pSzhZ76GdM?autoplay=1&showinfo=0',
+//       description: 'Render custom slides within the gallery',
+//       renderItem: this._renderVideo.bind(this)
+//     }, {
+//       original: `${PREFIX_URL}image_set_default.jpg`,
+//       thumbnail: `${PREFIX_URL}image_set_thumb.jpg`,
+//       imageSet: [
+//         {
+//           srcSet: `${PREFIX_URL}image_set_cropped.jpg`,
+//           media: '(max-width: 1280px)'
+//         }, {
+//           srcSet: `${PREFIX_URL}image_set_default.jpg`,
+//           media: '(min-width: 1280px)'
+//         }
+//       ]
+//     }, {
+//       original: `${PREFIX_URL}1.jpg`,
+//       thumbnail: `${PREFIX_URL}1t.jpg`,
+//       originalClass: 'featured-slide',
+//       thumbnailClass: 'featured-thumb',
+//       description: 'Custom class for slides & thumbnails'
+//     }
+//   ]
 
+export const fotosyvideos = [
+
+  {
+    original: '/assets/images/shot1.jpeg',
+    thumbnail: '/assets/images/shot1.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot1.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot1.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  },
+  {
+    original: '/assets/images/shot2.jpeg',
+    thumbnail: '/assets/images/shot2.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot2.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot2.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot3.jpeg',
+    thumbnail: '/assets/images/shot3.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot3.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot3.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot4.jpeg',
+    thumbnail: '/assets/images/shot4.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot4.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot4.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot5.jpeg',
+    thumbnail: '/assets/images/shot5.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot5.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot5.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot7.jpeg',
+    thumbnail: '/assets/images/shot7.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot7.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot7.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot8.jpeg',
+    thumbnail: '/assets/images/shot8.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot8.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot8.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot9.jpeg',
+    thumbnail: '/assets/images/shot9.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot9.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot9.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot10.jpeg',
+    thumbnail: '/assets/images/shot10.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot10.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot10.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot11.jpeg',
+    thumbnail: '/assets/images/shot11.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot11.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot11.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot12.jpeg',
+    thumbnail: '/assets/images/shot12.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot12.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot12.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot13.jpeg',
+    thumbnail: '/assets/images/shot13.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot13.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot13.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot14.jpeg',
+    thumbnail: '/assets/images/shot14.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot14.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot14.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot15.jpeg',
+    thumbnail: '/assets/images/shot15.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot15.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot15.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot16.jpeg',
+    thumbnail: '/assets/images/shot16.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot16.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot16.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot17.jpeg',
+    thumbnail: '/assets/images/shot17.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot17.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot17.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot18.jpeg',
+    thumbnail: '/assets/images/shot18.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot18.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot18.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot19.jpeg',
+    thumbnail: '/assets/images/shot19.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot19.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot19.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot20.jpeg',
+    thumbnail: '/assets/images/shot20.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot20.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot20.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot21.jpeg',
+    thumbnail: '/assets/images/shot21.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot21.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot21.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot22.jpeg',
+    thumbnail: '/assets/images/shot22.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot22.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot22.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot23.jpeg',
+    thumbnail: '/assets/images/shot23.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot23.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot23.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot24.jpeg',
+    thumbnail: '/assets/images/shot24.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot24.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot24.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot25.jpeg',
+    thumbnail: '/assets/images/shot25.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot25.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot25.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot26.jpeg',
+    thumbnail: '/assets/images/shot26.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot26.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot26.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot27.jpeg',
+    thumbnail: '/assets/images/shot27.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot27.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot27.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot28.jpeg',
+    thumbnail: '/assets/images/shot28.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot28.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot28.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot29.jpeg',
+    thumbnail: '/assets/images/shot29.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot29.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot29.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot30.jpeg',
+    thumbnail: '/assets/images/shot30.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot30.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot30.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot31.jpeg',
+    thumbnail: '/assets/images/shot31.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot31.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot31.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot32.jpeg',
+    thumbnail: '/assets/images/shot32.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot32.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot32.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot33.jpeg',
+    thumbnail: '/assets/images/shot33.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot33.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot33.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot34.jpeg',
+    thumbnail: '/assets/images/shot34.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot34.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot34.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }, {
+    original: '/assets/images/shot35.jpeg',
+    thumbnail: '/assets/images/shot35.jpeg',
+    imageSet: [
+            {
+              srcSet: `/assets/images/shot35.jpeg`,
+              media: '(max-width: 839px)'
+            }, {
+              srcSet: `/assets/images/shot35.jpeg`,
+              media: '(min-width: 840px)'
+            }
+          ]
+  }
+]
 export const canciones = {
   estrellita: {
     mainImage: '/assets/images/estrellita.jpeg',
