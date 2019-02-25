@@ -393,18 +393,6 @@ export const fotosyvideos = [
             }
           ]
   }, {
-    original: '/assets/images/shot31.jpeg',
-    thumbnail: '/assets/images/shot31.jpeg',
-    imageSet: [
-            {
-              srcSet: `/assets/images/shot31.jpeg`,
-              media: '(max-width: 839px)'
-            }, {
-              srcSet: `/assets/images/shot31.jpeg`,
-              media: '(min-width: 840px)'
-            }
-          ]
-  }, {
     original: '/assets/images/shot32.jpeg',
     thumbnail: '/assets/images/shot32.jpeg',
     imageSet: [
