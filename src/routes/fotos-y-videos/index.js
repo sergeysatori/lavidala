@@ -39,8 +39,7 @@ export default class FotosYVideos extends Component {
     this.setState({images: fotosyvideos})
   }
   componentDidUpdate(prevProps, prevState) {
-    if (this.state.slideInterval !== prevState.slideInterval ||
-        this.state.slideDuration !== prevState.slideDuration) {
+    if (this.state.slideInterval !== prevState.slideInterval || this.state.slideDuration !== prevState.slideDuration) {
       // refresh setInterval
       this._imageGallery.pause();
       this._imageGallery.play();
@@ -87,10 +86,7 @@ export default class FotosYVideos extends Component {
   _getStaticImages() {
     let images = [];
     for (let i = 2; i < 12; i++) {
-      images.push({
-        original: `${PREFIX_URL}${i}.jpg`,
-        thumbnail:`${PREFIX_URL}${i}t.jpg`
-      });
+      images.push({original: `${PREFIX_URL}${i}.jpg`, thumbnail: `${PREFIX_URL}${i}t.jpg`});
     }
 
     return images;
@@ -110,9 +106,7 @@ export default class FotosYVideos extends Component {
 
   _toggleShowVideo(url) {
     this.state.showVideo[url] = !Boolean(this.state.showVideo[url]);
-    this.setState({
-      showVideo: this.state.showVideo
-    });
+    this.setState({showVideo: this.state.showVideo});
 
     if (this.state.showVideo[url]) {
       if (this.state.showPlayButton) {
@@ -126,74 +120,45 @@ export default class FotosYVideos extends Component {
   }
 
   _renderVideo(item) {
-    return (
-      <div className='image-gallery-image'>
-        {
-          this.state.showVideo[item.embedUrl] ?
-            <div className='video-wrapper'>
-                <a
-                  className='close-video'
-                  onClick={this._toggleShowVideo.bind(this, item.embedUrl)}
-                >
-                </a>
-                <iframe
-                  width='560'
-                  height='315'
-                  src={item.embedUrl}
-                  frameBorder='0'
-                  allowFullScreen
-                >
-                </iframe>
+    return (<div className='image-gallery-image'>
+      {
+        this.state.showVideo[item.embedUrl]
+          ? <div className='video-wrapper'>
+              <a className='close-video' onClick={this._toggleShowVideo.bind(this, item.embedUrl)}></a>
+              <iframe width='560' height='315' src={item.embedUrl} frameBorder='0' allowFullScreen="allowFullScreen"></iframe>
             </div>
-          :
-            <a onClick={this._toggleShowVideo.bind(this, item.embedUrl)}>
+          : <a onClick={this._toggleShowVideo.bind(this, item.embedUrl)}>
               <div className='play-button'></div>
-              <img src={item.original}/>
-              {
-                item.description &&
-                  <span
-                    className='image-gallery-description'
-                    style={{right: '0', left: 'initial'}}
-                  >
+              <img src={item.original}/> {
+                item.description && <span className='image-gallery-description' style={{
+                      right: '0',
+                      left: 'initial'
+                    }}>
                     {item.description}
                   </span>
               }
             </a>
-        }
-      </div>
-    );
+      }
+    </div>);
   }
 
   render() {
-    return (
-      <section class={`${style.home} page main-container`}>
-        <ImageGallery
-          ref={i => this._imageGallery = i}
-          items={this.state.images}
-          lazyLoad={false}
-          onClick={this._onImageClick.bind(this)}
-          onImageLoad={this._onImageLoad}
-          onSlide={this._onSlide.bind(this)}
-          onPause={this._onPause.bind(this)}
-          onScreenChange={this._onScreenChange.bind(this)}
-          onPlay={this._onPlay.bind(this)}
-          infinite={this.state.infinite}
-          showBullets={this.state.showBullets}
-          showFullscreenButton={this.state.showFullscreenButton && this.state.showGalleryFullscreenButton}
-          showPlayButton={this.state.showPlayButton && this.state.showGalleryPlayButton}
-          showThumbnails={this.state.showThumbnails}
-          showIndex={this.state.showIndex}
-          showNav={this.state.showNav}
-          isRTL={this.state.isRTL}
-          thumbnailPosition={this.state.thumbnailPosition}
-          slideDuration={parseInt(this.state.slideDuration)}
-          slideInterval={parseInt(this.state.slideInterval)}
-          additionalClass={style.appimagegallery}
-        />
+    return (<div class={`${style.home} page main-container`}>
+      <LayoutGrid>
+        <LayoutGrid.Inner>
+          <LayoutGrid.Cell cols={12} class={{
+              color: '#fff'
+            }} style={{
+              height: '100%'
+            }} desktopCols="6" phoneCols="12" tabletCols="12">
 
+            <ImageGallery ref={i => this._imageGallery = i} items={this.state.images} lazyLoad={false} onClick={this._onImageClick.bind(this)} onImageLoad={this._onImageLoad} onSlide={this._onSlide.bind(this)} onPause={this._onPause.bind(this)} onScreenChange={this._onScreenChange.bind(this)} onPlay={this._onPlay.bind(this)} infinite={this.state.infinite} showBullets={this.state.showBullets} showFullscreenButton={this.state.showFullscreenButton && this.state.showGalleryFullscreenButton} showPlayButton={this.state.showPlayButton && this.state.showGalleryPlayButton} showThumbnails={this.state.showThumbnails} showIndex={this.state.showIndex} showNav={this.state.showNav} isRTL={this.state.isRTL} thumbnailPosition={this.state.thumbnailPosition} slideDuration={parseInt(this.state.slideDuration)} slideInterval={parseInt(this.state.slideInterval)} additionalClass={style.appimagegallery}/>
 
-      </section>
-    );
+          </LayoutGrid.Cell>
+        </LayoutGrid.Inner>
+      </LayoutGrid>
+
+    </div>);
   }
   // render() {
   //   return (<div class={`${style.home} page main-container`}>
