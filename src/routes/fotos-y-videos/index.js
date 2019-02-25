@@ -49,7 +49,7 @@ export default class FotosYVideos extends Component {
         this.setState({autoPlay: true});
         this._imageGallery.play();
       }.bind(this),
-      6000);
+      12000);
     }
   }
   componentDidUpdate(prevProps, prevState) {
