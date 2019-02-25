@@ -14,9 +14,11 @@ export default class Cancion extends Component {
   constructor(props) {
     super(props);
 
+    let _data = canciones[this.props.id.replace(/-/g, '')] || [];
+    
     this.state = {
       counter: 0,
-      data: canciones[this.props.id.replace(/-/g, '')]
+      data: _data
     };
     // this.isMobile = this.isMobile.bind(this);
   }

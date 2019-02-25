@@ -101,7 +101,11 @@ export default class Header extends Component {
   goToObraguripescador = this.linkTo('/obra-plastica/guri-pescador');
   goToObramilongadelmate = this.linkTo('/obra-plastica/milonga-del-mate');
   goToObragraciasalavida = this.linkTo('/obra-plastica/gracias-a-la-vida');
-
+  getSelected = (slug) => {
+    let result = this.props.selectedRoute === slug || this.props.selectedRoute === `${slug}/`;
+    
+    return result
+  }
   getTitle = () => { //the semantic key names of the database entries of the songs must be a reduced version of the route without whitespaces nor dashes, just all the letters alltogether
     let routeText = this.state.selectedRoute
     let cancionId = /[^/]*$/g.exec(routeText)[0].replace(/-/g, '');
@@ -116,19 +120,19 @@ export default class Header extends Component {
     // else {
       titleResult = ' Clarisa Prince y '
     }
-    else if (routeText === "/canciones") {
+    else if (routeText === "/canciones" || routeText === "/canciones/") {
     // else {
       titleResult = ' Canciones'
     }
-    else if (routeText === "/obras-plasticas") {
+    else if (routeText === "/obras-plasticas" || routeText === "/obras-plasticas/") {
     // else {
       titleResult = 'Obras Plásticas'
     }
-    else if (routeText === "/material-tea") {
+    else if (routeText === "/material-tea" || routeText === "/material-tea/") {
     // else {
       titleResult = 'Material TEA'
     }
-    else if (routeText === "/fotos-y-videos") {
+    else if (routeText === "/fotos-y-videos" || routeText === "/fotos-y-videos/") {
     // else {
       titleResult = 'Fotos y Videos'
     }
@@ -174,13 +178,13 @@ export default class Header extends Component {
 
           <Drawer.DrawerItem style={{
               cursor: 'pointer'
-            }} selected={props.selectedRoute === '/ficha-tecnica'} onClick={this.goToMyProfile}>
+            }} selected={this.getSelected('/ficha-tecnica')} onClick={this.goToMyProfile}>
             <List.ItemGraphic>account_circle</List.ItemGraphic>
             Ficha Tecnica
           </Drawer.DrawerItem>
           <Drawer.DrawerItem style={{
               cursor: 'pointer'
-            }} selected={props.selectedRoute === '/fotos-y-videos'} onClick={this.goToFotosYVideos}>
+            }} selected={this.getSelected('/fotos-y-videos')} onClick={this.goToFotosYVideos}>
             <h1 style={{
                 marginLeft: '1rem'
               }}>Fotos y Videos</h1>
