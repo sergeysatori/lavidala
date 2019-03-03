@@ -540,7 +540,7 @@ y nunca seremos tu y yo.<br/>
     autorObraPlastica: 'Seida Lans',
     title: 'Vida-la del Perdón',
     description: '',
-    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    videoURL: 'https://www.youtube.com/embed/5PfHRbqHyQs',
     slug: 'vida-la-del-perdon',
     letra: `
   <i><small>letra y música: Clarisa Prince</small></i><br/>
