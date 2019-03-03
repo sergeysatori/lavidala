@@ -43,14 +43,14 @@ export default class FotosYVideos extends Component {
     this.setState({images: fotosyvideos})
   }
   componentDidMount(){
-    if(window){
-      window.setTimeout(function(){
-        console.log('autoplay');
-        this.setState({autoPlay: true});
-        this._imageGallery.play();
-      }.bind(this),
-      12000);
-    }
+    // if(window){
+    //   window.setTimeout(function(){
+    //     console.log('autoplay');
+    //     this.setState({autoPlay: true});
+    //     this._imageGallery.play();
+    //   }.bind(this),
+    //   12000);
+    // }
   }
   componentDidUpdate(prevProps, prevState) {
     if (this.state.slideInterval !== prevState.slideInterval || this.state.slideDuration !== prevState.slideDuration) {
