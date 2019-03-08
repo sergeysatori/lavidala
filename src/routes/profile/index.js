@@ -63,14 +63,16 @@ export default class Profile extends Component {
 <strong>Santiago MESA</strong>: piano<br/><br/>
 <strong>Betina MARTÍNEZ</strong>: piano<br/><br/>
 <strong>Tato BOLOGNINI</strong>: batería<br/><br/>
-<strong>Carolina Ramponi</strong>: fotografía<br/><br/>
-<strong>Mariana Rabinovich</strong>: periodismo, diseño de postales<br/><br/>
-<strong>Sergio Oxley</strong>: diseño web<br/><br/>
-<strong>Andrés Mora</strong>: asesor diseño web<br/><br/>
-<strong>Estudio de grabación</strong>: Iguana Records(Martín Pateta)<br/><br/>
-<strong>Mezcla y Masterización</strong>: MÁQUINA AZUL Estudio<br/><br/>
-<strong>Producción</strong>: EXIT<br/><br/>
-<strong>Dpto COMERCIAL</strong>: Victor CANAVERIS<br/><br/>
+<br/><br/>
+Carolina Ramponi: fotografía<br/><br/>
+Mariana Rabinovich: periodismo, diseño de postales<br/><br/>
+Sergio Oxley: diseño web<br/><br/>
+Andrés Mora: asesor diseño web<br/><br/>
+Estudio de grabación: Iguana Records (Martín Pateta)<br/><br/>
+Mezcla y Masterización: MÁQUINA AZUL Estudio<br/><br/>
+<br/><br/>
+Producción: EXIT<br/><br/>
+Dpto COMERCIAL: Victor CANAVERIS<br/><br/>
         </p>
       </Card>
     </div>);
