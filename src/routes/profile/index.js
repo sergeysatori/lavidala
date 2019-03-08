@@ -50,7 +50,7 @@ export default class Profile extends Component {
           color: '#fff',
 					padding: '1rem'
         }}>
-
+<br/><br/><br/><br/><br/><br/><br/><br/>
 <p style={{fontSize: 'larger'}}>
 <strong>Clarisa PRINCE</strong>: voz, pianos, rodhes, composición, arreglos, idea, dirección general.<br/><br/>
 <strong>Pablo REY</strong>: producción musical, arreglos y guitarra española<br/><br/>
