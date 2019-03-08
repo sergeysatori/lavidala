@@ -50,13 +50,28 @@ export default class Profile extends Component {
           color: '#fff',
 					padding: '1rem'
         }}>
-        <h1>Aún en construcción!</h1>
 
-        <div>Estamos preparando los créditos y agradecimientos &#x1F913;
-        </div>
-        <p>Volvé pronto!!</p>
-
-        <p></p>
+<p style={{fontSize: 'larger'}}>
+<strong>Clarisa PRINCE</strong>: voz, pianos, rodhes, composición, arreglos, idea, dirección general.<br/><br/>
+<strong>Pablo REY</strong>: producción musical, arreglos y guitarra española<br/><br/>
+<strong>Hector Hugo RÍOS</strong>: clarinete<br/><br/>
+<strong>César CORRALES</strong>: bajo eléctrico<br/><br/>
+<strong>Marcel PLADA</strong>: percusión y batería<br/><br/>
+<strong>Melisa ZANG</strong>: contrabajo y bajo<br/><br/>
+<strong>Alvaro PÉREZ</strong>: programaciones, arreglos, guitarra eléctrica<br/><br/>
+<strong>Emilia FERNÁNDEZ</strong>: celo<br/><br/>
+<strong>Santiago MESA</strong>: piano<br/><br/>
+<strong>Betina MARTÍNEZ</strong>: piano<br/><br/>
+<strong>Tato BOLOGNINI</strong>: batería<br/><br/>
+<strong>Carolina Ramponi</strong>: fotografía<br/><br/>
+<strong>Mariana Rabinovich</strong>: periodismo, diseño de postales<br/><br/>
+<strong>Sergio Oxley</strong>: diseño web<br/><br/>
+<strong>Andrés Mora</strong>: asesor diseño web<br/><br/>
+<strong>Estudio de grabación</strong>: Iguana Records(Martín Pateta)<br/><br/>
+<strong>Mezcla y Masterización</strong>: MÁQUINA AZUL Estudio<br/><br/>
+<strong>Producción</strong>: EXIT<br/><br/>
+<strong>Dpto COMERCIAL</strong>: Victor CANAVERIS<br/><br/>
+        </p>
       </Card>
     </div>);
   }

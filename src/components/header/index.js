@@ -103,7 +103,7 @@ export default class Header extends Component {
   goToObragraciasalavida = this.linkTo('/obra-plastica/gracias-a-la-vida');
   getSelected = (slug) => {
     let result = this.props.selectedRoute === slug || this.props.selectedRoute === `${slug}/`;
-    
+
     return result
   }
   getTitle = () => { //the semantic key names of the database entries of the songs must be a reduced version of the route without whitespaces nor dashes, just all the letters alltogether
@@ -135,6 +135,10 @@ export default class Header extends Component {
     else if (routeText === "/fotos-y-videos" || routeText === "/fotos-y-videos/") {
     // else {
       titleResult = 'Fotos y Videos'
+    }
+    else if (routeText === "/ficha-tecnica" || routeText === "/ficha-tecnica/") {
+
+      titleResult = 'FICHA TÉCNICA'
     }
     return titleResult
   }
