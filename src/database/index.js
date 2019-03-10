@@ -699,9 +699,11 @@ Las notas que están en esa canción muda de la luna.<br/>
 <br/><br/>
 Palomita blanca  vidalita,<br/>
 vos que tenés alas,<br/>
-si volás pal cielo, vidalita,<br/>
+si volás pal cielo,<br/>
+ vidalita,<br/>
 llévame esta carta.<br/>
-  Viá pedir en ella vidalitá, <br/>
+  Viá pedir en ella <br/>
+vidalitá, <br/>
  al Dios que nos manda, <br/>
  que se dé una vuelta,  <br/>
 vidalitá,  <br/>
@@ -711,19 +713,26 @@ vidalitá,  <br/>
 que los de mi raza se están separando.  <br/>
 vidalitá.  <br/>
 y eso es una lástima...   <br/>
-Si la lee y la entiende vidalitá, <br/>
+Si la lee y la entiende <br/>
+vidalitá, <br/>
  nos dirá la causa: <br/>
-pocos tienen mucho vidalitá, <br/>
+pocos tienen mucho <br/>
+vidalitá, <br/>
 y los muchos nada...<br/>
-  Adimás que  sepa vidalitá. <br/>
+  Adimás que  sepa <br/>
+vidalitá. <br/>
 que pocos trabajan, <br/>
-porque trabajando vidalitá, <br/>
+porque trabajando <br/>
+vidalitá, <br/>
 no se junta plata.  <br/>
-Yo le doy mi rancho vidalitá, <br/>
+Yo le doy mi rancho<br/>
+ vidalitá, <br/>
 y el recao pa cama y dispués<br/>
-salimos vidalitá,<br/>
+salimos<br/>
+ vidalitá,<br/>
  a aliviar disgracias. <br/>
-Palomita blanca vidalitá<br/>
+Palomita blanca<br/>
+ vidalitá<br/>
  si llevás la carta <br/>
 te viá a hacer un nido <br/>
 vidalitá,<br/>
