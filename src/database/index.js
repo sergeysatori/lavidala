@@ -697,7 +697,8 @@ Las notas que están en esa canción muda de la luna.<br/>
     letra: `
     <i><small>Letra: Wenceslao Varela. Música: Clarisa Prince</small></i>
 <br/><br/>
-Palomita blanca  vidalita,<br/>
+Palomita blanca<br/> 
+vidalita,<br/>
 vos que tenés alas,<br/>
 si volás pal cielo,<br/>
  vidalita,<br/>
