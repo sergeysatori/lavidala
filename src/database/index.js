@@ -692,7 +692,7 @@ Las notas que están en esa canción muda de la luna.<br/>
     autorObraPlastica: 'Esteban Prince',
     title: 'Vidalita',
     description: '',
-    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    videoURL: 'https://www.youtube.com/embed/R9HOW9M9m5Q',
     slug: 'vidalita',
     letra: `
     <i><small>Letra: Wenceslao Varela. Música: Clarisa Prince</small></i>
