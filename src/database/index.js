@@ -697,11 +697,37 @@ Las notas que están en esa canción muda de la luna.<br/>
     letra: `
     <i><small>Letra: Wenceslao Varela. Música: Clarisa Prince</small></i>
 <br/><br/>
-Palomita blanca vidalita,<br/>
+Palomita blanca  vidalita,<br/>
 vos que tenés alas,<br/>
 si volás pal cielo, vidalita,<br/>
-llévame esta carta.  Viá pedir en ella vidalitá, al Dios que nos manda, que se dé una vuelta, vidalitá, por mi pobre patria.  Viá decirle en  ella, vidalitá, que los de mi raza se están separando. vidalitá. y eso es una lástima...  Si la lee y la entiende vidalitá, nos dirá la causa: pocos tienen mucho vidalitá, y los muchos nada...  Adimás que  sepa vidalitá. que pocos trabajan, porque trabajando vidalitá, no se junta plata.  Yo le doy mi rancho vidalitá, y el recao pa cama y dispués<br/> salimos vidalitá, a aliviar disgracias. <br/>
-Palomita blanca vidalitá si llevás la carta te viá a hacer un nido vidalitá, entre mi guitarra.<br/>
+llévame esta carta.<br/>
+  Viá pedir en ella vidalitá, <br/>
+ al Dios que nos manda, <br/>
+ que se dé una vuelta,  <br/>
+vidalitá,  <br/>
+por mi pobre patria. <br/>
+ Viá decirle en ella,  <br/>
+vidalitá,  <br/>
+que los de mi raza se están separando.  <br/>
+vidalitá.  <br/>
+y eso es una lástima...   <br/>
+Si la lee y la entiende vidalitá, <br/>
+ nos dirá la causa: <br/>
+pocos tienen mucho vidalitá, <br/>
+y los muchos nada...<br/>
+  Adimás que  sepa vidalitá. <br/>
+que pocos trabajan, <br/>
+porque trabajando vidalitá, <br/>
+no se junta plata.  <br/>
+Yo le doy mi rancho vidalitá, <br/>
+y el recao pa cama y dispués<br/>
+salimos vidalitá,<br/>
+ a aliviar disgracias. <br/>
+Palomita blanca vidalitá<br/>
+ si llevás la carta <br/>
+te viá a hacer un nido <br/>
+vidalitá,<br/>
+ entre mi guitarra.<br/>
 `
   },
   bagualadeldesierto: {

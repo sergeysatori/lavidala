@@ -42,6 +42,7 @@ export default class Profile extends Component {
         height: '150%',
         overflow: 'hidden'
       }}>
+      <br/><br/><br/><br/>
       <Card style={{
           width: '90vw',
           margin: 'auto',
@@ -50,7 +51,7 @@ export default class Profile extends Component {
           color: '#fff',
 					padding: '1rem'
         }}>
-<br/><br/><br/><br/><br/><br/><br/><br/>
+
 <p style={{fontSize: 'larger'}}>
 <strong>Clarisa PRINCE</strong>: voz, pianos, rodhes, composición, arreglos, idea, dirección general.<br/><br/>
 <strong>Pablo REY</strong>: producción musical, arreglos y guitarra española<br/><br/>
@@ -75,6 +76,7 @@ Producción: EXIT<br/><br/>
 Dpto COMERCIAL: Victor CANAVERIS<br/><br/>
         </p>
       </Card>
+      <br/><br/><br/><br/>
     </div>);
   }
 }
