@@ -39,8 +39,7 @@ export default class Profile extends Component {
     return (<div class={`${style.profile} page main-container`} style={{
         // backgroundImage: 'url(/assets/images/la-vida-la-bg-intro.JPG)',
         width: '100%',
-        height: '150%',
-        overflow: 'hidden'
+        height: '150%'        
       }}>
       <br/><br/><br/><br/>
       <Card style={{
