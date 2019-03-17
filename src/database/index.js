@@ -793,7 +793,7 @@ Oh!`
     autorObraPlastica: 'Mauricio Marra',
     title: 'Malambo pal diferente',
     description: '',
-    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    videoURL: 'https://www.youtube.com/embed/RAHgWf0Hmv8',
     slug: 'malambo-pal-diferente',
     letra: `
     <i><small>letra y música Clarisa Prince</small></i><br/>
