@@ -1,0 +1,23 @@
+.profile {
+	padding: 20px;
+	min-height: 100%;
+	width: 100%;
+}
+.colaborateButton {
+	font-size: medium;
+	background-color: hsla(195, 61%, 41%, 1);
+	background-size: 200px 300px;
+	padding: .9rem;
+	box-shadow: -1px 4px 5px 0px rgba(42, 15, 78, 0.72);
+	border-radius: 3px;
+	border: 1px solid hsla(219, 30%, 48%, 0.95);
+	color: whitesmoke;
+	text-decoration: none;
+	text-shadow: 0px 1px 1px hsla(266, 10%, 33%, 0.72);
+	transition: background-color 1s, box-shadow 1s;
+}
+
+.colaborateButton:hover {
+	background-color: hsla(147, 61%, 40%, 1);
+	box-shadow: 0px 1px 13px 4px hsla(341, 43%, 17%, 1);
+}

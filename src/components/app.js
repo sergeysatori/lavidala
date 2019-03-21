@@ -8,6 +8,7 @@ import NotFound from '../routes/404';
 import createHashHistory from 'history/createHashHistory';
 import Home from 'async!../routes/home';
 import Profile from 'async!../routes/profile';
+import Apoyan from 'async!../routes/apoyan';
 import Cancion from 'async!../routes/cancion';
 import Canciones from 'async!../routes/canciones';
 import MaterialTEA from 'async!../routes/material-tea';
@@ -45,6 +46,7 @@ export default class App extends Component {
 					<ObrasPlasticas path="/obras-plasticas/" />
 					<FotosYVideos path="/fotos-y-videos/" />
 					<MaterialTEA path="/material-tea/" />
+					<Apoyan path="/apoyan/" />
           <NotFound default />
 				</Router>
 			</div>
