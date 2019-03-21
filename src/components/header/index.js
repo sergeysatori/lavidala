@@ -140,6 +140,10 @@ export default class Header extends Component {
 
       titleResult = 'FICHA TÉCNICA'
     }
+    else if (routeText === "/apoyan" || routeText === "/apoyan/") {
+
+      titleResult = 'Se un Colaborador'
+    }
     return titleResult
   }
 
