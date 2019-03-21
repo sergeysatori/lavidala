@@ -7,7 +7,6 @@
 	font-size: medium;
 	background-color: hsla(195, 61%, 41%, 1);
 	background-size: 200px 300px;
-	padding: .9rem;
 	box-shadow: -1px 4px 5px 0px rgba(42, 15, 78, 0.72);
 	border-radius: 3px;
 	border: 1px solid hsla(219, 30%, 48%, 0.95);
@@ -15,6 +14,12 @@
 	text-decoration: none;
 	text-shadow: 0px 1px 1px hsla(266, 10%, 33%, 0.72);
 	transition: background-color 1s, box-shadow 1s;
+	padding: .9rem .9rem .9rem 2rem;
+	margin-left: 3rem;
+	display: block;
+	width: 28%;
+	min-width: 180px;
+	text-align: left;
 }
 
 .colaborateButton:hover {
