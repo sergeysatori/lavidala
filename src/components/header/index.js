@@ -142,7 +142,7 @@ export default class Header extends Component {
     }
     else if (routeText === "/apoyan" || routeText === "/apoyan/") {
 
-      titleResult = 'Se un Colaborador'
+      titleResult = 'Sé un Colaborador'
     }
     return titleResult
   }
