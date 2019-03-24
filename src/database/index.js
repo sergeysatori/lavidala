@@ -955,7 +955,7 @@ Y armará, para girar, lunas llenas con su centro.<br/>
     autorObraPlastica: 'Oscar Laguarda',
     title: 'Gracias a la vida',
     description: '',
-    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    videoURL: 'https://www.youtube.com/embed/xWIbvt-T4cY',
     slug: 'gracias-a-la-vida',
     letra: `
     <i><small>letra y múscia Violeta Parra</small></i><br/>
