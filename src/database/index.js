@@ -960,7 +960,8 @@ Y armará, para girar, lunas llenas con su centro.<br/>
     letra: `
     <i><small>letra y múscia Violeta Parra</small></i><br/>
 <br/>
-Gracias a la vida que me ha dado tanto Me dio dos luceros, que cuando los abro<br/>
+Gracias a la vida que me ha dado tanto<br/>
+ Me dio dos luceros, que cuando los abro<br/>
 Perfecto distingo lo negro del blanco<br/>
 Y en el alto cielo su fondo estrellado<br/>
 Y en las multitudes el hombre que yo amo<br/>
