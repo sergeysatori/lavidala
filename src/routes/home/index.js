@@ -21,20 +21,12 @@ export default class Home extends Component {
   }
 
   render() {
-    return (<Animated.div  class="main-container" style={{
-        width: '100%',
-        height: '150%',
-        overflow: 'hidden',
-        backgroundImage: 'url(/assets/images/clarisa-bg.jpeg)',
-      	backgroundRepeat: 'no-repeat',
-      	backgroundColor: 'hsl(0, 0%, 2%)',
-      	backgroundSize: 'cover',
-        backgroundPosition: '50% 50%',
-      	backgroundAttachment: 'fixed',
+    return (<Animated.div  class={style.mainContainer} style={{        
         opacity: this.props.hadFirstLoad ? 1 : 0
       }}
       keyframes={this.getKeyframes([
         {  opacity: '0',     offset: 0 },
+        {  opacity: '0.7',     offset: .3 },
         {  opacity: '1',   offset: 1 }
         ])}
       timing={{

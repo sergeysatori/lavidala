@@ -138,7 +138,7 @@ export default class Header extends Component {
     }
     else if (routeText === "/ficha-tecnica" || routeText === "/ficha-tecnica/") {
 
-      titleResult = 'FICHA TÉCNICA'
+      titleResult = 'Ficha Técnica'
     }
     else if (routeText === "/apoyan" || routeText === "/apoyan/") {
 

@@ -5,16 +5,8 @@
 	margin: 0 auto auto auto;
 	text-align: center;
 	min-height: 800px;
-	/* min-height: 100%;
-	width: 100%; */
-	/* background-image: url(); */
-	/* background-color: #f9e68c; */
 }
-/* @media (min-width:679px){
-	.home {
-  	padding: 20px 0;
-	}
-} */
+
 .verticalLink {
 	position: absolute;
   height: 100%;
@@ -23,13 +15,30 @@
 	/* background-color: hsla(33, 27%, 57%, 0.7); */
 }
 
+.mainContainer {
+	background-image: url(/assets/images/clarisa-bg.jpeg);
+	background-repeat: no-repeat;
+	background-color: hsl(0, 0%, 2%);
+	background-position: 50% 70%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 110vh;
+	overflow: hidden;
+	position: relative;
+}
+@media (min-width:680px){
+	.mainContainer {
+		background-size: cover;
+		background-position: 50% 50%;
+	}
+}
 @media (max-width:679px){
 	.verticalLink {
 		top: 0%;
 	}
 	.crisalidas {
 		margin-top: 16vh;
-		/* height: 100vh; */
+		height: 110vh;
 		width: 100vw;
 	}
 }
@@ -58,8 +67,9 @@
 }
 .crisalidas {
 	margin-top: 30vh;
-	height: 100%;
+	/* height: 100%; */
 	background-size: 100%;
+	/* display: table-caption; */
 }
 .laVidaLaIntro {
 	width: auto;

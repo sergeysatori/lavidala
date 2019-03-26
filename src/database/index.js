@@ -974,90 +974,33 @@ Gracias a la vida que me ha dado tanto Me ha dado la risa y me ha dado el llan
 `
   }
 }
-export const materialTEA = `<div style="text-align:left;line-height: 2rem; width: 100%;"><div ></div><div id=":1tr" tabindex="-1"></div><div id=":1tg" ><div id=":1tf" ><div dir="ltr"><p style="margin:0cm 0cm 0.0001pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">COSTUMBRES AMIGABLES CON PERSONAS CON
-TEA Y OTRAS CAPACIDADES DIFERENTES:</span></p>
-
-<p><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">&nbsp;</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Recíbíle con una sonrisa</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Referite a la persona por su nombre</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Mostrá apertura y cercanía desde el lenguaje corporal</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Tratá de conocer sus intereses naturales y validalos</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Valorá sus fortalezas y virtudes, </span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Evitá la comparación (recordá que todos somos únicos)</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Para algunos puede ser muy difícil ser sociable y amigable, se tú quien
-toma la iniciativa de acercarse y empatizar.</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Tratá de comprender su punto de vista, su forma de percibir, sentir y
-pensar.</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Anímale y ayudale a cumplir sus desafíos y metas.</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Valida sus decisiones y opiniones</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Transmiti confianza, seguridad y tranquilidad con tu tono de voz y tu lenguaje
-corporal</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Conocé sus desafíos y promueve redes de apoyo.</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Convertite en su defensor, respeta y promove que se respeten sus
-derechos. </span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Impulsale a que manifieste sus deseos y necesidades.</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Conocé y aprendé su forma de comunicarse </span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Promové el uso de señalizaciones adaptadas a las diferentes formas
-comunicativas (pictogramas, braile, ayudas auditivas)</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Empatizá y colaborá con su familia y/o cuidadores</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Ofrecé tu ayuda cuando sea necesaria</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">festejá sus logros.</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Interiorizate en cómo ayudarle</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Respetá su propio ritmo</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Dale su espacio</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Tené en cuenta que convivir en un mundo diverso es enriquecedor</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt 36pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">-<span style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">Aportá ideas para construir una mejor convivencia entre diferentes.</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)">&nbsp;</span></p>
-
-<p style="margin:0cm 0cm 0.0001pt;line-height:normal;background-image:initial;background-position:initial;background-size:initial;background-repeat:initial;background-origin:initial;background-clip:initial;vertical-align:baseline;font-size:11pt;font-family:Calibri,sans-serif"><span style="font-size:15pt;font-family:&quot;Times New Roman&quot;,serif;color:hsla(0, 1%, 100%, 1)"><i><small>Autores: Clarisa Prince, Andrea
-Crosa, Carmen Lema, Soledad Cardona, María Eugenia Bevc.</small></i></span></p></div><div ></div><div >
-</div></div></div><div id=":1tv" style="display:none"><div id=":1tw" ></div></div><div ></div></div>`
+export const materialTEA = `<div style="text-align:left;line-height: 2rem; width: 100%;">
+COSTUMBRES AMIGABLES CON PERSONAS CON TEA Y OTRAS CAPACIDADES DIFERENTES:<br/>
+ <br/>
+-         Recíbíle con una sonrisa<br/>
+-         Referite a la persona por su nombre<br/>
+-         Mostrá apertura y cercanía desde el lenguaje corporal<br/>
+-         Tratá de conocer sus intereses naturales y validalos<br/>
+-         Valorá sus fortalezas y virtudes,<br/>
+-         Evitá la comparación (recordá que todos somos únicos)<br/>
+-         Para algunos puede ser muy difícil ser sociable y amigable, se tú quien toma la iniciativa de acercarse y empatizar.<br/>
+-         Tratá de comprender su punto de vista, su forma de percibir, sentir y pensar.<br/>
+-         Anímale y ayudale a cumplir sus desafíos y metas.<br/>
+-         Valida sus decisiones y opiniones<br/>
+-         Transmiti confianza, seguridad y tranquilidad con tu tono de voz y tu lenguaje corporal<br/>
+-         Conocé sus desafíos y promueve redes de apoyo.<br/>
+-         Convertite en su defensor, respeta y promove que se respeten sus derechos.<br/>
+-         Impulsale a que manifieste sus deseos y necesidades.<br/>
+-         Conocé y aprendé su forma de comunicarse<br/>
+-         Promové el uso de señalizaciones adaptadas a las diferentes formas comunicativas (pictogramas, braile, ayudas auditivas)<br/>
+-         Empatizá y colaborá con su familia y/o cuidadores<br/>
+-         Ofrecé tu ayuda cuando sea necesaria<br/>
+-         festejá sus logros.<br/>
+-         Interiorizate en cómo ayudarle<br/>
+-         Respetá su propio ritmo<br/>
+-         Dale su espacio<br/>
+-         Tené en cuenta que convivir en un mundo diverso es enriquecedor<br/>
+-         Aportá ideas para construir una mejor convivencia entre diferentes<br/>
+ <br/>
+<small>Autores: Clarisa Prince, Andrea Crosa, Carmen Lema, Soledad Cardona, María Eugenia Bevc</small>
+</div>`
