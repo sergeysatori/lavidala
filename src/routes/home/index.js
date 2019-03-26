@@ -28,7 +28,7 @@ export default class Home extends Component {
         backgroundImage: 'url(/assets/images/clarisa-bg.jpeg)',
       	backgroundRepeat: 'no-repeat',
       	backgroundColor: 'hsl(0, 0%, 2%)',
-      	backgroundSize: '100%',
+      	backgroundSize: 'cover',
         backgroundPosition: '50% 50%',
       	backgroundAttachment: 'fixed',
         opacity: this.props.hadFirstLoad ? 1 : 0
