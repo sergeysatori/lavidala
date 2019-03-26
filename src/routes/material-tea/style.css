@@ -6,8 +6,8 @@
 	background-image: url(/assets/images/clarisa-bg.jpeg);
 	background-repeat: no-repeat;
 	background-color: hsl(0, 0%, 2%);
-	background-size: cover;
-  /* background-position: 50% 50%; */
+	/* background-size: cover; */
+  background-position: 50% 50%;
 	background-attachment: fixed;
 }
 .temaPresentVisual {
