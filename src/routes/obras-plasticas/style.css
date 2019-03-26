@@ -4,9 +4,12 @@
 	min-height: 100%;
 	width: 100%;
 	font-family: "Sign Painter";
-
-	/* background-image: url(/assets/images/la-vida-la-bg-intro.JPG); */
-	/* background-color: #f9e68c; */
+	background-image: url(/assets/images/clarisa-bg.jpeg);
+	background-repeat: no-repeat;
+	background-color: hsl(0, 0%, 2%);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
 }
 .listaCancionesCell:hover {
 	background-color: hsla(360, 100%, 100%, 0.3);
