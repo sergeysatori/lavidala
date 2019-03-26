@@ -31,6 +31,7 @@ export default class Home extends Component {
       	backgroundSize: '100%',
         backgroundPosition: '50% 50%',
       	backgroundAttachment: 'fixed',
+        opacity: this.props.hadFirstLoad ? 1 : 0
       }}
       keyframes={this.getKeyframes([
         {  opacity: '0',     offset: 0 },
