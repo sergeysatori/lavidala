@@ -17,10 +17,14 @@ import ObrasPlasticas from 'async!../routes/obras-plasticas';
 import FotosYVideos from 'async!../routes/fotos-y-videos';
 
 export default class App extends Component {
-	// constructor(props) {
-  //   super(props);
-	//
-	// }
+	constructor(props) {
+    super(props);
+		this.state = {
+			currentUrl: '',
+			hadFirstLoad: false
+		};
+		this.setFirstLoad = this.setFirstLoad.bind(this);
+	}
 	/** Gets fired when the route changes.
 	 *	@param {Object} event		"change" event from [preact-router](http://git.io/preact-router)
 	 *	@param {string} event.url	The newly routed URL
@@ -31,13 +35,18 @@ export default class App extends Component {
 			currentUrl: e.url
 		});
 	};
+	setFirstLoad()	{
+		this.setState({
+			hadFirstLoad: true
+		});
+	}
 
 	render() {
 		return (
 			<div id="app">
 				<Header selectedRoute={this.state.currentUrl}/>
 				<Router onChange={this.handleRoute}>
-					<Home path="/" />
+					<Home hadFirstLoad={this.state.hadFirstLoad} setFirstLoad={this.setFirstLoad} path="/" />
 					<Profile path="/ficha-tecnica/" user="me" />
 					<Profile path="/ficha-tecnica/:user" />
 					<Cancion path="/cancion/:id" />

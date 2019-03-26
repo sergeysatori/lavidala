@@ -3,8 +3,7 @@
 	padding: 20px;
 	min-height: 100%;
 	width: 100%;
-	/* background-image: url(/assets/images/la-vida-la-bg-intro.JPG); */
-	/* background-color: #f9e68c; */
+	background: linear-gradient(0deg, hsl(28, 6%, 14%) 0%, hsl(30, 18%, 6%) 18%, hsl(245, 100%, 2%) 100%);
 }
 .temaPresentVisual {
 

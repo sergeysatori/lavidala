@@ -36,6 +36,7 @@
     "preact-material-components": "^1.4.3",
     "preact-router": "^2.6.1",
     "react-ga": "^2.5.7",
-    "react-image-gallery": "^0.8.14"
+    "react-image-gallery": "^0.8.14",
+    "react-web-animation": "^0.7.0"
   }
 }
