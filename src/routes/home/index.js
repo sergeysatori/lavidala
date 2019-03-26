@@ -21,7 +21,7 @@ export default class Home extends Component {
   }
 
   render() {
-    return (<Animated.div  class={style.mainContainer} style={{        
+    return (<Animated.div  class={style.mainContainer} style={{
         opacity: this.props.hadFirstLoad ? 1 : 0
       }}
       keyframes={this.getKeyframes([
@@ -36,15 +36,15 @@ export default class Home extends Component {
             direction: 'normal',
             fill: 'forwards'
         }}>
-
+<div class={style.crisalidaLeft}></div>
       <Animated.div
       keyframes={this.getKeyframes([
-            {  opacity: '0',     offset: 0 },
-            {  opacity: '1',   offset: 1 }
+            {  opacity: '0', transform: 'perspective(300px) translate3d(0,0,-3px)',  offset: 0 },
+            {  opacity: '1', transform: 'perspective(300px) translate3d(0,0,0px)',  offset: 1 }
         ])}
       timing={{
             duration: 1800,
-            easing: 'ease-in-out',
+            easing: 'ease-out',
             delay: 2200,
             direction: 'normal',
             fill: 'forwards'
@@ -54,8 +54,7 @@ export default class Home extends Component {
       style={{
           backgroundImage: 'url(/assets/images/crisalidas.gif)',
           backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center top',
-          margin: `2rem auto auto`,
+          backgroundPosition: 'center top',          
           opacity: this.props.hadFirstLoad ? 1 : 0
         }}>
 
@@ -92,6 +91,7 @@ export default class Home extends Component {
             }}></div>
         </div>
       </Animated.div>
+      <div class={style.crisalidaRight}></div>
     </Animated.div>);
   }
 }
