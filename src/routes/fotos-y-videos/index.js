@@ -29,7 +29,7 @@ export default class FotosYVideos extends Component {
       showNav: true,
       isRTL: false,
       slideDuration: 450,
-      slideInterval: 2000,
+      slideInterval: 4000,
       thumbnailPosition: 'bottom',
       showVideo: {},
       images: fotosyvideos
