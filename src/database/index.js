@@ -658,7 +658,7 @@ que usté está cansada de tanto esperar<br/>
     autorObraPlastica: 'Ery Ramón',
     title: 'Vals de Abril',
     description: '',
-    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    videoURL: 'https://www.youtube.com/embed/nvOh3J8l4dw',
     slug: 'vals-de-abril',
     letra: `
     <i><small>letra y música Lucio Muniz</small></i>
