@@ -52,11 +52,10 @@ export default class App extends Component {
 			{ this.state.isFull ? false :
 			<div onClick={this.goFull}
 			style={{position: 'fixed',
-			top: '10px',
-			right: '17px',
+			top: '2vh',
+			right: '13px',
 			cursor: 'pointer',
 			color: 'rgba(175, 148, 116, 0.4)',
-			paddingTop:'.5rem',
 			border: '',
 			zIndex:'3000'}}>
 												<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 18 18"><path style={{fill: 'rgba(175, 148, 116, 0.6)'}} d="M4.5 11H3v4h4v-1.5H4.5V11zM3 7h1.5V4.5H7V3H3v4zm10.5 6.5H11V15h4v-4h-1.5v2.5zM11 3v1.5h2.5V7H15V3h-4z"/></svg>
