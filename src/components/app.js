@@ -58,7 +58,7 @@ export default class App extends Component {
 			color: 'rgba(175, 148, 116, 0.4)',
 			border: '',
 			zIndex:'3000'}}>
-												<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 18 18"><path style={{fill: 'rgba(175, 148, 116, 0.6)'}} d="M4.5 11H3v4h4v-1.5H4.5V11zM3 7h1.5V4.5H7V3H3v4zm10.5 6.5H11V15h4v-4h-1.5v2.5zM11 3v1.5h2.5V7H15V3h-4z"/></svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 18 18"><path style={{fill: 'hsla(273, 14%, 57%, 0.4)'}} d="M4.5 11H3v4h4v-1.5H4.5V11zM3 7h1.5V4.5H7V3H3v4zm10.5 6.5H11V15h4v-4h-1.5v2.5zM11 3v1.5h2.5V7H15V3h-4z"/></svg>
 			</div>}
 			<Fullscreen
           enabled={this.state.isFull}
