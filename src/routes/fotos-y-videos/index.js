@@ -22,7 +22,7 @@ export default class FotosYVideos extends Component {
       showBullets: false,
       infinite: true,
       showThumbnails: false,
-      showFullscreenButton: true,
+      showFullscreenButton: false,
       showGalleryFullscreenButton: true,
       showPlayButton: true,
       showGalleryPlayButton: true,
