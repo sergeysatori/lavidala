@@ -840,7 +840,7 @@ LOS AMORES PARA SIEMPRE.`
     autorObraPlastica: 'Marcelo Alpuy',
     title: 'Río de los Pájaros',
     description: '',
-    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    videoURL: 'https://www.youtube.com/embed/BqZc2bD8kxA',
     slug: 'rio-de-los-pajaros',
     letra: `
     <i><small>letra y música Aníbal Sampayo</small></i><br/>
