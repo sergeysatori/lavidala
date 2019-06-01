@@ -58,9 +58,9 @@
 }
 @media (min-width:680px)	and (max-width:900px){
 	.crisalidas {
-		margin-top: 1rem;
-		background-size: 90vh;
-		width: 50vw;
+		margin-top: 5vh;
+    background-size: 100%;
+    width: 90vw;
 	}
 	.crisalidaLeft {
 		width: 25vw;

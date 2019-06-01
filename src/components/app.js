@@ -52,7 +52,7 @@ export default class App extends Component {
 			{ this.state.isFull ? false :
 			<div onClick={this.goFull}
 			style={{position: 'fixed',
-			top: '2vh',
+			bottom: '2vh',
 			right: '13px',
 			cursor: 'pointer',
 			color: 'rgba(175, 148, 116, 0.4)',
