@@ -37,7 +37,7 @@ export default class Home extends Component {
             fill: 'forwards'
         }}>
 <div class={style.crisalidaLeft}></div>
-      <Animated.div
+      <div
       keyframes={this.getKeyframes([
             {  opacity: '0', transform: 'perspective(300px) translate3d(0,0,-3px)',  offset: 0 },
             {  opacity: '1', transform: 'perspective(300px) translate3d(0,0,0px)',  offset: 1 }
@@ -55,42 +55,19 @@ export default class Home extends Component {
           backgroundImage: 'url(/assets/images/crisalidas.gif)',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center top',
-          opacity: this.props.hadFirstLoad ? 1 : 0
+          opacity: 1
+          // opacity: this.props.hadFirstLoad ? 1 : 0
         }}>
 
-        <div style={{
-            width: '100%',
-            height: '100%',
-            position: 'relative',
-            fontFamily: 'Sign Painter',
-            writingMode: 'vertical-rl',
-            textOrientation: 'upright',
-            fontSize: '1.5rem',
-            textTransform: 'uppercase'
-          }}>
-          <div class={style.verticalLink} href="/canciones" onClick={() => route('/canciones')} title="Canciones"
-            style={{
-              left: '5%',
-              width: '14.06%',
-            }}></div>
-          <div onClick={() => route('/obras-plasticas')} href="/obras-plasticas" title="Obras plásticas" class={style.verticalLink} style={{
-              left: '24%',
-              width: '14.06%',
-            }}></div>
-          <div onClick={() => route('/fotos-y-videos')} href="/fotos-y-videos" title="Fotos y vídeos" class={style.verticalLink} style={{
-              left: '42%',
-              width: '14.06%',
-            }}></div>
-          <div onClick={() => route('/material-tea')} href="/material-tea" title="Material TEA" class={style.verticalLink} style={{
-              left: '60%',
-              width: '14.06%',
-            }}></div>
-          <div onClick={() => route('/ficha-tecnica')} href="/ficha-tecnica" title="Ficha técnica" class={style.verticalLink} style={{
-              left: '77%',
-              width: '14.06%',
-            }}></div>
+        <div class={style.linksContainer}>
+
+          <div onClick={() => route('/canciones')} href="/canciones" title="Canciones"  class={`${style.verticalLink} ${style.linkCanciones}`}></div>
+          <div onClick={() => route('/obras-plasticas')} href="/obras-plasticas" title="Obras plásticas" class={`${style.verticalLink} ${style.linkObrasPlasticas}`} ></div>
+          <div onClick={() => route('/fotos-y-videos')} href="/fotos-y-videos" title="Fotos y vídeos" class={`${style.verticalLink} ${style.linkFotosYVideos}`} ></div>
+          <div onClick={() => route('/material-tea')} href="/material-tea" title="Material TEA" class={`${style.verticalLink} ${style.linkMaterialTEA}`} ></div>
+          <div onClick={() => route('/ficha-tecnica')} href="/ficha-tecnica" title="Ficha técnica" class={`${style.verticalLink} ${style.linkFichaTecnica}`} ></div>
         </div>
-      </Animated.div>
+      </div>
       <div class={style.crisalidaRight}></div>
     </Animated.div>);
   }
