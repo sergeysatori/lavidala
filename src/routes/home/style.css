@@ -9,10 +9,9 @@
 
 .verticalLink {
 	position: absolute;
-  height: 100%;
+  height: 70vh;
 	cursor: pointer;
 	top: 20%;
-	/* background-color: hsla(33, 27%, 57%, 0.7); */
 }
 
 .mainContainer {
@@ -43,7 +42,7 @@
 }
 @media (max-width:679px){
 	.verticalLink {
-		top: 0%;
+		bottom: 0%;
 	}
 	.crisalidas {
 		margin-top: 2rem;
@@ -86,7 +85,8 @@
 }
 @media (min-width:1300px){
 	.verticalLink {
-		top: 42%;
+		height: 66vh;
+		top: 33%;
 	}
 	.crisalidas {
 		width: 40vw;

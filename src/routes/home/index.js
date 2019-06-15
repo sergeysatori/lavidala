@@ -54,7 +54,7 @@ export default class Home extends Component {
       style={{
           backgroundImage: 'url(/assets/images/crisalidas.gif)',
           backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center top',          
+          backgroundPosition: 'center top',
           opacity: this.props.hadFirstLoad ? 1 : 0
         }}>
 
@@ -86,7 +86,7 @@ export default class Home extends Component {
               width: '14.06%',
             }}></div>
           <div onClick={() => route('/ficha-tecnica')} href="/ficha-tecnica" title="Ficha técnica" class={style.verticalLink} style={{
-              left: '80%',
+              left: '77%',
               width: '14.06%',
             }}></div>
         </div>
