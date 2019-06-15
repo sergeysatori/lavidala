@@ -499,7 +499,7 @@ QUE SE ESTÁ APAGANDO MI FE?<br/>
     autorObraPlastica: 'Gonzalo Mesa',
     title: 'Valsecito Mate y Sol',
     description: '',
-    videoURL: 'https://www.youtube.com/embed/Vwu-xH3lfmI',
+    videoURL: 'https://www.youtube.com/embed/rAq0STaQNTA',
     slug: 'valsecito-con-mates-y-sol',
     letra: `
   <i><small>letra y música Clarisa Prince</small></i><br/>
