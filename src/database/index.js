@@ -450,7 +450,7 @@ export const canciones = {
     description: '',
     videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
     slug: 'estrellita',
-    letra: `<i><small>letra y música Clarisa Prince</small></i><br/><br/>
+    letra: `<i><small>Letra y música Clarisa Prince</small></i><br/><br/>
   <small>Tango/milonga para un niño de 7 años, con TEA, que una noche a la orilla del mar pidió valentía a un estrella.</small><br/>
 <br/>
 Deslumbrados peces rojos<br/>
@@ -502,7 +502,7 @@ QUE SE ESTÁ APAGANDO MI FE?<br/>
     videoURL: 'https://www.youtube.com/embed/rAq0STaQNTA',
     slug: 'valsecito-con-mates-y-sol',
     letra: `
-  <i><small>letra y música Clarisa Prince</small></i><br/>
+  <i><small>Letra y música Clarisa Prince</small></i><br/>
 <br/>
 Te trajo un otoño sombrío de amor<br/>
 y sueños teñidos de adioses,<br/>
@@ -543,7 +543,7 @@ y nunca seremos tu y yo.<br/>
     videoURL: 'https://www.youtube.com/embed/5PfHRbqHyQs',
     slug: 'vida-la-del-perdon',
     letra: `
-  <i><small>letra y música: Clarisa Prince</small></i><br/>
+  <i><small>Letra y música: Clarisa Prince</small></i><br/>
 <br/>
 Donde nace la poesía y se encienden los colores<br/>
 Voy a buscar la manera mejor<br/>
@@ -581,7 +581,7 @@ EL CAMINO CAMINADO<br/>
     videoURL: 'https://www.youtube.com/embed/FCq014TgvKA',
     slug: 'zambita-de-madre',
     letra: `
-  <i><small>letra y música Clarisa Prince</small></i><br/>
+  <i><small>Letra y música Clarisa Prince</small></i><br/>
 <br/>
 Un latido tras otro cambió<br/>
 Por entero el universo<br/>
@@ -636,7 +636,7 @@ EL FUEGO ETERNO ENCENDER<br/>
     videoURL: 'https://www.youtube.com/embed/jnBNho2dEng',
     slug: 'negrita-martina',
     letra: `
-  <i><small>letra y música Daniel Viglietti</small></i><br/>
+  <i><small>Letra y música Daniel Viglietti</small></i><br/>
 <br/>
 Escuche, negrita Martina, <br/>
 la copla chiquita que el rey va a dejar <br/>
@@ -661,7 +661,7 @@ que usté está cansada de tanto esperar<br/>
     videoURL: 'https://www.youtube.com/embed/nvOh3J8l4dw',
     slug: 'vals-de-abril',
     letra: `
-    <i><small>letra y música Lucio Muniz</small></i>
+    <i><small>Letra y música Lucio Muniz</small></i>
 <br/><br/>
 Vuelvo a palpitar, viendo su perfil y es mío el momento<br/>
 En que natural la luna de abril crece con el viento<br/>
@@ -796,7 +796,7 @@ Oh!`
     videoURL: 'https://www.youtube.com/embed/RAHgWf0Hmv8',
     slug: 'malambo-pal-diferente',
     letra: `
-    <i><small>letra y música Clarisa Prince</small></i><br/>
+    <i><small>Letra y música Clarisa Prince</small></i><br/>
     <br/>
 De tanto verle bajar la frente<br/>
 Le hice un malambo pal diferente<br/>
@@ -843,7 +843,7 @@ LOS AMORES PARA SIEMPRE.`
     videoURL: 'https://www.youtube.com/embed/BqZc2bD8kxA',
     slug: 'rio-de-los-pajaros',
     letra: `
-    <i><small>letra y música Aníbal Sampayo</small></i><br/>
+    <i><small>Letra y música Aníbal Sampayo</small></i><br/>
 <br/>
 El Uruguay no es un río, Es un cielo azul que viaja<br/>
 Pintor de nubes, camino, Con sabor a mieles ruanas<br/>
@@ -882,7 +882,7 @@ Que llora sangre el ceibal<br/>
     videoURL: 'https://www.youtube.com/embed/CHTRkEagrrs',
     slug: 'guri-pescador',
     letra: `
-    <i><small>letra y música Osiris Rodriguez Castillo</small></i><br/>
+    <i><small>Letra y música Osiris Rodriguez Castillo</small></i><br/>
 <br/>
 Con una caña de bambú- un perro lanudo-<br/>
 un tarrito con lombrices...y entre los verdes juncos: las mojarras.<br/>
@@ -927,7 +927,7 @@ que alumbran como un candil.
     videoURL: 'https://www.youtube.com/embed/zVVDvaa0fRU',
     slug: 'milonga-del-mate',
     letra: `
-    <i><small>letra y música: Carisa Prince</small></i><br/>
+    <i><small>Letra y música: Carisa Prince</small></i><br/>
     <br/>
 De la  mágica intuición de una abuela nació el mate<br/>
 Hace tanto tiempo atrás! ... lloraba el sol sobre los sauces.<br/>
