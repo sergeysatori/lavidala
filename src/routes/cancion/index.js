@@ -15,7 +15,7 @@ export default class Cancion extends Component {
     super(props);
 
     let _data = canciones[this.props.id.replace(/-/g, '')] || [];
-    
+
     this.state = {
       counter: 0,
       data: _data
@@ -76,7 +76,7 @@ export default class Cancion extends Component {
                   borderRadius: '1%',
                   border: 'solid hsl(0, 3%, 14%) 9px',
                   fontSize: '1.3rem',
-                  color: 'hsla(0, 1%, 92%, 1)'
+                  color: 'hsla(0, 2%, 77%, 1)'
                 }} dangerouslySetInnerHTML={{
                   __html: this.state.data.letra
                 }}/>
