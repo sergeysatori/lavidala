@@ -181,7 +181,7 @@ export default class Header extends Component {
               cursor: 'pointer'
             }} selected={(props.selectedRoute === '/' || props.selectedRoute === '/no-encontrado')} onClick={this.goHome}>
             <List.ItemGraphic>home</List.ItemGraphic>
-            Home
+            Inicie
           </Drawer.DrawerItem>
 
           <Drawer.DrawerItem style={{
