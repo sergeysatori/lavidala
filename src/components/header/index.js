@@ -180,14 +180,16 @@ export default class Header extends Component {
           <Drawer.DrawerItem style={{
               cursor: 'pointer'
             }} selected={(props.selectedRoute === '/' || props.selectedRoute === '/no-encontrado')} onClick={this.goHome}>
-            <List.ItemGraphic>home</List.ItemGraphic>
+            <List.ItemGraphicstyle={{
+                color: 'hsl(24, 18%, 88%)'
+              }}>home</List.ItemGraphic>
             Inicie
           </Drawer.DrawerItem>
 
           <Drawer.DrawerItem style={{
               cursor: 'pointer'
             }} selected={this.getSelected('/ficha-tecnica')} onClick={this.goToMyProfile}>
-            <List.ItemGraphic>account_circle</List.ItemGraphic>            
+            <List.ItemGraphic>account_circle</List.ItemGraphic>
             Ficha Técnica
           </Drawer.DrawerItem>
           <Drawer.DrawerItem style={{
