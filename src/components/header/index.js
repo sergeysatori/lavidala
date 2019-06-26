@@ -187,8 +187,8 @@ export default class Header extends Component {
           <Drawer.DrawerItem style={{
               cursor: 'pointer'
             }} selected={this.getSelected('/ficha-tecnica')} onClick={this.goToMyProfile}>
-            <List.ItemGraphic>account_circle</List.ItemGraphic>
-            Ficha Tecnica
+            <List.ItemGraphic>account_circle</List.ItemGraphic>            
+            Ficha Técnica
           </Drawer.DrawerItem>
           <Drawer.DrawerItem style={{
               cursor: 'pointer'
