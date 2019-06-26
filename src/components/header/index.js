@@ -180,7 +180,7 @@ export default class Header extends Component {
           <Drawer.DrawerItem style={{
               cursor: 'pointer'
             }} selected={(props.selectedRoute === '/' || props.selectedRoute === '/no-encontrado')} onClick={this.goHome}>
-            <List.ItemGraphicstyle={{
+            <List.ItemGraphic style={{
                 color: 'hsl(24, 18%, 88%)'
               }}>home</List.ItemGraphic>
             Inicie
