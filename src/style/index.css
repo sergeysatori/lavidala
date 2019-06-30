@@ -78,9 +78,10 @@ html, body {
 /* .mdc-theme--background	{
 	--mdc-theme-background: hsl(230, 70%, 28%);
 	background: hsl(230, 70%, 28%);
+	 hsl(14, 23%, 13%)
 } */
 .mdc-list {
-	background: hsl(14, 23%, 13%);
+	background:hsl(350, 63%, 16%);
 }
 .mdc-drawer .mdc-list-item {
 	color: hsla(0, 2%, 77%, 1);
