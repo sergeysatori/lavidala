@@ -26,7 +26,7 @@ export default class Header extends Component {
     };
     this.getSongsListMarkup = this.getSongsListMarkup.bind(this);
     this.getObrasPlasticasListMarkup = this.getObrasPlasticasListMarkup.bind(this);
-    this.getIsSelectedSong = this.getIsSelectedSong.bind(this);
+
     this.closeDrawer = this.closeDrawer.bind(this);
     this.linkTo = this.linkTo.bind(this);
     if (typeof window !== "undefined") {
@@ -186,20 +186,7 @@ export default class Header extends Component {
             Inicie
           </Drawer.DrawerItem>
 
-          <Drawer.DrawerItem style={{
-              cursor: 'pointer'
-            }} selected={this.getSelected('/ficha-tecnica')} onClick={this.goToMyProfile}>
-            <List.ItemGraphic>account_circle</List.ItemGraphic>
-            Ficha Técnica
-          </Drawer.DrawerItem>
-          <Drawer.DrawerItem style={{
-              cursor: 'pointer'
-            }} selected={this.getSelected('/fotos-y-videos')} onClick={this.goToFotosYVideos}>
-            <h1 style={{
-                marginLeft: '1rem'
-              }}>Fotos y Videos</h1>
-              <List.ItemGraphic>&nbsp; 🎶</List.ItemGraphic>
-            </Drawer.DrawerItem>
+
           <Drawer.DrawerItem style={{
               cursor: 'pointer'
             }} selected={props.selectedRoute === '/canciones'} onClick={this.goToCanciones}>
@@ -220,10 +207,17 @@ export default class Header extends Component {
               }}>Obras plásticas</h1>
             <List.ItemGraphic>&nbsp; §</List.ItemGraphic>
           </Drawer.DrawerItem>
-
           {/* Lista de Canciones */
             this.getObrasPlasticasListMarkup()
           }
+          <Drawer.DrawerItem style={{
+            cursor: 'pointer'
+          }} selected={this.getSelected('/fotos-y-videos')} onClick={this.goToFotosYVideos}>
+          <h1 style={{
+              marginLeft: '1rem'
+            }}>Fotos y Videos</h1>
+            <List.ItemGraphic>&nbsp; 🎶</List.ItemGraphic>
+          </Drawer.DrawerItem>
 
           <Drawer.DrawerItem style={{
               cursor: 'pointer'
@@ -234,14 +228,17 @@ export default class Header extends Component {
             <List.ItemGraphic>&nbsp; §</List.ItemGraphic>
           </Drawer.DrawerItem>
 
+          <Drawer.DrawerItem style={{
+              cursor: 'pointer'
+            }} selected={this.getSelected('/ficha-tecnica')} onClick={this.goToMyProfile}>
+            <List.ItemGraphic>account_circle</List.ItemGraphic>
+            Ficha Técnica
+          </Drawer.DrawerItem>
         </Drawer.DrawerContent>
       </Drawer>
     </div>);
   }
-  getIsSelectedSong(cancion) {
-    // this.setState({selecteSong: cancion})
-    return
-  }
+  
   getSongsListMarkup() {
     // debugger
     let cancionesList = []

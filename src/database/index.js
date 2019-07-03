@@ -448,7 +448,7 @@ export const canciones = {
     autorObraPlastica: 'Michel Prince',
     title: 'Estrellita',
     description: '',
-    videoURL: 'https://www.youtube.com/embed/uT1NY6vCbQQ',
+    videoURL: 'https://www.youtube.com/embed/JwtEFFGUpCo',
     slug: 'estrellita',
     letra: `<i><small>Letra y música Clarisa Prince</small></i><br/><br/>
   <small>Tango/milonga para un niño de 7 años, con TEA, que una noche a la orilla del mar pidió valentía a un estrella.</small><br/>
