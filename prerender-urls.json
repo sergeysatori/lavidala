@@ -91,5 +91,13 @@
 {
   "url": "/obras-plasticas/",
   "title": "Obras Plásticas"
+},
+{
+  "url": "/ficha-tecnica/",
+  "title": "Ficha Técnica"
+},
+{
+  "url": "/material-tea/",
+  "title": "Material TEA"
 }
 ]
