@@ -81,7 +81,7 @@ html, body {
 	 hsl(14, 23%, 13%)
 } */
 .mdc-list {
-	background:	hsla(350, 34%, 19%, 1);
+	background:	hsla(344, 29%, 18%, 1);
 }
 .mdc-drawer .mdc-list-item {
 	color: hsla(0, 2%, 77%, 1);
