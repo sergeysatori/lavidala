@@ -36,46 +36,58 @@ export default class Profile extends Component {
   render({
     user
   }, {time, count}) {
-    return (<div class={`${style.profile} page main-container`} style={{
-        // backgroundImage: 'url(/assets/images/la-vida-la-bg-intro.JPG)',
-        width: '100%',
-        height: '150%'        
-      }}>
-      <br/><br/><br/><br/>
-      <Card style={{
-          width: '90vw',
-          margin: 'auto',
-          maxWidth: '600px',
+    return (<div class={`page main-container ${style.profile}`}>
+
+      <div style={{
+          width: 'fit-content',
+          margin: '13vh auto 6vh auto',
+          // maxWidth: '600px',
           backgroundColor: 'hsla(356, 11%, 7%, 0.85)',
-          color: '#fff',
-					padding: '1rem'
+          color: 'hsl(24, 18%, 88%)',
+          padding: '6vh 6vw'
         }}>
 
-<p style={{fontSize: 'larger'}}>
-<strong>Clarisa PRINCE</strong>: voz, pianos, rodhes, composición, arreglos, idea, dirección general.<br/><br/>
-<strong>Pablo REY</strong>: producción musical, arreglos y guitarra española<br/><br/>
-<strong>Hector Hugo RÍOS</strong>: clarinete<br/><br/>
-<strong>César CORRALES</strong>: bajo eléctrico<br/><br/>
-<strong>Marcel PLADA</strong>: percusión y batería<br/><br/>
-<strong>Melisa ZANG</strong>: contrabajo y bajo<br/><br/>
-<strong>Alvaro PÉREZ</strong>: programaciones, arreglos, guitarra eléctrica<br/><br/>
-<strong>Emilia FERNÁNDEZ</strong>: celo<br/><br/>
-<strong>Santiago MESA</strong>: piano<br/><br/>
-<strong>Betina MARTÍNEZ</strong>: piano<br/><br/>
-<strong>Tato BOLOGNINI</strong>: batería<br/><br/>
-<br/><br/>
-Carolina Ramponi: fotografía<br/><br/>
-Mariana Rabinovich: periodismo, diseño de postales<br/><br/>
-Sergio Oxley: diseño web<br/><br/>
-Andrés Mora: asesor diseño web<br/><br/>
-Estudio de grabación: Iguana Records (Martín Pateta)<br/><br/>
-Mezcla y Masterización: MÁQUINA AZUL Estudio<br/><br/>
-<br/><br/>
-Producción: EXIT<br/><br/>
-Dpto COMERCIAL: Victor CANAVERIS<br/><br/>
-        </p>
-      </Card>
-      <br/><br/><br/><br/>
+        <div style={{
+            margin: 'auto',
+            width: 'fit-content'
+          }}>
+
+          <strong>Clarisa Prince</strong>: &nbsp;<small> Voz, pianos, rodhes, composición, arreglos, idea, dirección general.</small><br/><br/>
+          <strong>Pablo Rey</strong>: &nbsp;<small> Producción musical, arreglos y guitarra española.</small><br/><br/>
+          <strong>Hector Hugo Ríos</strong>: &nbsp;<small> Clarinete.</small><br/><br/>
+          <strong>César Corrales</strong>: &nbsp;<small> Bajo eléctrico.</small><br/><br/>
+          <strong>Marcel Plada</strong>: &nbsp;<small> Percusión y batería.</small><br/><br/>
+          <strong>Melisa Zang</strong>: &nbsp;<small> Contrabajo y bajo.</small><br/><br/>
+          <strong>Alvaro Pérez</strong>: &nbsp;<small> Programaciones, arreglos, guitarra eléctrica.</small><br/><br/>
+          <strong>Emilia Fernández</strong>: &nbsp;<small> Celo.</small><br/><br/>
+          <strong>Santiago Mesa</strong>: &nbsp;<small> Piano.</small><br/><br/>
+          <strong>Betina Martínez</strong>: &nbsp;<small> Piano.</small><br/><br/>
+          <strong>Tato Bolognini</strong>: &nbsp;<small> Batería.</small><br/><br/>
+          <br/><br/>
+          <small>
+            Carolina Ramponi: Fotografía.<br/><br/>
+          </small>
+          <small>
+            Mariana Rabinovich: Periodismo, diseño de postales.<br/><br/>
+          </small>
+          <small>
+            Sergio Oxley: Diseño web.<br/><br/>
+          </small>
+          <small>
+            Andrés Mora: Asesor diseño web.<br/><br/>
+          </small>
+          <small>
+            Estudio de grabación: Iguana Records (Martín Pateta).<br/><br/>
+          </small>
+          <small>
+            Mezcla y Masterización: MÁQUINA AZUL Estudio.<br/><br/>
+          </small>
+          <br/><br/>
+        Producción: EXIT<br/><br/>
+        Dpto Comercial: Victor Canaveris<br/><br/>
+
+        </div>
+      </div>
     </div>);
   }
 }

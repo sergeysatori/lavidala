@@ -5,7 +5,7 @@
 	background-image: url(/assets/images/clarisa-bg.jpeg);
 	background-repeat: no-repeat;
 	background-color: hsl(0, 0%, 2%);
-	background-size: cover;
+	background-size: 120%;
   background-position: 50% 50%;
 	background-attachment: fixed;
 }
