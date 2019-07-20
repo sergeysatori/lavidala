@@ -40,7 +40,7 @@ export default class Profile extends Component {
 
       <div style={{
           width: 'fit-content',
-          margin: '13vh auto 6vh auto',
+          margin: '9vh auto 6vh auto',
           // maxWidth: '600px',
           backgroundColor: 'hsla(356, 11%, 7%, 0.85)',
           color: 'hsl(24, 18%, 88%)',

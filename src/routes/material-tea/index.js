@@ -16,9 +16,7 @@ export default class MaterialTEA extends Component {
     this.state = {};
     // this.isMobile = this.isMobile.bind(this);
   }
-  componentWillReceiveProps(nextProps) {
-
-  }
+  componentWillReceiveProps(nextProps) {}
   componentDidMount() {
     // this.isMobile();
     // window.addEventListener("resize", this.isMobile.bind(this));
@@ -29,28 +27,24 @@ export default class MaterialTEA extends Component {
   }
 
   render() {
-    return (<div  class={`${style.home} page main-container`}>
+    return (<div class={`page main-container ${style.profile}`}>
 
-      <LayoutGrid>
-        <LayoutGrid.Inner>
-          <LayoutGrid.Cell class={style.temaPresentVisual} style={{height: '100%'}} desktopCols="12" phoneCols="12" tabletCols="12">
-            
-              <div style={{
-                  backgroundColor: 'hsla(0, 1%, 16%, 0.9)',
-                  padding: '1rem',
-                  borderRadius: '1%',
-                  border: 'solid hsl(0, 3%, 14%) 9px',
-                  fontSize: '1.2rem',
-                  color: 'hsla(0, 1%, 100%, 1)'
-                }} dangerouslySetInnerHTML={{
-                  __html: materialTEA
-                }}/>
+      <div style={{
+          width: 'fit-content',
+          margin: '9vh auto 6vh auto',
+          // maxWidth: '600px',
+          backgroundColor: 'hsla(356, 11%, 7%, 0.85)',
+          color: 'hsl(24, 18%, 88%)',
+          padding: '6vh 6vw'
+        }}>
 
-
-          </LayoutGrid.Cell>
-        </LayoutGrid.Inner>
-      </LayoutGrid>
-
-    </div>);
+        <div style={{
+            margin: 'auto',
+            width: 'fit-content'
+          }} dangerouslySetInnerHTML={{
+            __html: materialTEA
+          }}/>
+    </div>
+  </div>);
   }
 }

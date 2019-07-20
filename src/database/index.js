@@ -975,32 +975,34 @@ Gracias a la vida que me ha dado tanto Me ha dado la risa y me ha dado el llan
   }
 }
 export const materialTEA = `<div style="text-align:left;line-height: 2rem; width: 100%;">
-COSTUMBRES AMIGABLES CON PERSONAS CON TEA Y OTRAS CAPACIDADES DIFERENTES:<br/>
- <br/>
--         Recíbíle con una sonrisa.<br/>
--         Referite a la persona por su nombre.<br/>
--         Mostrá apertura y cercanía desde el lenguaje corporal.<br/>
--         Tratá de conocer sus intereses naturales y validalos.<br/>
--         Valorá sus fortalezas y virtudes.<br/>
--         Evitá la comparación (recordá que todos somos únicos).<br/>
--         Para algunos puede ser muy difícil ser sociable y amigable, se tú quien toma la iniciativa de acercarse y empatizar.<br/>
--         Tratá de comprender su punto de vista, su forma de percibir, sentir y pensar.<br/>
--         Anímale y ayudale a cumplir sus desafíos y metas.<br/>
--         Valida sus decisiones y opiniones.<br/>
--         Transmití confianza, seguridad y tranquilidad con tu tono de voz y tu lenguaje corporal.<br/>
--         Conocé sus desafíos y promueve redes de apoyo.<br/>
--         Convertite en su defensor, respeta y promove que se respeten sus derechos.<br/>
--         Impulsale a que manifieste sus deseos y necesidades.<br/>
--         Conocé y aprendé su forma de comunicarse.<br/>
--         Promové el uso de señalizaciones adaptadas a las diferentes formas comunicativas (pictogramas, braile, ayudas auditivas).<br/>
--         Empatizá y colaborá con su familia y/o cuidadores.<br/>
--         Ofrecé tu ayuda cuando sea necesaria.<br/>
--         festejá sus logros.<br/>
--         Interiorizate en cómo ayudarle.<br/>
--         Respetá su propio ritmo.<br/>
--         Dale su espacio.<br/>
--         Tené en cuenta que convivir en un mundo diverso es enriquecedor.<br/>
--         Aportá ideas para construir una mejor convivencia entre diferentes.<br/>
- <br/>
-<small>Autores: Clarisa Prince, Andrea Crosa, Carmen Lema, Soledad Cardona, María Eugenia Bevc</small>
+  <div style="font-size: 22px; margin: auto; width: 80%;">Costumbres Amigables Con Personas Con TEA y otras Capacidades Diferentes</div>
+
+   <ul>
+    <li>         Recíbíle con una sonrisa.</li>
+    <li>         Referite a la persona por su nombre.</li>
+    <li>         Mostrá apertura y cercanía desde el lenguaje corporal.</li>
+    <li>         Tratá de conocer sus intereses naturales y validalos.</li>
+    <li>         Valorá sus fortalezas y virtudes.</li>
+    <li>         Evitá la comparación (recordá que todos somos únicos).</li>
+    <li>         Para algunos puede ser muy difícil ser sociable y amigable, se tú quien toma la iniciativa de acercarse y empatizar.</li>
+    <li>         Tratá de comprender su punto de vista, su forma de percibir, sentir y pensar.</li>
+    <li>         Anímale y ayudale a cumplir sus desafíos y metas.</li>
+    <li>         Valida sus decisiones y opiniones.</li>
+    <li>         Transmití confianza, seguridad y tranquilidad con tu tono de voz y tu lenguaje corporal.</li>
+    <li>         Conocé sus desafíos y promueve redes de apoyo.</li>
+    <li>         Convertite en su defensor, respeta y promove que se respeten sus derechos.</li>
+    <li>         Impulsale a que manifieste sus deseos y necesidades.</li>
+    <li>         Conocé y aprendé su forma de comunicarse.</li>
+    <li>         Promové el uso de señalizaciones adaptadas a las diferentes formas comunicativas (pictogramas, braile, ayudas auditivas).</li>
+    <li>         Empatizá y colaborá con su familia y/o cuidadores.</li>
+    <li>         Ofrecé tu ayuda cuando sea necesaria.</li>
+    <li>         festejá sus logros.</li>
+    <li>         Interiorizate en cómo ayudarle.</li>
+    <li>         Respetá su propio ritmo.</li>
+    <li>         Dale su espacio.</li>
+    <li>         Tené en cuenta que convivir en un mundo diverso es enriquecedor.</li>
+    <li>         Aportá ideas para construir una mejor convivencia entre diferentes.</li>
+  </ul>
+<br/>
+Autores:<small> Clarisa Prince, Andrea Crosa, Carmen Lema, Soledad Cardona, María Eugenia Bevc.</small>
 </div>`
